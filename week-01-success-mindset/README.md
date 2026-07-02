@@ -33,7 +33,8 @@ You will reuse this in later weeks. So do it properly once.
 
 ## Answer
 
-Add your answer here...
+`"Life... Life... Life... What is life?"`
+Life is but a vapor that appears for a little while and then vanishes away. Many people think the purpose of our existence is simply to fulfill our own desires by marrying, eating, reproducing, and accumulating wealth. However, the true purpose of our existence in this world goes far beyond merely living and leaving a legacy for others to admire. Rather, it is about acknowledging the Creator and Sustainer of life. If you conduct a survey and ask the elderly who have lived life to the absolute fullest about how they spent their time and years, the sincere ones will tell you that there is nothing truly lasting in this world. They will echo the truth that all is vanity upon vanity—meaning everything you have worked hard and labored for will eventually fade. Why, then, do we spend so much time toiling, gathering wealth, and neglecting our main purpose on Earth? If we truly understand that we are merely sojourners and pilgrims in this world, we will live accordingly. Our ultimate destination after death is determined by how closely we walk with our Creator and how deeply we revere Him in all our ways. Some believe there is no life after death, but that perspective misses the ultimate truth. If we cannot confidently answer where we are going after we die, then we must be deeply cautious of how we live today. God is real, which means life after death is real, and we must prepare our hearts and actions before our time is up.
 
 ---
 
@@ -53,38 +54,31 @@ Write each truth in this format:
 
 ## Truth #1
 
-### Truth
-
-Add your answer here...
+There is a clear difference between Schooling and being Educated.
 
 ### Evidence from my life
 
-Add your answer here...
+After graduating from The Federal Polytechnic, Ilaro, as the overall best student with a distinction in the School of Engineering, I made a startling discovery: I had built my life entirely around passing examinations, not around my true identity. I had failed to develop myself outside the classroom or figure out life. I hadn't built the habits necessary to navigate life's storms, achieve victory, and find success in my pursuits. True education is about building an identity and establishing core values that keep your passion burning until you reach your destination.
 
 ---
 
 ## Truth #2
 
 ### Truth
-
-Add your answer here...
+Less reading and more practical or implementation
 
 ### Evidence from my life
 
-Add your answer here...
-
----
+When I started my cloud journey, I approached it like traditional schooling: I watched endless Udemy and YouTube tutorials without properly understanding what I was doing, and I failed to document any of my hands-on projects. Internally, I knew something was missing, but I couldn't fathom what it was. I found myself jumping from one video to another, searching for a way out. Thankfully, I came across the DMI program, which truly values collaboration, mentorship, and personal growth.
 
 ## Truth #3
 
 ### Truth
 
-Add your answer here...
+Mentorship oversight cannot be joke with
 
 ### Evidence from my life
-
-Add your answer here...
-
+I have spent my time and resources learning Cloud and DevOps engineering entirely on my own. Without a mentor, I have had no one to guide me or turn to when stuck with doubt, frustration, imposter syndrome, or broken code. It is incredibly difficult to achieve tangible career progress without wasting valuable time and energy in isolation. Mentorship programs offer the vital support and guidance needed for successful career growth, saving us from repeating unnecessary mistakes.
 ---
 
 # Assignment 3. What does your 2.0 version look like?
@@ -135,13 +129,35 @@ Include this line:
 
 ## Your Article
 
-Add your answer here...
+🚀 My Version 2.0: From FUTA to DevOps Engineer
+
+A few years ago, while still studying Electrical and Electronics Engineering at the Federal University of Technology, Akure (FUTA), Nigeria, I made a conscious choice to pivot away from traditional career paths and dive completely into Cloud and DevOps engineering. I knew transitioning into DevOps would be incredibly difficult, but because I wanted to build a better future for myself, I didn’t wait for the perfect moment. I committed fully, burned my bridges, and never looked back. There was no Plan B. That single decision changed my life and marked the beginning of my Version 2.0. As James Allen wrote, "What we are by thought, we rock and build." I filled my mind daily with a burning desire to grow, focusing heavily on building the habits and discipline needed to achieve my dream of becoming an engineer.
+
+The real turning point started with the DevOps Micro Internship program led by Pravin Mishra. I invested countless hours stripping everything down to the basics and mastering Ubuntu & CentOS Linux, Git, GitHub, containerization, cloud providers (AWS & Azure), Infrastructure as Code (Terraform), observability, and automation.
+
+Instead of just collecting course completion certificates, I focused heavily on building actual production-grade projects. My GitHub profile became the real proof of my progress long before my resume caught up. Some of the core infrastructure projects I have built and deployed include:
+
+    Multi-Cloud Infrastructure Automation: Provisioning resources across AWS and Azure using Terraform with remote state management, and automating configurations via Ansible.
+
+    Cloud-Native Microservices Platform: Modernizing and orchestrating multi-service applications using Docker, Kubernetes, Helm, Redis, PostgreSQL, and RabbitMQ behind an API Gateway.
+
+    Enterprise CI/CD Pipelines with GitOps: Engineering end-to-end automated software delivery streams using GitHub Actions, Jenkins, Helm, and GitOps deployments with Argo CD.
+
+    Production-Ready Kubernetes Infrastructure: Hardening cluster deployments using Ingress controllers, strict Network Policies, Horizontal Pod Autoscaling (HPA), and Istio service mesh.
+
+    Observability & Incident Response: Setting up full-stack telemetry and monitoring architectures using Prometheus, Grafana, Loki, OpenTelemetry, Jaeger, and Alertmanager.
+
+To back up all this practical grinding with deep structural knowledge, I pushed myself to earn top-tier industry credentials, including the AWS Certified Solutions Architect – Associate, Certified Kubernetes Administrator (CKA), HashiCorp Certified: Terraform Associate, and Red Hat Certified Engineer (RHCE). For me, it was never about adding flashy badges to my LinkedIn; it was about ensuring that when I design a cloud architecture, it is fundamentally secure, highly available, and cost-effective.
+
+I’ve also come to realize that good engineering means nothing if you can’t communicate it effectively. That’s why I make it a priority to document my work thoroughly—writing clear project runbooks, detailed READMEs, and technical blog posts where I break down the real-world cloud networking challenges and Linux bugs I encounter along the way.
+
+Looking back at the last five years, the biggest lesson I’ve learned is that being a great DevOps engineer isn't about memorizing a long list of tools. It’s about the mindset—having the discipline to break down messy problems, automate the mundane tasks, and build reliable delivery systems that engineering teams can completely trust.
 
 ### Public Link
 
 Paste your link here:
 
-`__________________________`
+`https://www.linkedin.com/posts/oluwatobiloba-adeje-2572b42a6_join-the-dmi-devops-micro-internship-share-7478414321530593280-smsL/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEm6D2MBiHlTtqXxAdNL2_2Taiskof8w_Lw`
 
 ---
 
@@ -173,7 +189,7 @@ If Yes:
 
 ## Answer
 
-Add your answer here...
+**NO**
 
 ---
 
@@ -199,16 +215,16 @@ Choose books that improve:
 
 ## Book List
 
-1. Add your answer here...
-2. Add your answer here...
-3. Add your answer here...
-4. Add your answer here...
-5. Add your answer here...
-6. Add your answer here...
-7. Add your answer here...
-8. Add your answer here...
-9. Add your answer here...
-10. Add your answer here...
+1. **The Art of Thinking by Rolf Dobelli**
+2. **Deep Work by Cal Newport**
+3. **Never Split the Difference by Chris Voss & Tahl Raz**
+4. **So Good They Can't Ignore by Cal Nweport**
+5. **Extreme Ownership by Jocko Willink & Leif Babin**
+6. **Getting Things Done by David Allen**
+7. **Outlive by Peter Attia & Bill Gifford**
+8. **Rich Dad Pooor Dad by Robert T. Kiyosaki**
+9. **Made to Stick by Chip Health and Dan Heath**
+10. **Designing Your Life by Bill Burnett & Dave Evans**
 
 ---
 
@@ -237,16 +253,16 @@ List topics only. No need to share numbers.
 
 ## My Metrics
 
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
+* Reading 20-30 pages per day
+* Sleep 7-8 hours per night
+* Deep work session per day (3-5 hours)
+* Project milestones completed per week
+* Learning hours (2-3 hours) per day
+* Prayer and personal reflection per day
+* Technical articles, portfolio update or Documentation written per week
+* Exercise per day
+* Saves at least 20% per income
+* Spending tracker
 
 ---
 
@@ -272,7 +288,7 @@ Examples:
 
 Answer:
 
-Add your answer here...
+**Yes**
 
 ---
 
@@ -290,19 +306,20 @@ Example:
 
 #### My Weekly Routine
 
-Add your answer here...
-
+- Monday --> Friday 3 hours deep work daily
+- Saturday --> DMI sessions 8 hours
+- Sunday --> Weekly review 2 hours
 ---
 
 ### Focus Blocks
 
 #### When Will You Do DMI Work? (Days + Time)
 
-Add your answer here...
+- Monday --> Wednesday (9am - 12 pm)
 
 #### How Many Sessions Per Week?
 
-Add your answer here...
+- Five sessions per week 
 
 ---
 
@@ -316,7 +333,11 @@ Examples:
 
 #### My Distraction Rules
 
-Add your answer here...
+- Phone must be in do not disturb
+- No using of any social media platform during working hours
+- Always use the computer room
+- No opening of irrelevant site that is not related to the field of study
+- Keep the room illuminated
 
 ---
 
@@ -324,28 +345,27 @@ Add your answer here...
 
 ### Biggest insight I got about myself this week
 
-Add your answer here...
+I was able to guide my focus and think differently as an engineer.
 
 ### My biggest weakness/loop I noticed
 
-Add your answer here...
+I delayed the submission of my assignment through procrastination.
 
 ### One system I will implement from this week (exact habit + time)
 
-Add your answer here...
+Wake up by 5am daily.
 
 ### LinkedIn Post
 
-Paste your LinkedIn post link here:
 
-`__________________________`
+`https://www.linkedin.com/posts/oluwatobiloba-adeje-2572b42a6_join-the-dmi-devops-micro-internship-share-7478421352786612227-k5MS/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEm6D2MBiHlTtqXxAdNL2_2Taiskof8w_Lw`
 
 ---
 
 ## 10. Proof of Work
 
-- LinkedIn Post URL: **ADD LINK HERE**  
-- Blog / Medium : **ADD LINK HERE**  
+- LinkedIn Post URL: **[ADD LINK HERE](https://www.linkedin.com/posts/oluwatobiloba-adeje-2572b42a6_join-the-dmi-devops-micro-internship-share-7478421352786612227-k5MS/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEm6D2MBiHlTtqXxAdNL2_2Taiskof8w_Lw)**  
+- Blog / Medium : **[ADD LINK HERE](https://dev.to/rubi_cloud/devops-success-mindset-hpo)**  
 
 ---
 
