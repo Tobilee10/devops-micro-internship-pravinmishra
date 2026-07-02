@@ -78,6 +78,7 @@ When I started my cloud journey, I approached it like traditional schooling: I w
 Mentorship oversight cannot be joke with
 
 ### Evidence from my life
+
 I have spent my time and resources learning Cloud and DevOps engineering entirely on my own. Without a mentor, I have had no one to guide me or turn to when stuck with doubt, frustration, imposter syndrome, or broken code. It is incredibly difficult to achieve tangible career progress without wasting valuable time and energy in isolation. Mentorship programs offer the vital support and guidance needed for successful career growth, saving us from repeating unnecessary mistakes.
 ---
 
