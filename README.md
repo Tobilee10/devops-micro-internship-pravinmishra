@@ -14,11 +14,11 @@
 
 | | |
 |---|---|
-| **Name** | Pravin Mishra |
-| **LinkedIn** | [pravin-mishra-aws-trainer](https://www.linkedin.com/in/pravin-mishra-aws-trainer/) |
-| **Location** | Helsinki, Finland |
-| **Background** | Cloud, DevOps & AI Consultant |
-| **Goal** | Train 10,000+ DevOps professionals |
+| **Name** | Oluwatobiloba Reuben Adeje |
+| **LinkedIn** | [Oluwatobiloba-Adeje](www.linkedin.com/in/oluwatobiloba-adeje-2572b42a6) |
+| **Location** | Lagos, Nigeria |
+| **Background** | Electrical Electronic Engineer |
+| **Goal** | Become a DevOps and Agentic AI Engineer |
 
 ---
 
