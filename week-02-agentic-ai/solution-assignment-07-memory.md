@@ -91,19 +91,19 @@ Add your screenshot here.
 
 Paste your forked repository URL here:
 
-`__________________________`
+`https://github.com/Tobilee10/Ultimate-Agentic-DevOps-with-Claude-Code`
 
 ---
 
 # Completion Checklist
 
-- [ ] Memory file path identified (Screenshot 1)
-- [ ] Memory successfully saved via prompt (Screenshot 2)
-- [ ] `MEMORY.md` shows stored content (Screenshot 3)
-- [ ] Fresh session opened after full restart (Screenshot 4)
-- [ ] Claude recalled hero colors correctly (Screenshot 5)
-- [ ] Claude refused JavaScript request based on memory (Screenshot 6)
-- [ ] All screenshots added and committed to GitHub repo
+- [x] Memory file path identified (Screenshot 1)
+- [x] Memory successfully saved via prompt (Screenshot 2)
+- [x] `MEMORY.md` shows stored content (Screenshot 3)
+- [x] Fresh session opened after full restart (Screenshot 4)
+- [x] Claude recalled hero colors correctly (Screenshot 5)
+- [x] Claude refused JavaScript request based on memory (Screenshot 6)
+- [x] All screenshots added and committed to GitHub repo
 
 ---
 

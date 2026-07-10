@@ -91,7 +91,7 @@ Verify that dangerous commands are intercepted before execution by the PreToolUs
 
 Paste your forked repository URL here:
 
-`__________________________`
+`https://github.com/Tobilee10/Ultimate-Agentic-DevOps-with-Claude-Code/tree/main/.claude/hooks`
 
 ---
 

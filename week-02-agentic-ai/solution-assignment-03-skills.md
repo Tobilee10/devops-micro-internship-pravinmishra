@@ -90,7 +90,7 @@ Initialize Terraform and execute the `/tf-plan` skill to observe plan execution 
 
 Paste your forked repository URL here:
 
-`https://github.com/Tobilee10/Ultimate-Agentic-DevOps-with-Claude-Code.git`
+`https://github.com/Tobilee10/Ultimate-Agentic-DevOps-with-Claude-Code/tree/main/.claude/skills`
 
 ---
 

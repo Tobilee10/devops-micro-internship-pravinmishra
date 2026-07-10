@@ -184,8 +184,8 @@ Create a LinkedIn post including:
 - Tag: #DMIByPravinMishra #AgenticAI #ClaudeCode #DevOps
 
 **Submit:**
-- LinkedIn post URL
-- Screenshot of the post
+- [LinkedIn post URL](https://www.linkedin.com/posts/oluwatobiloba-adeje-2572b42a6_agenticai-claude-devops-share-7481370300899766274-mVgR/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEm6D2MBiHlTtqXxAdNL2_2Taiskof8w_Lw)
+- ![screenshot](../screenshots/link2.png)
 
 ---
 
