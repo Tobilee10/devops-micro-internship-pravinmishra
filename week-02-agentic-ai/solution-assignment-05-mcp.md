@@ -102,8 +102,8 @@ Paste your forked repository URL here:
 
 Confirm below:
 
-- [ ] `settings.local.json` is added to `.gitignore`
-- [ ] GitHub token is NOT exposed in repository or screenshots
+- [x] `settings.local.json` is added to `.gitignore`
+- [x] GitHub token is NOT exposed in repository or screenshots
 
 ---
 
