@@ -186,12 +186,12 @@ Not required for this assignment.
 ## 12. Completion Checklist
 
 Before submission, verify:
-- [ ] Screenshot 1 shows a generic Claude response (no CLAUDE.md)
-- [ ] Screenshot 2 shows the auto-generated `/init` output
-- [ ] Screenshot 3 shows all 5 sections in your customized CLAUDE.md
-- [ ] Screenshot 4 shows Claude mentioning S3, CloudFront, and Terraform
-- [ ] Screenshot 5 shows Claude refusing the React request
-- [ ] CLAUDE.md is committed and visible in your GitHub repo
+- [x] Screenshot 1 shows a generic Claude response (no CLAUDE.md)
+- [x] Screenshot 2 shows the auto-generated `/init` output
+- [x] Screenshot 3 shows all 5 sections in your customized CLAUDE.md
+- [x] Screenshot 4 shows Claude mentioning S3, CloudFront, and Terraform
+- [x] Screenshot 5 shows Claude refusing the React request
+- [x] CLAUDE.md is committed and visible in your GitHub repo
 
 ---
 

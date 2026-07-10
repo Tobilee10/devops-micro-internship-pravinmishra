@@ -232,11 +232,11 @@ Not required for this assignment.
 ## 12. Completion Checklist
 
 Before submission, verify:
-- [ ] `settings.json` created with allow and deny permissions
-- [ ] UserPromptSubmit hook added and visible in screenshot
-- [ ] PreToolUse hook added and visible in screenshot
-- [ ] Destructive prompt test shows Claude was blocked (Screenshot 4)
-- [ ] Terraform destroy command test shows it was intercepted (Screenshot 5)
-- [ ] `settings.json` committed and visible in GitHub repo
+- [x] `settings.json` created with allow and deny permissions
+- [x] UserPromptSubmit hook added and visible in screenshot
+- [x] PreToolUse hook added and visible in screenshot
+- [x] Destructive prompt test shows Claude was blocked (Screenshot 4)
+- [x] Terraform destroy command test shows it was intercepted (Screenshot 5)
+- [x] `settings.json` committed and visible in GitHub repo
 
 

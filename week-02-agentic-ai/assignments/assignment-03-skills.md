@@ -186,19 +186,19 @@ Create a LinkedIn post including:
 - Tag: #DMIByPravinMishra #AgenticAI #ClaudeCode #DevOps
 
 **Submit:**
-- LinkedIn post URL
-- Screenshot of the post
+- [My LinkedIn post URL](https://www.linkedin.com/posts/oluwatobiloba-adeje-2572b42a6_devops-agenticai-claudecode-share-7480895327814938624-QLC5/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEm6D2MBiHlTtqXxAdNL2_2Taiskof8w_Lw)
+- ![linkedin-screenshot](../screenshots/assignment3-screenshot-7.png)
 
 ---
 
 ## 12. Completion Checklist
 
 Before submission, verify:
-- [ ] All 4 skill folders created under `.claude/skills/`
-- [ ] All 5 files in their correct locations
-- [ ] `tf-plan/SKILL.md` shows no Write in allowed-tools (Screenshot 3)
-- [ ] `/scaffold-terraform` ran and generated all 5 Terraform files
-- [ ] `terraform init` completed
-- [ ] `/tf-plan` was triggered and Claude analyzed the output
-- [ ] Skills committed and visible in GitHub repo
+- [x] All 4 skill folders created under `.claude/skills/`
+- [x] All 5 files in their correct locations
+- [x] `tf-plan/SKILL.md` shows no Write in allowed-tools (Screenshot 3)
+- [x] `/scaffold-terraform` ran and generated all 5 Terraform files
+- [x] `terraform init` completed
+- [x] `/tf-plan` was triggered and Claude analyzed the output
+- [x] Skills committed and visible in GitHub repo
 .

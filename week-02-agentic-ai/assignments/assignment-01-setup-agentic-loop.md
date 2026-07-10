@@ -166,10 +166,10 @@ Not required for this assignment.
 ## 12. Completion Checklist
 
 Before submission, verify:
-- [ ] Claude Code CLI installed and `claude --version` works
-- [ ] Claude Code authenticated — opens without asking for login again
-- [ ] Starter repo forked and cloned
-- [ ] All 5 screenshots captured and added to your GitHub Repository file
-- [ ] GitHub repo URL included
+- [x] Claude Code CLI installed and `claude --version` works
+- [x] Claude Code authenticated — opens without asking for login again
+- [x] Starter repo forked and cloned
+- [x] All 5 screenshots captured and added to your GitHub Repository file
+- [x] GitHub repo URL included
 
 ---
