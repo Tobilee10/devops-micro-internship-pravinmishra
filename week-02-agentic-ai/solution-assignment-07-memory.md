@@ -20,7 +20,7 @@ Identify where Claude Code stores memory for this project.
 
 #### Screenshot 1 — Memory file path shown by Claude
 
-Add your screenshot here.
+![screenshot-1](./screenshots/assignment7-screenshot-1.png)
 
 ---
 
@@ -34,13 +34,13 @@ Store project-specific rules and configurations into Claude’s memory and verif
 
 #### Screenshot 2 — Claude confirming memory was saved
 
-Add your screenshot here.
+![screenshot-2](./screenshots/assignment7-screenshot-2.png)
 
 ---
 
 #### Screenshot 3 — MEMORY.md file showing saved content
 
-Add your screenshot here.
+![screenshot-3](./screenshots/assignment7-screenshot-3.png)
 
 ---
 
@@ -54,7 +54,7 @@ Terminate the current Claude Code session and restart it to ensure memory is the
 
 #### Screenshot 4 — Fresh Claude Code session after restart
 
-Add your screenshot here.
+A![screenshot-4](./screenshots/assignment7-screenshot-4.png)
 
 ---
 

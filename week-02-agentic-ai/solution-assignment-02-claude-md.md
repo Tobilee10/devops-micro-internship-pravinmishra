@@ -20,7 +20,7 @@ Capture Claude’s response before `CLAUDE.md` exists in the project to establis
 
 #### Screenshot 1 — Claude response before CLAUDE.md
 
-Add your screenshot here.
+![screenshot-1](./screenshots/assignment2-screenshot-1.png)
 
 ---
 
@@ -34,8 +34,7 @@ Generate an initial `CLAUDE.md` file using the `/init` command and review the au
 
 #### Screenshot 2 — Auto-generated CLAUDE.md
 
-Add your screenshot here.
-
+![screenshot-2](./screenshots/assignment2-Screenshot-2.png)
 ---
 
 # Task 3 — Customize the CLAUDE.md
@@ -48,7 +47,7 @@ Update the generated `CLAUDE.md` file by adding project-specific instructions ac
 
 #### Screenshot 3 — Customized CLAUDE.md (all 5 sections visible)
 
-Add your screenshot here.
+![screenshot-3](./screenshots/assignment2-Screenshot-3.png)
 
 ---
 
@@ -62,13 +61,13 @@ Verify that Claude’s behavior changes after adding `CLAUDE.md` by running a ne
 
 #### Screenshot 4 — Claude response with project-specific deployment details
 
-Add your screenshot here.
+![screenshot-4](./screenshots/assignment2-Screenshot4.png)
 
 ---
 
 #### Screenshot 5 — Claude response rejecting React/component change based on rules
 
-Add your screenshot here.
+![screenshot](./screenshots/assignment2-Screenshot-5.png)
 
 ---
 
@@ -84,18 +83,18 @@ Add your screenshot here.
 
 Paste your forked repository URL here:
 
-`__________________________`
+`https://github.com/Tobilee10/Ultimate-Agentic-DevOps-with-Claude-Code.git`
 
 ---
 
 # Completion Checklist
 
-- [ ] Screenshot 1 shows Claude’s generic response (before CLAUDE.md)
-- [ ] Screenshot 2 shows `/init` generated CLAUDE.md
-- [ ] Screenshot 3 shows fully customized CLAUDE.md with all 5 sections
-- [ ] Screenshot 4 shows updated deployment-aware Claude response
-- [ ] Screenshot 5 shows Claude rejecting React request based on rules
-- [ ] CLAUDE.md is committed and visible in GitHub repository
+- [x] Screenshot 1 shows Claude’s generic response (before CLAUDE.md)
+- [x] Screenshot 2 shows `/init` generated CLAUDE.md
+- [x] Screenshot 3 shows fully customized CLAUDE.md with all 5 sections
+- [x] Screenshot 4 shows updated deployment-aware Claude response
+- [x] Screenshot 5 shows Claude rejecting React request based on rules
+- [x] CLAUDE.md is committed and visible in GitHub repository
 
 ---
 

@@ -20,7 +20,7 @@ Create the `.claude/agents/` directory and add all required agent files.
 
 #### Screenshot 1 — Agents folder structure in VS Code
 
-Add your screenshot here.
+![screenshot-1](./screenshots/assignment4-screenshot-1.png)
 
 ---
 
@@ -34,33 +34,32 @@ Analyze the configuration differences between the three agents and demonstrate u
 
 #### 1. Why does the cost optimizer use Haiku instead of Sonnet?
 
-Add your answer here...
+The cost optimizer uses haiku because it's extremely fast in terms of speed, best for simple extraction and cost effective because it cost 3x to 4x cheaper than sonnet. While sonnet is best for performing Complex analysis, code generation and review, multi-step reasoning, and creative writing and very expensive compared to haiku.
 
 ---
 
 #### 2. Why does the security auditor NOT have Write in its tools list?
 
-Add your answer here...
-
+The security auditor operates with read-only access because its role is to identify and report vulnerabilities, not modify code. This prevents accidental changes or regressions that could result from automated or unchecked fixes.
+Using read-only permissions also follows the principle of least privilege by granting only the access required to perform security reviews
 ---
 
 #### 3. Why does the tf-writer use `inherit` instead of a specific model?
 
-Add your answer here...
-
+The tf-writer uses inherit instead of a fixed model so it automatically uses the model defined by the calling workflow. This avoids hard-coded model dependencies, simplifies configuration, and ensures consistent model selection across related tasks. It also makes future model updates easier, as changes only need to be made in one place.
 ---
 
 ### Evidence
 
 #### Screenshot 2 — security-auditor.md frontmatter
 
-Add your screenshot here.
+![screenshot-2](./screenshots/assignment4-screenshot-2.png)
 
 ---
 
 #### Screenshot 3 — cost-optimizer.md frontmatter
 
-Add your screenshot here.
+![screenshot-3](./screenshots/assignment4-screenshot3.png)
 
 ---
 
@@ -74,13 +73,13 @@ Trigger the security auditor agent and analyze the generated security report for
 
 #### Screenshot 4 — Security auditor delegation triggered
 
-Add your screenshot here.
+![screenshot-4](./screenshots/assignment4-screenshot-4.png)
 
 ---
 
 #### Screenshot 5 — Security audit report output
 
-Add your screenshot here.
+![screenshot-5](./screenshots/assignment4-screenshot-5.png)
 
 ---
 
@@ -94,7 +93,7 @@ Trigger the cost optimizer agent and review the generated cost optimization repo
 
 #### Screenshot 6 — Cost optimization report output
 
-Add your screenshot here.
+![screenshot-6](./screenshots/assignment4-screenshot-6.png)
 
 ---
 

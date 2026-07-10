@@ -46,7 +46,7 @@ You can publish your blog on:
 
 #### Screenshot 1 — Blog published and visible
 
-Add your screenshot here.
+![screenshot](./screenshots/blog.png)
 
 ---
 
@@ -54,7 +54,7 @@ Add your screenshot here.
 
 Blog Link:
 
-`__________________________________________`
+`https://dev.to/rubi_cloud/-reflection-week-2-4ach`
 
 ---
 
@@ -92,7 +92,7 @@ P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by 
 
 #### Screenshot 2 — LinkedIn post published
 
-Add your screenshot here.
+![screenshot-2](./screenshots/link.png)
 
 ---
 
@@ -101,14 +101,30 @@ Add your screenshot here.
 LinkedIn Post Content (copy-paste here):
 
 ```
-Paste your LinkedIn post content here
+🚀 𝗕𝘂𝗶𝗹𝗱𝗶𝗻𝗴 𝘀𝗲𝗰𝘂𝗿𝗲 𝗗𝗲𝘃𝗢𝗽𝘀 𝘄𝗼𝗿𝗸𝗳𝗹𝗼𝘄𝘀 𝘄𝗶𝘁𝗵 𝗖𝗹𝗮𝘂𝗱𝗲 𝗖𝗼𝗱𝗲.
+
+This week in my DevOps Micro Internship, I built a custom workflow that generates complete Terraform configurations using CLAUDE.md, Skills, Subagents, and the HashiCorp Terraform MCP Server.
+
+Instead of relying on boilerplate templates, the workflow generates infrastructure with live Terraform provider schemas and project-specific context.
+
+The most valuable lesson wasn't generating Terraform—it was building guardrails.
+
+Using PreToolUse and PostToolUse hooks, I added approval checkpoints that restricted write operations during planning and protected my infrastructure from unintended changes before deployment.
+
+What stood out to me is that this follows the same engineering principles we already apply in DevOps. Just as IAM policies enforce least privilege, hooks and scoped skills enforce least privilege for development workflows. The goal isn't unlimited automation—it's controlled, predictable automation.
+
+Every project is helping me grow as a DevOps engineer, reinforcing the importance of building secure, reliable, and scalable automation. I'm excited to keep learning, refining these practices, and applying them to real-world infrastructure challenges.
+
+A special thank you to our incredible co-mentors for their guidance, encouragement, and willingness to help throughout this journey: Anjana Muthunayake (Lead Co-Mentor), Faith Samson, Joy Ukpabi, and Rukevwe ubioworo. Your support has made the learning experience even more impactful.
+
+P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by Pravin Mishra. You can start your DevOps journey by joining this Discord community ( https://lnkd.in/dEauBgd6 ).
 ```
 
 ---
 
 ### LinkedIn Post Link:
 
-`__________________________________________`
+`https://www.linkedin.com/posts/oluwatobiloba-adeje-2572b42a6_devops-terraform-infrastructureascode-ugcPost-7481296797525671937-n1hz/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEm6D2MBiHlTtqXxAdNL2_2Taiskof8w_Lw`
 
 ---
 
@@ -124,15 +140,15 @@ Paste your LinkedIn post content here
 
 # Completion Checklist
 
-* [ ] Blog written with required structure
-* [ ] Blog includes at least 2–3 Week 2 topics
-* [ ] Blog is publicly accessible
-* [ ] LinkedIn post created
-* [ ] Required P.S. line included
-* [ ] LinkedIn post content copied in submission field
-* [ ] Blog link added
-* [ ] LinkedIn post link added
-* [ ] Screenshots added to GitHub repo
+* [x] Blog written with required structure
+* [x] Blog includes at least 2–3 Week 2 topics
+* [x] Blog is publicly accessible
+* [x] LinkedIn post created
+* [x] Required P.S. line included
+* [x] LinkedIn post content copied in submission field
+* [x] Blog link added
+* [x] LinkedIn post link added
+* [x] Screenshots added to GitHub repo
 
 ---
 
