@@ -18,7 +18,7 @@ Create the `.claude/agents/` directory and add all required agent files.
 
 ### Evidence
 
-#### Screenshot 1 — Agents folder structure in VS Code
+#### Screenshot 1 — VS Code sidebar showing `.claude/agents/` with all 3 files
 
 ![screenshot-1](./screenshots/assignment4-screenshot-1.png)
 
@@ -51,13 +51,13 @@ The tf-writer uses inherit instead of a fixed model so it automatically uses the
 
 ### Evidence
 
-#### Screenshot 2 — security-auditor.md frontmatter
+#### Screenshot 2 — `security-auditor.md` frontmatter showing model and tools configuration
 
 ![screenshot-2](./screenshots/assignment4-screenshot-2.png)
 
 ---
 
-#### Screenshot 3 — cost-optimizer.md frontmatter
+#### Screenshot 3 — `cost-optimizer.md` frontmatter showing the model and tools configuration
 
 ![screenshot-3](./screenshots/assignment4-screenshot3.png)
 
@@ -71,7 +71,7 @@ Trigger the security auditor agent and analyze the generated security report for
 
 ### Evidence
 
-#### Screenshot 4 — Security auditor delegation triggered
+#### Screenshot 4 — The delegation message showing Claude launched the security-auditor
 
 ![screenshot-4](./screenshots/assignment4-screenshot-4.png)
 
@@ -91,7 +91,7 @@ Trigger the cost optimizer agent and review the generated cost optimization repo
 
 ### Evidence
 
-#### Screenshot 6 — Cost optimization report output
+#### Screenshot 6 — The full cost optimization report
 
 ![screenshot-6](./screenshots/assignment4-screenshot-6.png)
 
@@ -100,8 +100,9 @@ Trigger the cost optimizer agent and review the generated cost optimization repo
 # Submission Instructions
 
 - Ensure all agent files are committed in `.claude/agents/`
-- Complete all written answers in your Google Doc submission
+- Complete all written answers in your GitHub Repo
 - Push final changes to your forked GitHub repository
+<<<<<<< HEAD
 - Submit only the Google Doc link as required
 
 ---
@@ -111,6 +112,8 @@ Trigger the cost optimizer agent and review the generated cost optimization repo
 Paste your Google Doc URL here:
 
 `https://docs.google.com/document/d/1uviUVdOoZNVkHMoS1gcsoW3b0yAMpA7VE-IVJ0L5Zd4/edit?usp=sharing`
+=======
+>>>>>>> upstream/main
 
 ---
 
@@ -124,6 +127,7 @@ Paste your forked repository URL here:
 
 # Completion Checklist
 
+<<<<<<< HEAD
 - [x] `.claude/agents/` folder contains all 3 agent files
 - [x] Screenshot 2 shows correct `security-auditor.md` configuration
 - [x] Screenshot 3 shows correct `cost-optimizer.md` configuration
@@ -134,6 +138,18 @@ Paste your forked repository URL here:
 - [x] Cost report is visible with recommendations
 - [x] All required screenshots added
 - [x] GitHub repo updated with agents
+=======
+- [ ] `.claude/agents/` folder contains all 3 agent files
+- [ ] Screenshot 2 shows correct `security-auditor.md` configuration
+- [ ] Screenshot 3 shows correct `cost-optimizer.md` configuration
+- [ ] All 3 written answers completed 
+- [ ] Security auditor executed successfully
+- [ ] Cost optimizer executed successfully
+- [ ] Security report is visible with findings
+- [ ] Cost report is visible with recommendations
+- [ ] All required screenshots added
+- [ ] GitHub repo updated with agents
+>>>>>>> upstream/main
 
 ---
 
