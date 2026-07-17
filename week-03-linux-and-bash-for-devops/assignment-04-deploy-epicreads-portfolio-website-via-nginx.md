@@ -20,7 +20,7 @@ Verify the Ubuntu VM and Nginx are ready for deployment.
 
 #### Screenshot 0 — Output of `sudo systemctl status nginx --no-pager` showing Active (running)
 
-Add your screenshot here.
+![screenshot0](./screenshots/assignment4-pre-flight.png)
 
 ---
 
@@ -34,7 +34,7 @@ Download and extract the portfolio website template.
 
 #### Screenshot 1 — Output of `ls -la` showing the extracted project folder
 
-Add your screenshot here.
+![screenshot1](./screenshots/assignment4-screenshot-1.png)
 
 ---
 
@@ -48,8 +48,7 @@ Update the website footer with your deployment details.
 
 #### Screenshot 2 — Nano editor open with the updated footer showing your Full Name, Group, Week, and Date
 
-Add your screenshot here.
-
+![screenshot2](./screenshots/assignment-4screenshot-2.png)
 ---
 
 # Task 3 — Deploy Website via Nginx
@@ -62,13 +61,13 @@ Deploy the portfolio website to the Nginx web root.
 
 #### Screenshot 3 — Output of `sudo nginx -t` showing configuration test successful
 
-Add your screenshot here.
+![screenshot3](./screenshots/assignment-4screenshot-3.png)
 
 ---
 
 #### Screenshot 4 — Output of `ls /var/www/html` showing deployed website files
 
-Add your screenshot here.
+![screenshot4](./screenshots/assignment-4screenshot-4.png)
 
 ---
 
@@ -82,13 +81,13 @@ Verify the deployed website is publicly accessible and the footer contains your 
 
 #### Screenshot 5 — Output of `curl ifconfig.me` showing the server's public IP address
 
-Add your screenshot here.
+![screenshot5](./screenshots/assignment-4screenshot-5.png)
 
 ---
 
 #### Screenshot 6 — Browser showing the live website with your Full Name and deployment details in the footer
 
-Add your screenshot here.
+![screenshot6](./screenshots/assignment-4screenshot-6.png)
 
 ---
 
@@ -102,13 +101,13 @@ Verify the deployed website and Nginx service are healthy.
 
 #### Screenshot 7 — Output of `systemctl is-enabled nginx`
 
-Add your screenshot here.
+![screenshot7](./screenshots/assignment-4screenshot-7.png)
 
 ---
 
 #### Screenshot 8 — Output of `curl -I http://localhost` showing 200 OK
 
-Add your screenshot here.
+![screenshot8](./screenshots/assignment-4screenshot-8.png)
 
 ---
 
@@ -120,13 +119,13 @@ Add your screenshot here.
 
 Paste your LinkedIn post URL here:
 
-`__________________________`
+`https://www.linkedin.com/posts/oluwatobiloba-adeje-2572b42a6_devops-aws-linux-activity-7483796563425820675-PLZF?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEm6D2MBiHlTtqXxAdNL2_2Taiskof8w_Lw`
 
 ---
 
 #### Screenshot — Published LinkedIn post showing the live website with your Full Name in the footer
 
-Add your screenshot here.
+![sceenshot](./screenshots/post-screen-ass4.png)
 
 ---
 
@@ -141,18 +140,18 @@ Add your screenshot here.
 
 # Completion Checklist
 
-- [ ] Screenshot 0: Nginx service status (active/running)
-- [ ] Screenshot 1: Website files downloaded and extracted
-- [ ] Screenshot 2: Footer updated with Full Name, Group, Week, and Date
-- [ ] Screenshot 3: Nginx configuration test successful
-- [ ] Screenshot 4: Website files deployed to /var/www/html
-- [ ] Screenshot 5: Public IP retrieved
-- [ ] Screenshot 6: Live website accessible in browser with footer details
-- [ ] Screenshot 7: Nginx enabled on boot
-- [ ] Screenshot 8: Local HTTP response returns 200 OK
-- [ ] LinkedIn post published and URL submitted
-- [ ] Full Name visible in all required screenshots
-- [ ] No sensitive data exposed
+- [x] Screenshot 0: Nginx service status (active/running)
+- [x] Screenshot 1: Website files downloaded and extracted
+- [x] Screenshot 2: Footer updated with Full Name, Group, Week, and Date
+- [x] Screenshot 3: Nginx configuration test successful
+- [x] Screenshot 4: Website files deployed to /var/www/html
+- [x] Screenshot 5: Public IP retrieved
+- [x] Screenshot 6: Live website accessible in browser with footer details
+- [x] Screenshot 7: Nginx enabled on boot
+- [x] Screenshot 8: Local HTTP response returns 200 OK
+- [x] LinkedIn post published and URL submitted
+- [x] Full Name visible in all required screenshots
+- [x] No sensitive data exposed
 
 ---
 

@@ -147,7 +147,7 @@ Paste your LinkedIn post URL here:
 
 #### Screenshot — LinkedIn post showing the deployed application
 
-![screenshot](./screenshots/Screenshot%20from%202026-07-16%2008-03-59.png)
+![screenshot](./screenshots/assignment2-post.png)
 
 ---
 
