@@ -481,14 +481,13 @@ The AI skill was allowed to gather and analyze evidence because these actions ar
 
 Paste your LinkedIn post URL here:
 
-`__________________________`
+`https://www.linkedin.com/posts/oluwatobiloba-adeje-2572b42a6_%F0%9D%97%95%F0%9D%98%82%F0%9D%97%B6%F0%9D%97%B9%F0%9D%97%B1%F0%9D%97%B6%F0%9D%97%BB%F0%9D%97%B4-%F0%9D%97%AE-%F0%9D%97%A6%F0%9D%97%AE%F0%9D%97%B3%F0%9D%97%B2-%F0%9D%97%94%F0%9D%97%9C-%F0%9D%97%A3%F0%9D%97%BC-activity-7484019368687943680-qDvv?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEm6D2MBiHlTtqXxAdNL2_2Taiskof8w_Lw`
 
 ---
 
 #### Screenshot — Published LinkedIn post
 
-Add your screenshot here.
-
+![post](./screenshots/ass-6-post.png)
 ---
 
 # GitHub Repository URL
@@ -511,20 +510,20 @@ Paste the URL of your GitHub folder or repository containing the assignment file
 
 # Completion Checklist
 
-- [ ] Task 1: Healthy baseline confirmed, workspace created (Screenshots 1–2, Notes answered)
-- [ ] Task 2: CLAUDE.md created with all four sections (Screenshot 3, Notes answered)
-- [ ] Task 3: Five-check plan produced by Claude using read-only tools (Screenshot 4, Notes answered)
-- [ ] Task 4: `linux-triage.sh` created, syntax validated, executable permission set (Screenshots 5–8, Notes answered)
-- [ ] Task 5: Healthy-state report generated with no FAIL result (Screenshots 9–10, Notes answered)
-- [ ] Task 6: `/linux-triage` skill created and run successfully on healthy server (Screenshots 11–12, Notes answered)
-- [ ] Task 7: Nginx incident simulated, failed evidence captured, Claude did not execute recovery (Screenshots 13–15, Notes answered)
-- [ ] Task 8: Nginx recovered manually, recovery verified, reports saved, incident summary complete (Screenshots 16–19, Notes answered)
-- [ ] Incident summary contains all seven required sections
-- [ ] LinkedIn post published and URL submitted
-- [ ] Full Name visible in all required screenshots and the Bash report
-- [ ] Skill does not have Write permission
-- [ ] Skill did not execute any recovery commands
-- [ ] No sensitive data exposed
+- [x] Task 1: Healthy baseline confirmed, workspace created (Screenshots 1–2, Notes answered)
+- [x] Task 2: CLAUDE.md created with all four sections (Screenshot 3, Notes answered)
+- [x] Task 3: Five-check plan produced by Claude using read-only tools (Screenshot 4, Notes answered)
+- [x] Task 4: `linux-triage.sh` created, syntax validated, executable permission set (Screenshots 5–8, Notes answered)
+- [x] Task 5: Healthy-state report generated with no FAIL result (Screenshots 9–10, Notes answered)
+- [x] Task 6: `/linux-triage` skill created and run successfully on healthy server (Screenshots 11–12, Notes answered)
+- [x] Task 7: Nginx incident simulated, failed evidence captured, Claude did not execute recovery (Screenshots 13–15, Notes answered)
+- [x] Task 8: Nginx recovered manually, recovery verified, reports saved, incident summary complete (Screenshots 16–19, Notes answered)
+- [x] Incident summary contains all seven required sections
+- [x] LinkedIn post published and URL submitted
+- [x] Full Name visible in all required screenshots and the Bash report
+- [x] Skill does not have Write permission
+- [x] Skill did not execute any recovery commands
+- [x] No sensitive data exposed
 
 ---
 
