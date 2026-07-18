@@ -156,8 +156,6 @@ Looking back at the last five years, the biggest lesson I’ve learned is that b
 
 ### Public Link
 
-Paste your link here:
-
 `https://www.linkedin.com/posts/oluwatobiloba-adeje-2572b42a6_join-the-dmi-devops-micro-internship-share-7478414321530593280-smsL/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEm6D2MBiHlTtqXxAdNL2_2Taiskof8w_Lw`
 
 ---
@@ -365,8 +363,8 @@ Wake up by 5am daily.
 
 ## 10. Proof of Work
 
-- LinkedIn Post URL: **[ADD LINK HERE](https://www.linkedin.com/posts/oluwatobiloba-adeje-2572b42a6_join-the-dmi-devops-micro-internship-share-7478421352786612227-k5MS/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEm6D2MBiHlTtqXxAdNL2_2Taiskof8w_Lw)**  
-- Blog / Medium : **[ADD LINK HERE](https://dev.to/rubi_cloud/devops-success-mindset-hpo)**  
+- LinkedIn Post URL: https://www.linkedin.com/posts/oluwatobiloba-adeje-2572b42a6_join-the-dmi-devops-micro-internship-share-7478421352786612227-k5MS/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEm6D2MBiHlTtqXxAdNL2_2Taiskof8w_Lw 
+- Blog / Medium : https://dev.to/rubi_cloud/devops-success-mindset-hpo
 
 ---
 
