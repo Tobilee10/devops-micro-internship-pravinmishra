@@ -131,7 +131,7 @@ Week 03 → Linux & Bash for DevOps
 | Week | Topic | Status | Assignment | LinkedIn Post | Blog Post |
 |------|-------|--------|------------|---------------|-----------|
 | 00 | Internet & Networking Basics | ⬜ Not Started | ⏳ Pending | — | — |
-| 01 | Success Mindset | ✅ Completed | ✅ Completed | [Linkedin ](https://www.linkedin.com/posts/oluwatobiloba-adeje-2572b42a6_join-the-dmi-devops-micro-internship-share-7478421352786612227-k5MS/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEm6D2MBiHlTtqXxAdNL2_2Taiskof8w_Lw)|[ blog ](https://dev.to/rubi_cloud/devops-success-mindset-hpo)|
+| 01 | Success Mindset | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/oluwatobiloba-adeje-2572b42a6_join-the-dmi-devops-micro-internship-share-7478421352786612227-k5MS/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEm6D2MBiHlTtqXxAdNL2_2Taiskof8w_Lw|https://dev.to/rubi_cloud/devops-success-mindset-hpo|
 | 02 | Agentic AI with Claude Code |  ✅ Completed |  ✅ Completed | — | — |
 | 03 | Linux & Bash for DevOps |  ✅ Completed |  ✅ Completed | — | — |
 | 04 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |
