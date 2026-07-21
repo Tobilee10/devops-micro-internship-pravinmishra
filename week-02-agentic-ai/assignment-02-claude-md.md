@@ -97,24 +97,14 @@ Commit the `CLAUDE.md` file and push it to your GitHub fork so the project instr
 
 Paste your forked repository URL here:
 
-<<<<<<< HEAD
+
 `https://github.com/Tobilee10/Ultimate-Agentic-DevOps-with-Claude-Code.git`
-=======
-`Add your URL here`
->>>>>>> upstream/main
+
 
 ---
 
 # Completion Checklist
 
-<<<<<<< HEAD
-- [x] Screenshot 1 shows Claude’s generic response (before CLAUDE.md)
-- [x] Screenshot 2 shows `/init` generated CLAUDE.md
-- [x] Screenshot 3 shows fully customized CLAUDE.md with all 5 sections
-- [x] Screenshot 4 shows updated deployment-aware Claude response
-- [x] Screenshot 5 shows Claude rejecting React request based on rules
-- [x] CLAUDE.md is committed and visible in GitHub repository
-=======
 [x] Screenshot 1 shows a generic Claude response (no CLAUDE.md)<br>
 [x] Screenshot 2 shows the auto-generated `/init` output <br>
 [x] Screenshot 3 shows all 5 sections in your customized CLAUDE.md <br>
@@ -122,7 +112,6 @@ Paste your forked repository URL here:
 [x] Screenshot 5 shows Claude refusing the React request <br>
 [x] Screenshot 6 shows `CLAUDE.md` committed and visible in your GitHub repository <br>
 [x] GitHub repository URL is included in the submission <br>
->>>>>>> upstream/main
 
 ---
 

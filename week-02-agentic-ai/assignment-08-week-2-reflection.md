@@ -54,11 +54,7 @@ You can publish your blog on:
 
 Blog Link:
 
-<<<<<<< HEAD
 `https://dev.to/rubi_cloud/-reflection-week-2-4ach`
-=======
-`Add your URL here`
->>>>>>> upstream/main
 
 ---
 
@@ -128,11 +124,7 @@ P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by 
 
 ### LinkedIn Post Link:
 
-<<<<<<< HEAD
 `https://www.linkedin.com/posts/oluwatobiloba-adeje-2572b42a6_devops-terraform-infrastructureascode-ugcPost-7481296797525671937-n1hz/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEm6D2MBiHlTtqXxAdNL2_2Taiskof8w_Lw`
-=======
-`Add your URL here`
->>>>>>> upstream/main
 
 ---
 

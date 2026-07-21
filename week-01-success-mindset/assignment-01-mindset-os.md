@@ -362,12 +362,7 @@ Wake up by 5am daily.
 
 ### LinkedIn Post
 
-
-<<<<<<< HEAD
 `https://www.linkedin.com/posts/oluwatobiloba-adeje-2572b42a6_join-the-dmi-devops-micro-internship-share-7478421352786612227-k5MS/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEm6D2MBiHlTtqXxAdNL2_2Taiskof8w_Lw`
-=======
-`Add your URL here`
->>>>>>> upstream/main
 
 ---
 

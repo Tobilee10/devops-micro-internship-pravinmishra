@@ -129,24 +129,13 @@ Complete all tasks in sequence.
 Paste your forked repository URL here:
 
 `https://github.com/Tobilee10/Ultimate-Agentic-DevOps-with-Claude-Code/tree/main/.claude/hooks`
-=======
-Your submission must include:
-- All 9 required screenshots
->>>>>>> upstream/main
+
 
 ---
 
 # Completion Checklist
 
-<<<<<<< HEAD
-- [x] `settings.json` created with permissions block
-- [x] UserPromptSubmit hook added correctly
-- [x] PreToolUse hook added correctly
-- [x] Screenshot 3 shows full hooks + permissions configuration
-- [x] Prompt-level destructive test was blocked (Screenshot 4)
-- [x] Command-level `terraform destroy` was blocked (Screenshot 5)
-- [x] `settings.json` committed and visible in GitHub repo
-=======
+
 - [x] `.claude` folder structure created correctly
 - [x] `user-prompt-guard.sh` created with UserPromptSubmit hook logic
 - [x] `pre-tool-guard.sh` created with PreToolUse hook logic
@@ -160,7 +149,7 @@ Your submission must include:
 - [x] Terraform destroy command test shows PreToolUse intercepted the command
 - [x] Terraform validate test shows PostToolUse created the log entry
 - [x] All required screenshots are captured
->>>>>>> upstream/main
+
 
 ---
 

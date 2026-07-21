@@ -102,7 +102,6 @@ Trigger the cost optimizer agent and review the generated cost optimization repo
 - Ensure all agent files are committed in `.claude/agents/`
 - Complete all written answers in your GitHub Repo
 - Push final changes to your forked GitHub repository
-<<<<<<< HEAD
 - Submit only the Google Doc link as required
 
 ---
@@ -112,8 +111,6 @@ Trigger the cost optimizer agent and review the generated cost optimization repo
 Paste your Google Doc URL here:
 
 `https://docs.google.com/document/d/1uviUVdOoZNVkHMoS1gcsoW3b0yAMpA7VE-IVJ0L5Zd4/edit?usp=sharing`
-=======
->>>>>>> upstream/main
 
 ---
 
@@ -121,28 +118,14 @@ Paste your Google Doc URL here:
 
 Paste your forked repository URL here:
 
-<<<<<<< HEAD
+
 `https://github.com/Tobilee10/Ultimate-Agentic-DevOps-with-Claude-Code/tree/main/.claude/agents`
-=======
-`Add your URL here`
->>>>>>> upstream/main
+
 
 ---
 
 # Completion Checklist
 
-<<<<<<< HEAD
-- [x] `.claude/agents/` folder contains all 3 agent files
-- [x] Screenshot 2 shows correct `security-auditor.md` configuration
-- [x] Screenshot 3 shows correct `cost-optimizer.md` configuration
-- [x] All 3 written answers completed in Google Doc
-- [x] Security auditor executed successfully
-- [x] Cost optimizer executed successfully
-- [x] Security report is visible with findings
-- [x] Cost report is visible with recommendations
-- [x] All required screenshots added
-- [x] GitHub repo updated with agents
-=======
 - [x] `.claude/agents/` folder contains all 3 agent files
 - [x] Screenshot 2 shows correct `security-auditor.md` configuration
 - [x] Screenshot 3 shows correct `cost-optimizer.md` configuration
@@ -153,7 +136,7 @@ Paste your forked repository URL here:
 - [x] Cost report is visible with recommendations
 - [x] All required screenshots added
 - [x] GitHub repo updated with agents
->>>>>>> upstream/main
+
 
 ---
 
