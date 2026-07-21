@@ -91,7 +91,7 @@ Add your screenshot here.
 
 Paste your Linkedin post link here:
 
-`__________________________`
+`Add your URL here`
 
 ---
 
@@ -99,7 +99,11 @@ Paste your Linkedin post link here:
 
 Paste your forked repository URL here:
 
+<<<<<<< HEAD
 `https://github.com/Tobilee10/Ultimate-Agentic-DevOps-with-Claude-Code`
+=======
+`Add your URL here`
+>>>>>>> upstream/main
 
 ---
 

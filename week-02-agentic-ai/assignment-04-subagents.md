@@ -121,7 +121,11 @@ Paste your Google Doc URL here:
 
 Paste your forked repository URL here:
 
+<<<<<<< HEAD
 `https://github.com/Tobilee10/Ultimate-Agentic-DevOps-with-Claude-Code/tree/main/.claude/agents`
+=======
+`Add your URL here`
+>>>>>>> upstream/main
 
 ---
 

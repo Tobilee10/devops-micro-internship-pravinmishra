@@ -418,7 +418,11 @@ The final Bash script combines variables to store data, arrays to hold multiple 
 
 Paste your LinkedIn post URL here:
 
+<<<<<<< HEAD
 `https://www.linkedin.com/posts/oluwatobiloba-adeje-2572b42a6_devops-linux-bash-activity-7483880740645060608-Nm9w?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEm6D2MBiHlTtqXxAdNL2_2Taiskof8w_Lw`
+=======
+`Add your URL here`
+>>>>>>> upstream/main
 
 ---
 
