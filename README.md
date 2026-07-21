@@ -79,8 +79,8 @@ Week 02 → Agentic AI with Claude Code
 Week 03 → Linux & Bash for DevOps 
 [![Week 03 – Linux & Bash](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/) 
 
-<!-- Week 04 → Git & GitHub -->
-<!-- [![Week 04 – Git](./badges/week-04.svg)](./week-04-github/) -->
+Week 04 → Git & GitHub 
+[![Week 04 – Git](./badges/week-04.svg)](./week-04-github/) 
 
 <!-- Week 05 → DevOps Lifecycle & Agile -->
 <!-- [![Week 05 – Agile](./badges/week-05.svg)](./week-05-devops-lifecycle/) -->
@@ -130,10 +130,10 @@ Week 03 → Linux & Bash for DevOps
 
 | Week | Topic | Status | Assignment | LinkedIn Post | Blog Post |
 |------|-------|--------|------------|---------------|-----------|
-| 00 | Internet & Networking Basics | ⬜ Not Started | ⏳ Pending | — | — |
+| 00 | Internet & Networking Basics | ✅ Completed  | ✅ Completed  | https://www.linkedin.com/posts/oluwatobiloba-adeje-2572b42a6_join-the-dmi-devops-micro-internship-activity-7485219046620262400-0D-C?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEm6D2MBiHlTtqXxAdNL2_2Taiskof8w_Lw | — |
 | 01 | Success Mindset | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/oluwatobiloba-adeje-2572b42a6_join-the-dmi-devops-micro-internship-share-7478421352786612227-k5MS/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEm6D2MBiHlTtqXxAdNL2_2Taiskof8w_Lw|https://dev.to/rubi_cloud/devops-success-mindset-hpo|
-| 02 | Agentic AI with Claude Code |  ✅ Completed |  ✅ Completed | — | — |
-| 03 | Linux & Bash for DevOps |  ✅ Completed |  ✅ Completed | — | — |
+| 02 | Agentic AI with Claude Code |  ✅ Completed |  ✅ Completed | https://www.linkedin.com/posts/oluwatobiloba-adeje-2572b42a6_devops-terraform-infrastructureascode-ugcPost-7481296797525671937-n1hz/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEm6D2MBiHlTtqXxAdNL2_2Taiskof8w_Lw | https://dev.to/rubi_cloud/-reflection-week-2-4ach |
+| 03 | Linux & Bash for DevOps |  ✅ Completed |  ✅ Completed | https://www.linkedin.com/posts/oluwatobiloba-adeje-2572b42a6_%F0%9D%97%95%F0%9D%98%82%F0%9D%97%B6%F0%9D%97%B9%F0%9D%97%B1%F0%9D%97%B6%F0%9D%97%BB%F0%9D%97%B4-%F0%9D%97%AE-%F0%9D%97%A6%F0%9D%97%AE%F0%9D%97%B3%F0%9D%97%B2-%F0%9D%97%94%F0%9D%97%9C-%F0%9D%97%A3%F0%9D%97%BC-ugcPost-7484019365483384832-BKwi/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEm6D2MBiHlTtqXxAdNL2_2Taiskof8w_Lw | — |
 | 04 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |
 | 05 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
 | 06 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |

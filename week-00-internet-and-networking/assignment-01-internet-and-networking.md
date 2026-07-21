@@ -15,6 +15,7 @@ You're new to DevOps and will frequently encounter technical questions. ChatGPT 
 Write a clear ChatGPT prompt to help you understand:
 
 > "What is a protocol in networking? Explain with a simple real-life example."
+ 
 
 Take a screenshot of your interaction showing:
 
@@ -34,7 +35,7 @@ Replace `task-1-chatgpt.png` with your actual screenshot file name.
 
 ## What I Learned (2–3 lines)
 
-Add your answer here...
+I learned how to write effective prompts in ChatGPT like a DevOps engineer to better understand networking concepts. By asking clear, specific questions, I was able to learn how network protocols such as DNS, TCP/IP, HTTP/HTTPS, IP addressing, and packet switching work together to enable reliable communication over the internet. 
 
 ---
 
@@ -59,7 +60,8 @@ Write a short explanation (**100–150 words**) that includes:
 
 ## Answer
 
-Add your answer here...
+When a user anywhere in the world visits **EpicReads**, they type the website name into their browser. The **DNS (Domain Name System)** translates the domain name into the server's **IP Address**, allowing the browser to locate the website hosted in Finland. The browser then sends a request using **HTTP** or **HTTPS**, with HTTPS providing a secure, encrypted connection. Communication takes place through the **TCP/IP** protocol suite, where **TCP** ensures the data is delivered accurately and in the correct order, while **IP** routes the data to the correct destination. The data is transmitted using **Packet Switching**, which breaks it into small packets that can travel along different network paths before being reassembled at the user's device. Together, DNS, TCP/IP, HTTP/HTTPS, IP addresses, and packet switching enable users worldwide to access EpicReads quickly, reliably, and securely.
+
 
 ---
 
@@ -102,18 +104,21 @@ Replace `task-3-diagram.png` with your actual diagram file name.
 
 ### Frontend
 
-* Add your answer here...
-* Add your answer here...
+* React, Angular (for web)
+* Axios (for making API request)
+
 
 ### Backend
 
-* Add your answer here...
-* Add your answer here...
+* Node.js, Express.js
+* CORS 
+
 
 ### Database
 
-* Add your answer here...
-* Add your answer here...
+* MySQL, PostgreSQL
+* MongoDB
+
 
 ---
 
@@ -142,7 +147,7 @@ In **50–100 words**, explain in your own words:
 
 ## Answer
 
-Add your answer here...
+DNS is like a phonebook. It translates human-friendly domain names, like epicreads.com, into IP addresses, such as (52.172.142.222:3000), so computers can find the website. To connect the domain to the IP, you use an A record, which maps the domain directly to the server’s IPv4 address. This is like writing your friend’s phone number next to their name. When someone types epicreads.com, the A record tells the browser the exact IP to reach, letting the website open correctly without needing to remember the numeric address.
 
 ---
 
@@ -218,7 +223,7 @@ Add the following credit note at the end of your post:
 Paste your LinkedIn post URL here:
 
 ```text
-Add your URL here...
+https://www.linkedin.com/posts/oluwatobiloba-adeje-2572b42a6_join-the-dmi-devops-micro-internship-activity-7485219046620262400-0D-C?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEm6D2MBiHlTtqXxAdNL2_2Taiskof8w_Lw
 ```
 
 ---
@@ -227,7 +232,34 @@ Add your URL here...
 
 Paste the full text of your LinkedIn post here:
 
-Add your post content here...
+"You can't troubleshoot what you don't understand. For a DevOps Engineer, networking isn't optional, it's the foundation behind every deployment, API call, and cloud service." 
+
+This week, I strengthened my understanding of networking by exploring how the core concepts work together in a real-world scenario using ChatGPT as a learning companion to break down complex networking concepts. Instead of memorizing definitions, I wanted to undestand how everything works together behind the scenes. 
+
+Using an online bookstore called EpicReads as an example, I learned that:
+
+🌐 DNS (Domain Name System) translates a domain name like epicreads.com into an IP address so browsers know where to send requests.
+
+📍 Every server has an IP Address, which uniquely identifies it on the internet.
+
+📦 Packet Switching breaks data into small packets that can travel through different routes before being reassembled at the destination.
+
+🔗 The TCP/IP protocol suite ensures data is routed correctly (IP) and delivered reliably and in the correct order (TCP).
+
+🔒 HTTP and HTTPS are the protocols browsers use to communicate with web servers, with HTTPS providing encryption for secure communication.
+
+One concept I found especially interesting was the DNS A record, which maps a domain name directly to a server's IPv4 address, making it possible for users to access a website using a memorable name instead of a numeric IP address.
+
+This learning experience also reinforced the importance of asking the right questions. Breaking complex topics into practical scenarios made it much easier to connect the dots and understand how these technologies work together behind the scenes.
+
+The more I learn about networking, the more I realize it's one of the most important skills for anyone building a career in DevOps, Cloud Engineering, or Site Reliability Engineering.
+
+What's the most underrated networking concept every DevOps Engineer should master?
+
+P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by Pravin Mishra. You can start your DevOps journey by joining this Discord community: https://discord.pravinmishra.com
+
+
+#DevOps #Networking #DNS #TCPIP #HTTP #HTTPS #PacketSwitching #CloudComputing #LearningInPublic #TechEducation #ChatGPT
 
 ---
 
@@ -235,19 +267,19 @@ Add your post content here...
 
 ### What did you find easy?
 
-Add your answer here...
+I found that learning individual networking concepts was easy. Understanding what DNS, HTTP/HTTPS, TCP/IP, IP addresses, and Packet Switching do on their own wasn't the hard part.
 
 ---
 
 ### What was difficult?
 
-Add your answer here...
+One things I found most difficult was understanding how all the networking concepts fit together. I could memorize terms like DNS, TCP/IP, HTTP, and IP addresses, but I struggled to visualize what actually happens when someone types a website address into a browser.
 
 ---
 
 ### What will you improve next week?
 
-Add your answer here...
+Next, I want to dive deeper into what happens after the request reaches the server—exploring reverse proxies (Nginx), load balancers, firewalls, and how cloud networking ties everything together in AWS.
 
 ---
 
