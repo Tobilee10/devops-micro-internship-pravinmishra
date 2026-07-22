@@ -226,6 +226,11 @@ Paste your LinkedIn post URL here:
 https://www.linkedin.com/posts/oluwatobiloba-adeje-2572b42a6_join-the-dmi-devops-micro-internship-activity-7485219046620262400-0D-C?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEm6D2MBiHlTtqXxAdNL2_2Taiskof8w_Lw
 ```
 
+Blog / dev.to: 
+```text
+https://dev.to/rubi_cloud/how-the-internet-works-a-beginners-guide-to-networking-from-browser-to-server-3g6m
+
+```
 ---
 
 ## LinkedIn Post Backup Copy
