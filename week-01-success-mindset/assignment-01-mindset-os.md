@@ -220,16 +220,26 @@ Choose books that improve:
 
 ## Book List
 
-1. **The Art of Thinking by Rolf Dobelli**
+1. **The Art of Thinking by Rolf Dobelli** 
+![screenshot](./screenshots/Think-clearly.png)
 2. **Deep Work by Cal Newport**
+![screenshot](./screenshots/deep-work.png)
 3. **Never Split the Difference by Chris Voss & Tahl Raz**
+![screenshot](./screenshots/Never-split-difference.png)
 4. **So Good They Can't Ignore by Cal Nweport**
+![screenshot](./screenshots/so-good-they.png)
 5. **Extreme Ownership by Jocko Willink & Leif Babin**
+![screenshot](./screenshots/extrene-ownership.png)
 6. **Getting Things Done by David Allen**
+![screenshot](./screenshots/getting-thing.png)
 7. **Outlive by Peter Attia & Bill Gifford**
+![screenshot](./screenshots/outlive.png)
 8. **Rich Dad Pooor Dad by Robert T. Kiyosaki**
-9. **Made to Stick by Chip Health and Dan Heath**
+![screenshot](./screenshots/rich-poor.png)
+9.  **Made to Stick by Chip Health and Dan Heath**
+![screenshot](./screenshots/made-stick.png)
 10. **Designing Your Life by Bill Burnett & Dave Evans**
+![screenshot](./screenshots/designing.png)
 
 ---
 
@@ -369,7 +379,8 @@ Wake up by 5am daily.
 ## 10. Proof of Work
 
 - LinkedIn Post URL: https://www.linkedin.com/posts/oluwatobiloba-adeje-2572b42a6_join-the-dmi-devops-micro-internship-share-7478421352786612227-k5MS/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEm6D2MBiHlTtqXxAdNL2_2Taiskof8w_Lw 
-- Blog / Medium : https://dev.to/rubi_cloud/devops-success-mindset-hpo
+- 
+- Blog / dev.to: https://dev.to/rubi_cloud/devops-success-mindset-hpo
 
 ---
 

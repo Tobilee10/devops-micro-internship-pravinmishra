@@ -481,11 +481,9 @@ The AI skill was allowed to gather and analyze evidence because these actions ar
 
 Paste your LinkedIn post URL here:
 
-<<<<<<< HEAD
+
 `https://www.linkedin.com/posts/oluwatobiloba-adeje-2572b42a6_%F0%9D%97%95%F0%9D%98%82%F0%9D%97%B6%F0%9D%97%B9%F0%9D%97%B1%F0%9D%97%B6%F0%9D%97%BB%F0%9D%97%B4-%F0%9D%97%AE-%F0%9D%97%A6%F0%9D%97%AE%F0%9D%97%B3%F0%9D%97%B2-%F0%9D%97%94%F0%9D%97%9C-%F0%9D%97%A3%F0%9D%97%BC-activity-7484019368687943680-qDvv?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEm6D2MBiHlTtqXxAdNL2_2Taiskof8w_Lw`
-=======
-`Add your URL here`
->>>>>>> upstream/main
+
 
 ---
 
@@ -498,11 +496,7 @@ Paste your LinkedIn post URL here:
 
 Paste the URL of your GitHub folder or repository containing the assignment files here:
 
-<<<<<<< HEAD
 `https://github.com/Tobilee10/week-03-agentic-linux.git`
-=======
-`Add your URL here`
->>>>>>> upstream/main
 
 ---
 
