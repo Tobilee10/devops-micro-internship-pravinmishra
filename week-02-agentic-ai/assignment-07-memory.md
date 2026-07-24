@@ -54,7 +54,7 @@ Terminate the current Claude Code session and restart it to ensure memory is the
 
 #### Screenshot 4 — VS Code reopened with a fresh Claude Code session showing no previous conversation
 
-A![screenshot-4](./screenshots/assignment7-screenshot-4.png)
+![screenshot-4](./screenshots/assignment7-screenshot-4.png)
 
 ---
 
@@ -68,13 +68,13 @@ Run three tests that prove Claude remembers what you told it — without you say
 
 #### Screenshot 5 — Claude recalling hero section colors
 
-Add your screenshot here.
+![screenshot-4](./screenshots/assignment-7-screenshot-5.png)
 
 ---
 
 #### Screenshot 6 — Claude refusing JavaScript request based on memory rule
 
-Add your screenshot here.
+![screenshot-4](./screenshots/assignment-7-screenshot-6.png)
 
 ---
 

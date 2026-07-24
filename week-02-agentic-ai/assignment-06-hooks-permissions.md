@@ -121,7 +121,6 @@ Prove the logging hook runs after a successful command execution and records Ter
 
 Complete all tasks in sequence.
 
-<<<<<<< HEAD
 ---
 
 ## GitHub Repository URL
