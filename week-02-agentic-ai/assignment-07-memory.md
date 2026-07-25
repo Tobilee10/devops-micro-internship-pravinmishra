@@ -68,13 +68,13 @@ Run three tests that prove Claude remembers what you told it — without you say
 
 #### Screenshot 5 — Claude recalling hero section colors
 
-![screenshot-4](./screenshots/assignment-7-screenshot-5.png)
+![screenshot-5](./screenshots/assignment-7-screenshot-5.png)
 
 ---
 
 #### Screenshot 6 — Claude refusing JavaScript request based on memory rule
 
-![screenshot-4](./screenshots/assignment-7-screenshot-6.png)
+![screenshot-6](./screenshots/assignment-7-screenshot-6.png)
 
 ---
 
@@ -91,7 +91,7 @@ Run three tests that prove Claude remembers what you told it — without you say
 
 Paste your Linkedin post link here:
 
-`[Add your URL here](https://www.linkedin.com/posts/oluwatobiloba-adeje-2572b42a6_agenticai-claude-devops-share-7481370300899766274-mVgR/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEm6D2MBiHlTtqXxAdNL2_2Taiskof8w_Lw)`
+`https://www.linkedin.com/posts/oluwatobiloba-adeje-2572b42a6_agenticai-claude-devops-share-7481370300899766274-mVgR/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEm6D2MBiHlTtqXxAdNL2_2Taiskof8w_Lw`
 
 ---
 
