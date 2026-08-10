@@ -79,19 +79,14 @@ Week 02 → Agentic AI with Claude Code
 Week 03 → Linux & Bash for DevOps 
 [![Week 03 – Linux & Bash](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/) 
 
-<<<<<<< HEAD
 Week 04 → Git & GitHub 
-[![Week 04 – Git](./badges/week-04.svg)](./week-04-github/) 
-=======
-<!-- Week 04 → Git & GitHub -->
-<!-- [![Week 04 – Git](./badges/week-04.svg)](./week-04-git-and-github/) -->
->>>>>>> upstream/main
+[![Week 04 – Git](./badges/week-04.svg)](./week-04-git-and-github/) 
 
-<!-- Week 05 → DevOps Lifecycle & Agile -->
-<!-- [![Week 05 – Agile](./badges/week-05.svg)](./week-05-devops-lifecycle/) -->
+Week 05 → DevOps Lifecycle & Agile 
+[![Week 05 – Agile](./badges/week-05.svg)](./week-05-devops-lifecycle/)
 
-<!-- Week 06 → AWS Cloud -->
-<!-- [![Week 06 – AWS](./badges/week-06.svg)](./week-06-aws-cloud/) -->
+Week 06 → AWS Cloud 
+[![Week 06 – AWS](./badges/week-06.svg)](./week-06-aws-cloud/) 
 
 <!-- Week 07 → Azure Cloud -->
 <!-- [![Week 07 – Azure](./badges/week-07.svg)](./week-07-azure-cloud/) -->
@@ -140,8 +135,8 @@ Week 04 → Git & GitHub
 | 02 | Agentic AI with Claude Code |  ✅ Completed |  ✅ Completed | https://www.linkedin.com/posts/oluwatobiloba-adeje-2572b42a6_devops-terraform-infrastructureascode-ugcPost-7481296797525671937-n1hz/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEm6D2MBiHlTtqXxAdNL2_2Taiskof8w_Lw | https://dev.to/rubi_cloud/-reflection-week-2-4ach |
 | 03 | Linux & Bash for DevOps |  ✅ Completed |  ✅ Completed | https://www.linkedin.com/posts/oluwatobiloba-adeje-2572b42a6_%F0%9D%97%95%F0%9D%98%82%F0%9D%97%B6%F0%9D%97%B9%F0%9D%97%B1%F0%9D%97%B6%F0%9D%97%BB%F0%9D%97%B4-%F0%9D%97%AE-%F0%9D%97%A6%F0%9D%97%AE%F0%9D%97%B3%F0%9D%97%B2-%F0%9D%97%94%F0%9D%97%9C-%F0%9D%97%A3%F0%9D%97%BC-ugcPost-7484019365483384832-BKwi/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEm6D2MBiHlTtqXxAdNL2_2Taiskof8w_Lw | https://dev.to/rubi_cloud/automating-linux-tasks-with-bash-192l |
 | 04 | Git & GitHub | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/oluwatobiloba-adeje-2572b42a6_devops-devsecops-git-activity-7486040116877193216-Q5gT?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEm6D2MBiHlTtqXxAdNL2_2Taiskof8w_Lw | https://dev.to/rubi_cloud/building-a-layered-code-review-workflow-with-git-hooks-and-ai-17ec |
-| 05 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
-| 06 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
+| 05 | DevOps Lifecycle & Agile | ✅ Completed | ✅ Completed |https://www.linkedin.com/posts/oluwatobiloba-adeje-2572b42a6_scrum-agile-jira-activity-7492558534715514882-Ukcb?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEm6D2MBiHlTtqXxAdNL2_2Taiskof8w_Lw| — |
+| 06 | AWS Cloud | ✅ Completed | ✅ Completed | — | — |
 | 07 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 08 | Terraform | ⬜ Not Started | ⏳ Pending | — | — |
 | 09 | Ansible | ⬜ Not Started | ⏳ Pending | — | — |
