@@ -20,7 +20,7 @@ Choose Team Mode or Solo Mode, and document how each Scrum role (Product Owner, 
 
 #### Screenshot 1 — Jira "Create project" screen, or the project sidebar after creation
 
-Add your screenshot here.
+![screenshot](./screenshots/ass4-tk1-screen1.png)
 
 ---
 
@@ -28,7 +28,10 @@ Add your screenshot here.
 
 Write one line for each role: PO (what you prioritized), SM (how you ensured process), Dev Lead (what you built), DevOps Lead (how you shipped).
 
-Write your answer here.
+* Product Owne (PO): Gathered feedback from customer and stackholders to decide what featture the deployment team should build next.
+* Scrum Master (SM): Ensures scrum team follows scrum framework effectively by facilitating scrum event and removing impediments while helping the team to improve after each sprint.
+* Dev Lead: Guides the technical delivery of user stories, tracks team progress on the sprint board, and removes coding blockers to help the team meet its sprint goal.
+* DevOps: Integrates CI/CD pipelines, and manages system infrastructure tickets.
 
 ---
 
@@ -42,7 +45,7 @@ Create a Team-managed Scrum project named `Gotto Job – Team <#>` (Team Mode) o
 
 #### Screenshot 2 — Project created page showing the project name and key
 
-Add your screenshot here.
+![screenshot](./screenshots/ass4-tk2-screen2.png)
 
 ---
 
@@ -56,7 +59,7 @@ Create the Epic `Improve Gotto Job UI discoverability & trust` to group the UI i
 
 #### Screenshot 3 — Backlog showing the Epic panel with the Epic visible
 
-Add your screenshot here.
+![screenshot](./screenshots/ass4-tk3-screen3.png)
 
 ---
 
@@ -70,13 +73,13 @@ Create at least six Stories under the Epic, estimate each with 1, 2, or 3 story 
 
 #### Screenshot 4 — Backlog showing the Epic and at least six Stories under it
 
-Add your screenshot here.
+![screenshot](./screenshots/ass4-tk4-screen4.png)
 
 ---
 
 #### Screenshot 5 — One Story opened showing its Story Points and acceptance criteria filled in
 
-Add your screenshot here.
+![screenshot](./screenshots/ass4-tk4-screen5.png)
 
 ---
 
@@ -90,7 +93,7 @@ Confirm the Story Points (1, 2, or 3) for each Story and record brief reasoning 
 
 #### Screenshot 6 — Backlog showing Story Points visible, or two or three Stories opened showing their points
 
-Add your screenshot here.
+![screenshot](./screenshots/ass4-tk5-screen6.png)
 
 ---
 
@@ -98,17 +101,23 @@ Add your screenshot here.
 
 For each story, explain in one or two lines why it is a 1, 2, or 3 (mention any debate, even in Solo Mode).
 
-S1 – Hero tagline (1 point): This only requires changing one heading, so it is a small task.
-S2 – Button colour (1 point): Only the button colour needs to be updated. I briefly considered 2 points because it affects multiple buttons, but I kept it at 1 since it is a simple CSS change.
-S3 – Job card typography (2 points): This requires changing the font size and weight, then checking that the layout still looks correct on different screen sizes.
-S4 – REMOTE badge (2 points): This involves adding a new badge and displaying it only for remote jobs, making it slightly more complex than a simple text change.
-S5 – Posted on date (1 point): This is a simple text addition with no extra logic.
-S6 – Search labels (2 points): Several labels and placeholders need to be updated and tested, so it requires more work than a single text change.In your submission, write one or two sentences explaining why each Story received its Story Point estimate.
-S7 – Job Detail "Apply Now" Button (1 Point)
-Adds a single "Apply Now" button that links to an email address or placeholder link. It is a simple change with no additional logic, so it is estimated as 1 point.
-S8 – Footer Trust Links (1 Point)
-Adds two footer links ("About" and "Contact"). This only requires a small HTML update with no complex functionality, so it is estimated as 1 point
+- S1 – Hero tagline (1 point): A "Hero tagline" is worth 1 point because it only requires changing a single line of text with zero code complexity.
 
+- S2 – Button colour (1 point): This task is worth 1 point because changing a button color requires editing just a single line of CSS style. 
+
+
+- S3 – Job card typography (2 points): This task is worth 2 points because changing job card typography involves updating multiple CSS font rules across different screen sizes. It requires careful visual testing to ensure the layout does not break and that the text remains readable on mobile devices.
+
+- S4 – REMOTE badge (2 points): This task is worth 2 points because creating a "REMOTE" badge involves building a brand-new UI component and styling it to fit the application design. It requires testing the badge across different screen sizes and ensuring it handles dynamic text safely without breaking the container layout.
+
+- S5 – Posted on date (1 point): This task is worth 1 point because it simply displays an existing database date field as plain text on the user interface. I
+- S6 – Search labels (2 points): This task is worth 2 points because implementing search labels requires capturing user text input and updating the UI dynamically. It requires basic validation to handle empty states, along with standard styling to ensure the labels align correctly within the search bar layou
+
+- S7 – Job Detail "Apply Now" Button (1 Point)
+This task is worth 1 point because it only requires adding a standard button component to the page with a hardcoded redirect link. 
+
+- S8 – Footer Trust Links (1 Point)
+Adds two footer links ("About" and "Contact"). This task is worth 1 point because adding trust links to the footer only requires inserting static text links into an existing HTML structure. 
 
 ---
 
@@ -122,13 +131,13 @@ Create Sprint 1, move three or four Stories into it (approximately 3–6 points)
 
 #### Screenshot 7 — Sprint 1 with the selected Stories inside it
 
-Add your screenshot here.
+![screenshot](./screenshots/ass4-tk6-screen7.png)
 
 ---
 
 #### Screenshot 8 — One Story showing the Sub-tasks created
 
-Add your screenshot here.
+![screenshot](./screenshots/ass4-tk6-screen8.png)
 
 ---
 
@@ -142,7 +151,7 @@ Open the Burndown Chart and confirm it exists for Sprint 1. It is acceptable if 
 
 #### Screenshot 9 — Burndown Chart page opened, even if empty
 
-Add your screenshot here.
+![screenshot](./screenshots/ass4-tk7-screen9.png)
 
 ---
 
@@ -156,19 +165,19 @@ Implement one small UI-only Story from Sprint 1, commit it, deploy it live, and 
 
 #### Screenshot 10 — Jira board showing the Story moved to Done
 
-Add your screenshot here.
+![screenshot](./screenshots/ass4-tk8-screen10.png)
 
 ---
 
 #### Screenshot 11 — Git commit output
 
-Add your screenshot here.
+![screenshot](./screenshots/ass4-tk8-screen11.png)
 
 ---
 
 #### Screenshot 12 — Live URL in the browser showing the UI change, with the URL visible
 
-Add your screenshot here.
+![screenshot](./screenshots/ass4-tk8-screen12.png)
 
 ---
 
@@ -204,7 +213,7 @@ https://www.linkedin.com/posts/oluwatobiloba-adeje-2572b42a6_scrum-agile-jira-ac
 
 #### Screenshot 14 — Published LinkedIn post
 
-![screenshot](./screenshots/ass4-tk10-screen14.png)
+![screenshot](./screenshots/special-pos.png)
 
 ---
 
