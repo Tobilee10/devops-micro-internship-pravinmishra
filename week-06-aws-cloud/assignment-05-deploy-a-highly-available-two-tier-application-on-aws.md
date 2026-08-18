@@ -20,31 +20,31 @@ Build a VPC (10.0.0.0/16) with two public and two private subnets across two Ava
 
 #### Screenshot 1 — VPC details showing CIDR 10.0.0.0/16
 
-Add your screenshot here.
+![screenshot](./screenshots/ass5-tk1-screen1.png)
 
 ---
 
 #### Screenshot 2 — Subnets list showing four subnets and their Availability Zones
 
-Add your screenshot here.
+![screenshot](./screenshots/ass5-tk1-screen2.png)
 
 ---
 
 #### Screenshot 3 — Public route table showing the Internet Gateway route and both public-subnet associations
 
-Add your screenshot here.
+![screenshot](./screenshots/ass5-tk1-screen3.png)
 
 ---
 
 #### Screenshot 4 — Private route table showing the NAT Gateway route and both private-subnet associations
 
-Add your screenshot here.
+![screenshot](./screenshots/ass5-tk1-screen4.png)
 
 ---
 
 #### Screenshot 5 — NAT Gateway status showing Available and the Elastic IP
 
-Add your screenshot here.
+![screenshot](./screenshots/ass5-tk1-screen5.png)
 
 ---
 
@@ -58,19 +58,19 @@ Create `ha-alb-sg` (HTTP public), `ha-web-sg` (HTTP only from `ha-alb-sg`, SSH f
 
 #### Screenshot 6 — ALB Security Group inbound rules
 
-Add your screenshot here.
+![screenshot](./screenshots/ass5-tk2-screen6.png)
 
 ---
 
 #### Screenshot 7 — EC2 Security Group inbound rules showing the ALB Security Group reference and SSH from your IP
 
-Add your screenshot here.
+![screenshot](./screenshots/ass5-tk2-screen7.png)
 
 ---
 
 #### Screenshot 8 — RDS Security Group inbound rule showing the database port allowed only from the EC2 Security Group
 
-Add your screenshot here.
+![screenshot](./screenshots/ass5-tk2-screen8.png)
 
 ---
 
@@ -84,13 +84,13 @@ Launch a private, Multi-AZ RDS database (MySQL or PostgreSQL) using the private 
 
 #### Screenshot 9 — RDS summary showing Multi-AZ = Yes and Publicly accessible = No
 
-Add your screenshot here.
+![screenshot](./screenshots/ass5-tk3-screen9.png)
 
 ---
 
 #### Screenshot 10 — RDS connectivity section showing the DB Subnet Group and Security Group
 
-Add your screenshot here.
+![screenshot](./screenshots/ass5-tk3-screen10.png)
 
 ---
 
@@ -104,13 +104,13 @@ Create a Launch Template whose user data installs the web-server runtime, deploy
 
 #### Screenshot 11 — Launch Template details showing that user data exists, including a visible snippet
 
-Add your screenshot here.
+![screenshot](./screenshots/ass5-tk4-screen11.png)
 
 ---
 
 #### Screenshot 12 — A running instance created from the template showing that the application responds on port 80 through a local test or browser using its public IP
 
-Add your screenshot here.
+![screenshot](./screenshots/ass5-tk4-screen12.png)
 
 ---
 
@@ -124,13 +124,13 @@ Create an internet-facing ALB across both public subnets with an HTTP listener a
 
 #### Screenshot 13 — ALB details showing two public subnets in two Availability Zones
 
-Add your screenshot here.
+![screenshot](./screenshots/ass5-tk5-screen13.png)
 
 ---
 
 #### Screenshot 14 — Target group showing at least one healthy target
 
-Add your screenshot here.
+![screenshot](./screenshots/ass5-tk5-screen14.png)
 
 ---
 
@@ -144,13 +144,13 @@ Create an Auto Scaling Group from the Launch Template across both public subnets
 
 #### Screenshot 15 — Auto Scaling Group showing desired, minimum, and maximum capacity and the selected subnet Availability Zones
 
-Add your screenshot here.
+![screenshot](./screenshots/ass5-tk6-screen15.png)
 
 ---
 
 #### Screenshot 16 — EC2 instances list showing two running instances in different Availability Zones
 
-Add your screenshot here.
+![screenshot](./screenshots/ass5-tk6-screen16.png)
 
 ---
 
@@ -164,13 +164,13 @@ Confirm the application communicates with the RDS database through the ALB DNS n
 
 #### Screenshot 17 — Browser showing the application loaded through the ALB DNS name with the URL visible
 
-Add your screenshot here.
+![screenshot](./screenshots/ass5-tk7-screen17.png)
 
 ---
 
 #### Screenshot 18 — Proof of a database write through a UI message or database query output
 
-Add your screenshot here.
+![screenshot](./screenshots/ass5-tk7-screen18.png)
 
 ---
 
@@ -186,25 +186,25 @@ Test B: simulate an Availability Zone impact (stop, detach, or reduce desired ca
 
 #### Screenshot 19 — EC2 showing the terminated instance and the newly launched instance; timestamps are helpful
 
-Add your screenshot here.
+![screenshot](./screenshots/ass5-tk8-screen19.png)
 
 ---
 
 #### Screenshot 20 — Target group showing healthy targets after replacement
 
-Add your screenshot here.
+![screenshot](./screenshots/ass5-tk8-screen20.png)
 
 ---
 
 #### Screenshot 21 — Evidence that an instance was removed, detached, placed in Standby, or stopped in one Availability Zone
 
-Add your screenshot here.
+![screenshot](./screenshots/ass5-tk8-screen21.png)
 
 ---
 
 #### Screenshot 22 — Browser showing that the ALB DNS endpoint still works during the change
 
-Add your screenshot here.
+![screenshot](./screenshots/ass5-tk8-screen22.png)
 
 ---
 
@@ -218,7 +218,7 @@ Summarize the VPC/subnet layout, the ALB and Auto Scaling Group setup, the priva
 
 #### Screenshot 23 — A simple architecture diagram, which may be hand-drawn, or an AWS console overview showing the components
 
-Add your screenshot here.
+![screenshot](./screenshots/ass5-tk9-screen23.png)
 
 ---
 
@@ -226,19 +226,37 @@ Add your screenshot here.
 
 Summarize the VPC and subnets across the two Availability Zones.
 
-Write your answer here.
+The architecture consists of one VPC spanning across two Availability Zones.
+Each Availability Zone contains one public subnet and one private subnet.
+This results in a total of four subnets: two public and two private.
+Public subnets are typically used for internet-facing resources such as load balancers.
+Private subnets are used for application servers and other internal resources.
+Distributing the subnets across two AZs improves availability and provides fault tolerance.
 
 Summarize the ALB and Auto Scaling Group setup.
 
-Write your answer here.
+The architecture uses an Application Load Balancer (ALB) to distribute incoming traffic across multiple application instances.
+The ALB is deployed across the two public subnets for high availability.
+An Auto Scaling Group (ASG) manages the application instances in the two public subnets.
+The ASG automatically launches or terminates instances based on demand and configuration.
+The ALB forwards requests to healthy instances in the ASG through a target group.
+This setup provides high availability, fault tolerance, and automatic scaling.
 
 Summarize the private Multi-AZ RDS setup.
 
-Write your answer here.
+The architecture uses a private Amazon RDS database deployed across two Availability Zones.
+The RDS instance is placed in private subnets, keeping the database inaccessible directly from the internet.
+A Multi-AZ configuration provides a standby database in a separate Availability Zone.
+Data is synchronously replicated between the primary and standby instances.
+If the primary database fails, RDS can automatically fail over to the standby instance.
+This setup provides high availability, fault tolerance, and improved database reliability.
 
 Summarize the results of both high-availability tests.
 
-Write your answer here.
+
+Test A: One web instance was terminated, and the Auto Scaling Group automatically launched a replacement instance. The ALB continued serving traffic without interruption, confirming instance-level fault tolerance.
+
+Test B: An Availability Zone impact was simulated by reducing capacity in one AZ. The application remained available through the resources in the other AZ, confirming Multi-AZ resilience and high availability.
 
 ---
 
@@ -254,13 +272,13 @@ Publish a LinkedIn post about the high-availability build, including the ALB URL
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+`https://www.linkedin.com/posts/oluwatobiloba-adeje-2572b42a6_devops-aws-cloudcomputing-activity-7494000714311110656-QCCB?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEm6D2MBiHlTtqXxAdNL2_2Taiskof8w_Lw`
 
 ---
 
 #### Screenshot of LinkedIn post
 
-Add your screenshot here.
+![screenshot](./screenshots/ass5-post.png)
 
 ---
 
@@ -273,17 +291,17 @@ Add your screenshot here.
 
 # Completion Checklist
 
-- [ ] Task 1: VPC, four subnets, IGW, NAT Gateway, and route tables created (Screenshots 1–5)
-- [ ] Task 2: Least-privilege ALB, EC2, and RDS security groups created (Screenshots 6–8)
-- [ ] Task 3: Private Multi-AZ RDS created (Screenshots 9–10)
-- [ ] Task 4: Self-configuring Launch Template created and tested (Screenshots 11–12)
-- [ ] Task 5: ALB created across both public subnets (Screenshots 13–14)
-- [ ] Task 6: Auto Scaling Group running two instances across two AZs (Screenshots 15–16)
-- [ ] Task 7: Application verified through the ALB with a database read and write (Screenshots 17–18)
-- [ ] Task 8: Both high-availability tests completed (Screenshots 19–22)
-- [ ] Task 9: Architecture and test-results summary completed (Screenshot 23 & Notes)
-- [ ] LinkedIn post published and URL submitted
-- [ ] No sensitive data exposed
+- [x] Task 1: VPC, four subnets, IGW, NAT Gateway, and route tables created (Screenshots 1–5)
+- [x] Task 2: Least-privilege ALB, EC2, and RDS security groups created (Screenshots 6–8)
+- [x] Task 3: Private Multi-AZ RDS created (Screenshots 9–10)
+- [x] Task 4: Self-configuring Launch Template created and tested (Screenshots 11–12)
+- [x] Task 5: ALB created across both public subnets (Screenshots 13–14)
+- [x] Task 6: Auto Scaling Group running two instances across two AZs (Screenshots 15–16)
+- [x] Task 7: Application verified through the ALB with a database read and write (Screenshots 17–18)
+- [x] Task 8: Both high-availability tests completed (Screenshots 19–22)
+- [x] Task 9: Architecture and test-results summary completed (Screenshot 23 & Notes)
+- [x] LinkedIn post published and URL submitted
+- [x] No sensitive data exposed
 
 ---
 
