@@ -34,13 +34,19 @@ Record the AWS Region used and list every AWS service used across networking, co
 
 **Region:**
 
-Write your answer here.
+US-EAST-2
 
 ---
 
 **Services:**
 
-Write your answer here.
+- EC2
+- LOAD BALANCER
+- VPC
+- RDS 
+- SECURITY GROUPS
+- ELASTIC IP    
+- NAT GATEWAY 
 
 ---
 
@@ -56,7 +62,7 @@ Confirm the Book Review App loads through the public ALB DNS name.
 
 Paste your public ALB DNS name here:
 
-`Add your URL here`
+`http://book-review-web-alb-1360914206.us-east-2.elb.amazonaws.com`
 
 ---
 
@@ -70,37 +76,36 @@ Capture visual proof of every tier and load balancer.
 
 #### Web EC2
 
-Add your screenshot here.
+1[screenshot](./screenshots/WEB-EC2.png)
 
 ---
 
 #### App EC2
 
-Add your screenshot here.
+![screenshot](./screenshots/APP-EC2.png)
 
 ---
 
 #### Public ALB
 
-Add your screenshot here.
-
+![screenshot](./screenshots/WEB-ALB.png)
 ---
 
 #### Internal ALB
 
-Add your screenshot here.
+![screenshot](./screenshots/APP-ALB.png)
 
 ---
 
 #### RDS + Replica
 
-Add your screenshot here.
+![screenshot](./screenshots/DATABASE.png)
 
 ---
 
 #### App UI proof
 
-Add your screenshot here.
+![screenshot](./screenshots/UI.png)
 
 ---
 
@@ -142,13 +147,13 @@ Publish a LinkedIn post sharing the capstone deployment, including the public AL
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+`https://www.linkedin.com/posts/oluwatobiloba-adeje-2572b42a6_devops-aws-cloudengineering-activity-7495483328184143873-nzS6?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEm6D2MBiHlTtqXxAdNL2_2Taiskof8w_Lw`
 
 ---
 
 #### Screenshot of LinkedIn post
 
-Add your screenshot here.
+![screenshot](./screenshots/ass6-post.png)
 
 ---
 
