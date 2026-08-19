@@ -119,19 +119,19 @@ Summarize what worked in the final deployment, the issues encountered and how ea
 
 **What worked:**
 
-Write your answer here.
+The application, database, and supporting infrastructure were successfully configured and deployed.
 
 ---
 
 **Issues + fixes:**
 
-Write your answer here.
+One issue encountered was being unable to SSH into the EC2 instance because the security group was restricted to my IP address. The issue was caused by my IP address changing, so the existing security-group rule no longer matched my current connection. I fixed it by updating the security-group SSH rule to allow my current IP address. The issue was diagnosed and resolved through the AWS Management Console.
 
 ---
 
 **Tools/sources used:**
 
-Write your answer here.
+AWS Management Console for implementation, Claude for guidance and troubleshooting, and AWS documentation for researching configurations and resolving issues.
 
 ---
 
@@ -166,14 +166,14 @@ Paste your LinkedIn post URL here:
 
 # Completion Checklist
 
-- [ ] Task 1: Architecture diagram completed
-- [ ] Task 2: AWS Region and services documented
-- [ ] Task 3: Public ALB DNS confirmed working
-- [ ] Task 4: All six evidence screenshots captured (Web Tier, App Tier, both ALBs, RDS + replica, app UI)
-- [ ] Task 5: Deployment summary completed (what worked, issues/fixes, tools/sources)
-- [ ] LinkedIn post published and URL submitted
-- [ ] App Tier and Database Tier confirmed not publicly accessible
-- [ ] No sensitive data exposed
+- [x] Task 1: Architecture diagram completed
+- [x] Task 2: AWS Region and services documented
+- [x] Task 3: Public ALB DNS confirmed working
+- [x] Task 4: All six evidence screenshots captured (Web Tier, App Tier, both ALBs, RDS + replica, app UI)
+- [x] Task 5: Deployment summary completed (what worked, issues/fixes, tools/sources)
+- [x] LinkedIn post published and URL submitted
+- [x] App Tier and Database Tier confirmed not publicly accessible
+- [x] No sensitive data exposed
 
 ---
 
