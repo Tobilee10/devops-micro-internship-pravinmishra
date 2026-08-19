@@ -57,11 +57,11 @@ Write your answer here.
 
 # Completion Checklist
 
-- [ ] Azure Free Account created with identity, phone, and payment verification completed
-- [ ] Microsoft Agreement and Offer Terms accepted
-- [ ] Azure Portal accessed successfully (Screenshot 1)
-- [ ] Free Trial subscription confirmed (Screenshot 2)
-- [ ] Reflection paragraph written (Notes)
+- [x] Azure Free Account created with identity, phone, and payment verification completed
+- [x] Microsoft Agreement and Offer Terms accepted
+- [x] Azure Portal accessed successfully (Screenshot 1)
+- [x] Free Trial subscription confirmed (Screenshot 2)
+- [x] Reflection paragraph written (Notes)
 - [ ] No sensitive information exposed
 
 ---
