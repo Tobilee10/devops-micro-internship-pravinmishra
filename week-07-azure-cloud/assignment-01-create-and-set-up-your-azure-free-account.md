@@ -30,13 +30,13 @@ Confirm successful Azure Portal access and Locate the required services and subs
 
 #### Screenshot 1 — Azure Portal homepage after successful login
 
-Add your screenshot here.
+![screenshot](./screenshots/ass1-screen1.png)
 
 ---
 
 #### Screenshot 2 — "Subscriptions" section showing the "Free Trial" subscription
 
-Add your screenshot here.
+![screenshot](./screenshots/ass1-screen2.png)
 
 ---
 
@@ -62,7 +62,7 @@ Write your answer here.
 - [x] Azure Portal accessed successfully (Screenshot 1)
 - [x] Free Trial subscription confirmed (Screenshot 2)
 - [x] Reflection paragraph written (Notes)
-- [ ] No sensitive information exposed
+- [x] No sensitive information exposed
 
 ---
 
