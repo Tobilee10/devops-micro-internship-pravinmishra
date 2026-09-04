@@ -20,7 +20,7 @@ Create an architecture diagram and implementation plan identifying the presentat
 
 #### Screenshot 1 — Architecture diagram showing the public entry point, three tiers, network boundaries, and traffic flow
 
-Add your screenshot here.
+![screenshot](./screenshots/ass6-screen1.png)
 
 ---
 
