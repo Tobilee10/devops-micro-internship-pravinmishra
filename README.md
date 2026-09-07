@@ -138,7 +138,7 @@ Week 08 → Terraform
 | 05 | DevOps Lifecycle & Agile | ✅ Completed | ✅ Completed |https://www.linkedin.com/posts/oluwatobiloba-adeje-2572b42a6_scrum-agile-jira-activity-7492558534715514882-Ukcb?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEm6D2MBiHlTtqXxAdNL2_2Taiskof8w_Lw| https://dev.to/rubi_cloud/building-a-read-only-jira-intelligence-layer-for-claude-code-with-mcp-55o3 |
 | 06 | AWS Cloud | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/oluwatobiloba-adeje-2572b42a6_devops-aws-cloudcomputing-activity-7494000714311110656-QCCB?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEm6D2MBiHlTtqXxAdNL2_2Taiskof8w_Lw | https://dev.to/rubi_cloud/deployed-a-production-ready-three-tier-nodejs-application-on-aws-424g |
 | 07 | Azure Cloud | ✅ Completed | ✅ Completed | - | — |
-| 08 | Terraform | ✅ Completed | ✅ Completed | — | — |
+| 08 | Terraform | ✅ Completed | ✅ Completed | https://lnkd.in/p/dN2JmRpu | https://dev.to/rubi_cloud/engineering-a-secure-two-tier-aws-application-with-terraform-automated-ec2-provisioning-16ai |
 | 09 | Ansible | ⬜ Not Started | ⏳ Pending | — | — |
 | 10 | Azure DevOps (CI/CD) | ⬜ Not Started | ⏳ Pending | — | — |
 | 11 | Docker | ⬜ Not Started | ⏳ Pending | — | — |
