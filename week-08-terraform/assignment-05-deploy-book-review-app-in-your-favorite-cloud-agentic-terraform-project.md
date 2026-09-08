@@ -6,7 +6,7 @@ Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
 
 ## Student Details
 
-**Full Name:** Add your full name here  
+**Full Name:** Oluwatobiloba Reuben Adeje 
 **Cloud Platform:** AWS or Azure  
 **GitHub Repository URL:** Add your repository URL here  
 **Public Application URL / Load-Balancer DNS:** Add the public URL or DNS here
