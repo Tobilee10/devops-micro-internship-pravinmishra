@@ -43,7 +43,7 @@ This is not a course. It is an internship-style program — real deployments, re
 
 | Week | Award | Post |
 |------|-------|------|
-| <!-- e.g. Week 03 --> | <!-- 🏆 Champion of the Week --> | <!-- [LinkedIn Post](#) --> |
+| <!-- e.g. Week 07 --> | <!-- 🏆 Champion of the Week --> | <!-- [https://lnkd.in/p/dBPtGxPq](#) --> |
 
 ### Leaderboard
 
@@ -94,8 +94,8 @@ Week 07 → Azure Cloud
 Week 08 → Terraform 
 [![Week 08 – Terraform](./badges/week-08.svg)](./week-08-terraform/) 
 
-<!-- Week 09 → Ansible -->
-<!-- [![Week 09 – Ansible](./badges/week-09.svg)](./week-09-ansible/) -->
+Week 09 → Ansible 
+[![Week 09 – Ansible](./badges/week-09.svg)](./week-09-ansible/) 
 
 <!-- Week 10 → Azure DevOps CI/CD -->
 <!-- [![Week 10 – CI/CD](./badges/week-10.svg)](./week-10-azure-devops/) -->

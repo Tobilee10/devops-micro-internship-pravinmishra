@@ -20,19 +20,19 @@ Provision four Ubuntu 22.04 VMs (`web1`, `web2`, `app1`, `db1`, Standard_B1s) wi
 
 #### Screenshot 1 — Terminal showing successful `terraform apply` output and `terraform output public_ips`
 
-Add your screenshot here.
+![screenshot](./screenshots/ass2-screen1.png)
 
 ---
 
 #### Screenshot 2 — Azure Portal showing all four running Ubuntu VMs
 
-Add your screenshot here.
+![screenshot](./screenshots/ass2-screen2.png)
 
 ---
 
 #### Screenshot 3 — Network Security Group inbound rules showing SSH 22 and HTTP 80
 
-Add your screenshot here.
+![screenshot](./screenshots/ass2-screen3.png)
 
 ---
 
@@ -46,7 +46,7 @@ Connect to each of the four VMs as `azureuser` and run `hostname` remotely witho
 
 #### Screenshot 4 — Terminal showing successful `hostname` output from all four passwordless SSH tests
 
-Add your screenshot here.
+![screenshot](./screenshots/ass2-screen4.png)
 
 ---
 
@@ -60,7 +60,7 @@ Create `inventory.ini` mapping VM indices 0–1 to `[web]`, index 2 to `[app]`, 
 
 #### Screenshot 5 — Editor or terminal showing `inventory.ini` with the web, app, db, and all:vars sections
 
-Add your screenshot here.
+![screenshot](./screenshots/ass2-screen5.png)
 
 ---
 
@@ -74,25 +74,25 @@ Run `ping`, `whoami`, and `uptime` against all hosts; install and start Nginx on
 
 #### Screenshot 6 — Terminal showing `ansible ping` SUCCESS for all four hosts
 
-Add your screenshot here.
+![screenshot](./screenshots/ass2-screen6.png)
 
 ---
 
 #### Screenshot 7 — Terminal showing `uptime` output for all four hosts
 
-Add your screenshot here.
+![screenshot](./screenshots/ass2-screen7.png)
 
 ---
 
 #### Screenshot 8 — Terminal showing Nginx installation and service start on the web group
 
-Add your screenshot here.
+![screenshot](./screenshots/ass2-screen8.png)
 
 ---
 
 #### Screenshot 9 — Terminal showing `htop` installation on all hosts and group-targeted command output
 
-Add your screenshot here.
+![screenshot](./screenshots/ass2-screen9.png)
 
 ---
 
@@ -114,12 +114,12 @@ Write your answer here.
 
 # Completion Checklist
 
-- [ ] Task 1: Four Azure VMs provisioned with Terraform (Screenshots 1–3)
-- [ ] Task 2: Passwordless SSH verified on all four VMs (Screenshot 4)
-- [ ] Task 3: `inventory.ini` created with web/app/db groups (Screenshot 5)
-- [ ] Task 4: Ad-hoc ping, uptime, Nginx, and htop commands run successfully (Screenshots 6–9)
-- [ ] Reflection notes written (Notes)
-- [ ] No private key material exposed
+- [x] Task 1: Four Azure VMs provisioned with Terraform (Screenshots 1–3)
+- [x] Task 2: Passwordless SSH verified on all four VMs (Screenshot 4)
+- [x] Task 3: `inventory.ini` created with web/app/db groups (Screenshot 5)
+- [x] Task 4: Ad-hoc ping, uptime, Nginx, and htop commands run successfully (Screenshots 6–9)
+- [x] Reflection notes written (Notes)
+- [x] No private key material exposed
 
 ---
 
