@@ -24,19 +24,25 @@ This project will use the Git repository and Ansible controller prepared in Assi
 
 #### Screenshot 1 — Terminal showing the complete `ansible-adhoc-lab` project structure
 
-Add your screenshot here.
+![screenshot](./screenshots/ass2-screen1.png)
 
 ---
 
 #### Screenshot 2 — Terminal showing `git status --short` with the new project files and updated `.gitignore`
 
-Add your screenshot here.
+![screenshot](./screenshots/ass2-screen2.png)
 
 ---
 
 ### Notes
 
-Add your task notes here.
+Do not run git init inside ansible-adhoc-lab.
+
+The existing Git repository from Assignment 01 will track this project.
+
+Do not store cloud credentials or SSH private keys inside the project directory.
+
+Do not commit Terraform state files because they may contain sensitive infrastructure information.
 
 ---
 
@@ -57,25 +63,39 @@ Do not configure both providers for this assignment.
 
 #### Screenshot 3 — Terraform configuration showing the three or four server roles and the `for_each` or `count` implementation
 
-Add your screenshot here.
+![screenshot](./screenshots/ass2-screen3.png)
 
 ---
 
 #### Screenshot 4 — Terraform configuration showing SSH restricted to the controller IP and HTTP allowed only for web hosts
 
-Add your screenshot here.
+![screenshot](./screenshots/ass2-screen4.png)
 
 ---
 
 #### Screenshot 5 — Terraform output configuration showing how public IP addresses are associated with the server roles
 
-Add your screenshot here.
+![screenshot](./screenshots/ass2-screen5.png)
 
 ---
 
 ### Notes
 
-Add your task notes here.
+Create the Terraform configuration yourself using the task requirements and official documentation.
+
+The recommended file structure is not mandatory.
+
+The variable name vm_roles is not mandatory.
+
+Use the fixed cloud-resource names provided in this task.
+
+Do not include cloud credentials or private keys.
+
+Do not use 0.0.0.0/0 for SSH.
+
+Select a suitable VM size or instance type for your account and region.
+
+Do not run terraform apply in this task.
 
 ---
 
@@ -89,25 +109,33 @@ Initialize and validate the Terraform configuration, review the execution plan, 
 
 #### Screenshot 6 — Final `terraform apply` output showing `Apply complete`
 
-Add your screenshot here.
+![screenshot](./screenshots/ass2-screen6a.png)
 
 ---
 
 #### Screenshot 7 — `terraform output public_ips` showing the role-to-IP mapping for all three or four VMs
 
-Add your screenshot here.
+![screenshot](./screenshots/ass2-screen7.png)
 
 ---
 
 #### Screenshot 8 — Azure Portal or AWS Management Console showing all three or four VMs in the `Running` state, with their role-based names visible
 
-Add your screenshot here.
+![screenshot](./screenshots/ass2-screen8a.png)
 
 ---
 
 ### Notes
 
-Add your task notes here.
+Public IP addresses are not passwords, but you may partially redact them in public submission documents.
+
+Never submit Terraform state-file contents.
+
+Do not manually rename or recreate Terraform-managed resources in the cloud portal.
+
+If provisioning fails because of quota or regional capacity, choose another suitable size, region, or the three-VM option and run Terraform again.
+
+Keep the VMs running until all SSH and Ansible tasks are complete.
 
 ---
 
@@ -121,13 +149,23 @@ Verify that each managed VM can be accessed from the Ansible controller using SS
 
 #### Screenshot 9 — Terminal showing successful SSH hostname output from all VMs
 
-Add your screenshot here.
+![screenshot](./screenshots/ass2-screen9a.png)
 
 ---
 
 ### Notes
 
-Add your task notes here.
+For Azure, the SSH public key is usually configured with the Terraform admin_ssh_key block.
+
+For AWS, the SSH public key is usually configured through an EC2 key pair and attached to each instance.
+
+The first SSH connection to a new VM may ask for host fingerprint confirmation. Type yes to continue.
+
+If your SSH private key has a passphrase, your terminal may ask for that local key passphrase.
+
+A remote VM password prompt is not expected for this assignment.
+
+If SSH asks for a remote VM password, or returns Permission denied (publickey), check the SSH key, username, security rule, and public IP address.
 
 ---
 
@@ -143,19 +181,31 @@ The inventory allows Ansible to run commands against all servers, or only specif
 
 #### Screenshot 10 — `inventory.ini` showing the `web`, `app`, and `db` groups
 
-Add your screenshot here.
+![screenshot](./screenshots/ass2-screen10.png)
 
 ---
 
 #### Screenshot 11 — Output of `ansible-inventory -i inventory.ini --graph`
 
-Add your screenshot here.
+![screenshot](./screenshots/ass2-screen11.png)
 
 ---
 
 ### Notes
 
-Add your task notes here.
+Do not place your SSH private key inside the project folder.
+
+Do not commit Terraform state files, SSH private keys, or credentials to GitHub.
+
+ansible_ssh_private_key_file tells Ansible which private key to use when connecting to the VMs.
+
+ansible_host stores the VM public IP address.
+
+web1, web2, app1, and db1 are friendly host names used by Ansible.
+
+host_key_checking = False is used only for this temporary lab environment.
+
+In Ansible commands, -i inventory.ini means “use this inventory file.” It is different from the SSH -i option, which means “use this private key file.”
 
 ---
 
@@ -171,43 +221,55 @@ This task proves that the inventory is working and that Ansible can control mult
 
 #### Screenshot 12 — Output of `ansible all -i inventory.ini -m ping`
 
-Add your screenshot here.
+![screenshot](./screenshots/ass2-screen12.png)
 
 ---
 
 #### Screenshot 13 — Output of `ansible all -i inventory.ini -m command -a "uptime"`
 
-Add your screenshot here.
+![screenshot](./screenshots/ass2-screen13.png)
 
 ---
 
 #### Screenshot 14 — Output of `ansible web -i inventory.ini -m apt -a "name=nginx state=present update_cache=yes" --become`
 
-Add your screenshot here.
+![screenshot](./screenshots/ass2-screen14.png)
 
 ---
 
 #### Screenshot 15 — Output of `ansible web -i inventory.ini -m service -a "name=nginx state=started enabled=yes" --become`
 
-Add your screenshot here.
+![screenshot](./screenshots/ass2-screen15.png)
 
 ---
 
 #### Screenshot 16 — Output of `ansible all -i inventory.ini -m apt -a "name=htop state=present update_cache=yes" --become`
 
-Add your screenshot here.
+![screenshot](./screenshots/ass2-screen16.png)
 
 ---
 
 #### Screenshot 17 — Output of `ansible web -i inventory.ini -m command -a "systemctl is-active nginx"`
 
-Add your screenshot here.
+![screenshot](./screenshots/ass2-screen17.png)
 
 ---
 
 ### Notes
 
-Add your task notes here.
+Ad-hoc commands are useful for quick one-time actions.
+
+Use --become when the command needs administrative privileges.
+
+Package installation and service management require --become.
+
+The web group should contain:
+
+    web1 and web2 for the four-VM option
+
+    web1 only for the three-VM option
+
+The ping module is not an ICMP network ping. It checks whether Ansible can connect to the host and run Python successfully.
 
 ---
 
