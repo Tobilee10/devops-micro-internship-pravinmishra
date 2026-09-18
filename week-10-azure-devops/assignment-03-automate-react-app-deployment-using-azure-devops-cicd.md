@@ -147,11 +147,11 @@ Add your screenshot here.
 
 ## Final Application URL
 
-`http://<vm-public-ip>`
+`http://18.118.7.183/`
 
 Replace the placeholder and paste your final application URL below:
 
-[Paste your final application URL here.]
+[http://18.118.7.183/.]
 
 ---
 

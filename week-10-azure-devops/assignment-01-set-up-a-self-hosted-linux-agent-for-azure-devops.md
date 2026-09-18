@@ -60,6 +60,7 @@ Add a screenshot from AWS or Azure showing:
 
 Add your screenshot here.
 
+
 ---
 
 ### Screenshot 2 — Ubuntu, Architecture, and HTTPS Verification
@@ -166,6 +167,25 @@ Paste the contents of your completed `azure-pipelines.yml` file below.
 
 ```yaml
 # Paste your completed azure-pipelines.yml here
+trigger: none
+ 
+pool:
+  name: linux-hosted-agent
+ 
+steps:
+  - bash: |
+      echo "Submitted by: Oluwatobiloba Reuben Adeje"
+      echo "Agent name: $(Agent.Name)"
+      echo "Machine name: $(Agent.MachineName)"
+      echo "Operating system details:"
+      uname -a
+      echo "User executing the pipeline:"
+      whoami
+      echo "Disk usage:"
+      df -h
+      echo "Current working directory:"
+      pwd
+    displayName: Verify self-hosted Ubuntu agent
 ```
 
 > Do not include your PAT, SSH private key, password, or cloud credentials in the YAML file.

@@ -140,11 +140,11 @@ Add your screenshot here.
 
 ## Final Website URL
 
-`http://<target-vm-public-ip>`
+`http://18.118.7.183`
 
 Replace the placeholder with your actual website URL:
 
-[Paste your final website URL here]
+(http://18.118.7.183/)
 
 ---
 
