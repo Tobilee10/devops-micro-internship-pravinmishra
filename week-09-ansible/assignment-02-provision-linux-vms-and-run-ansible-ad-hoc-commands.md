@@ -281,13 +281,13 @@ The ping module is not an ICMP network ping. It checks whether Ansible can conne
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+`https://www.linkedin.com/posts/oluwatobiloba-adeje-2572b42a6_devops-aws-terraform-ugcPost-7507748923004858368-8kaJ/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEm6D2MBiHlTtqXxAdNL2_2Taiskof8w_Lw`
 
 ---
 
 #### Screenshot — Published LinkedIn post
 
-Add your screenshot here.
+![screenshot](./screenshots/ass2-post.png)
 
 ---
 
@@ -297,37 +297,56 @@ Answer the following in your own words:
 
 **1. What is the purpose of an Ansible inventory file?**
 
-Add your answer here.
+Ansible inventory file lists the servers and devices that Ansible manages.
+It contains the IP addresses or hostnames of the target machines.
+Hosts can be organized into groups, such as web servers or database servers.
+It can also define connection details like usernames and SSH settings.
 
 ---
 
 **2. What is the difference between the `web`, `app`, and `db` groups in your inventory?**
 
-Add your answer here.
+The web group contains servers that handle web requests and serve websites.
+The app group contains servers that run application logic and services.
+The db group contains servers that store and manage databases.
+Each group helps Ansible target specific types of servers.
 
 ---
 
 **3. What does the Ansible `ping` module verify?**
 
-Add your answer here.
+The Ansible ping module checks whether Ansible can successfully connect to a remote host.
+It verifies that the host is reachable and that Ansible can execute commands on it.
+It does not test network connectivity like the regular ping command.
+A successful result usually returns pong.
 
 ---
 
 **4. Why do package installation commands require `--become`?**
 
-Add your answer here.
+Package installation usually requires --become because it needs administrator (root) privileges.
+--become allows Ansible to run the task with elevated permissions.
+Installing or updating system packages normally requires these privileges.
+Without --become, the task may fail due to insufficient permissions.
 
 ---
 
 **5. When would you use an ad-hoc command instead of a playbook?**
 
-Add your answer here.
+We use an ad-hoc command for quick, one-time tasks on managed hosts.
+For example, checking connectivity, restarting a service, or installing a package.
+Use a playbook when you need multiple tasks or repeatable automation.
+Playbooks are better for complex, organized, and reusable configurations.
 
 ---
 
 **6. What is one challenge you faced while setting up SSH or inventory, and how did you fix it?**
 
-Add your answer here.
+The problem I encountered was that Ansible was unable to establish an SSH connection to the servers.
+This happened because I did not manually test the SSH connection when the servers were created.
+I fixed the issue by manually testing the SSH connection to each server.
+After confirming the SSH access and correcting the configuration, Ansible was able to connect successfully.
+
 
 ---
 
@@ -335,13 +354,13 @@ Add your answer here.
 
 Confirm that the following files are included in your assignment workspace:
 
-- [ ] `ansible-adhoc-lab/README.md`
-- [ ] `ansible-adhoc-lab/terraform/providers.tf`
-- [ ] `ansible-adhoc-lab/terraform/main.tf`
-- [ ] `ansible-adhoc-lab/terraform/variables.tf`
-- [ ] `ansible-adhoc-lab/terraform/outputs.tf`
-- [ ] `ansible-adhoc-lab/ansible/inventory.ini`
-- [ ] Updated `.gitignore`
+- [x] `ansible-adhoc-lab/README.md`
+- [x] `ansible-adhoc-lab/terraform/providers.tf`
+- [x] `ansible-adhoc-lab/terraform/main.tf`
+- [x] `ansible-adhoc-lab/terraform/variables.tf`
+- [x] `ansible-adhoc-lab/terraform/outputs.tf`
+- [x] `ansible-adhoc-lab/ansible/inventory.ini`
+- [x] Updated `.gitignore`
 
 ---
 

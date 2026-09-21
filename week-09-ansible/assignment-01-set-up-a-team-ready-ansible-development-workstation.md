@@ -170,13 +170,19 @@ Automated Pre-commit Code Quality Hooks: Implementing pre-commit hooks configure
 
 **3. Why should Ansible be installed inside a Python virtual environment?**
 
-Add your answer here.
+Ansible should be installed inside a Python virtual environment to keep its dependencies isolated.
+It prevents Ansible packages from conflicting with other Python projects on the system.
+It also allows you to use a specific Ansible and Python version for your project.
+This makes the setup more stable, reproducible, and easier to manage.
 
 ---
 
 **4. Why must SSH private keys and `.venv/` remain outside version control?**
 
-Add your answer here.
+SSH private keys must stay outside version control because they are sensitive credentials that could allow unauthorized access to servers.
+The .venv/ directory should also be excluded because it contains local Python packages and environment-specific files.
+Committing it can make the repository unnecessarily large and cause compatibility issues.
+Using .gitignore helps prevent both from being accidentally committed.
 
 ---
 
