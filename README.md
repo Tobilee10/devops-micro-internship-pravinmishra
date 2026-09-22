@@ -97,8 +97,8 @@ Week 08 → Terraform
 Week 09 → Ansible 
 [![Week 09 – Ansible](./badges/week-09.svg)](./week-09-ansible/) 
 
-<!-- Week 10 → Azure DevOps CI/CD -->
-<!-- [![Week 10 – CI/CD](./badges/week-10.svg)](./week-10-azure-devops/) -->
+ Week 10 → Azure DevOps CI/CD 
+[![Week 10 – CI/CD](./badges/week-10.svg)](./week-10-azure-devops/) 
 
 <!-- Week 11 → Docker -->
 <!-- [![Week 11 – Docker](./badges/week-11.svg)](./week-11-docker/) -->
@@ -139,8 +139,8 @@ Week 09 → Ansible
 | 06 | AWS Cloud | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/oluwatobiloba-adeje-2572b42a6_devops-aws-cloudcomputing-activity-7494000714311110656-QCCB?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEm6D2MBiHlTtqXxAdNL2_2Taiskof8w_Lw | https://dev.to/rubi_cloud/deployed-a-production-ready-three-tier-nodejs-application-on-aws-424g |
 | 07 | Azure Cloud | ✅ Completed | ✅ Completed | - | — |
 | 08 | Terraform | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/oluwatobiloba-adeje-2572b42a6_aws-terraform-devops-ugcPost-7501580589397860353-5k8J/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEm6D2MBiHlTtqXxAdNL2_2Taiskof8w_Lw | https://dev.to/rubi_cloud/engineering-a-secure-two-tier-aws-application-with-terraform-automated-ec2-provisioning-16ai |
-| 09 | Ansible | ⬜ Not Started | ⏳ Pending | — | — |
-| 10 | Azure DevOps (CI/CD) | ⬜ Not Started | ⏳ Pending | — | — |
+| 09 | Ansible | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/oluwatobiloba-adeje-2572b42a6_aws-terraform-ansible-ugcPost-7508122807386624000-7IUe/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEm6D2MBiHlTtqXxAdNL2_2Taiskof8w_Lw | — |
+| 10 | Azure DevOps (CI/CD) | ✅ Completed | ✅ Completed | — | — |
 | 11 | Docker | ⬜ Not Started | ⏳ Pending | — | — |
 | 12 | Kubernetes | ⬜ Not Started | ⏳ Pending | — | — |
 | 13 | Final Project | ⬜ Not Started | ⏳ Pending | — | — |
