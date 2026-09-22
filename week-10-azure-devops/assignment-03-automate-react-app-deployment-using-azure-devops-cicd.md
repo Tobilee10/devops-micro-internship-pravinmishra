@@ -37,7 +37,7 @@ Add a screenshot of Azure Repos showing:
 * `main` branch
 * Project files
 
-Add your screenshot here.
+![screenshot](./screenshots/ass3-screen1.png)
 
 ---
 
@@ -81,7 +81,7 @@ Add a screenshot of the Azure Pipeline YAML open in the editor showing:
 * Publish stage
 * Deploy stage
 
-Add your screenshot here.
+![screenshot](./screenshots/ass3-screen2.png)
 
 > Do not expose passwords, private keys, tokens, or cloud credentials.
 
@@ -104,7 +104,7 @@ Add a screenshot of one Azure DevOps pipeline run showing all four stages succee
 * Publish
 * Deploy
 
-Add your screenshot here.
+![screenshot](./screenshots/ass3-screen3.png)
 
 ---
 
@@ -122,7 +122,7 @@ Add a screenshot of the pipeline SSH verification log or VM terminal showing the
 
 `/var/www/html`
 
-Add your screenshot here.
+![screenshot](./screenshots/ass3-screen4.png)
 
 ---
 
@@ -143,7 +143,7 @@ Add a browser screenshot showing:
 * Your Full Name
 * Deployment date
 
-Add your screenshot here.
+![screenshot](./screenshots/ass3-screen5.png)
 
 ## Final Application URL
 
@@ -159,7 +159,10 @@ Replace the placeholder and paste your final application URL below:
 
 Write a short explanation of the CI/CD workflow you created.
 
-[Write your summary here.]
+[The CI/CD workflow I created uses **Azure DevOps YAML multi-stage pipelines** to automate the delivery of a React application. Code changes are built and tested on a **self-hosted Ubuntu agent**, packaged as pipeline artifacts, and then securely deployed over **SSH** to an **Nginx web server running on AWS EC2**.
+
+**Ansible** was used to automate server configuration, while resource controls, swap space, and network security rules helped improve pipeline reliability and security.
+]
 
 ---
 
@@ -174,11 +177,11 @@ Add a screenshot of your LinkedIn post showing:
 * Post text
 * At least one image or link
 
-Add your screenshot here.
+![screenshot](./screenshots/ass3-post.png)
 
 ## LinkedIn Post URL
 
-[Paste your public LinkedIn post URL here.]
+[https://www.linkedin.com/posts/oluwatobiloba-adeje-2572b42a6_devops-azuredevops-ansible-ugcPost-7508172670052667392-Pdsw/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEm6D2MBiHlTtqXxAdNL2_2Taiskof8w_Lw]
 
 > Do not expose VM passwords, tokens, private keys, cloud credentials, or other sensitive information.
 
