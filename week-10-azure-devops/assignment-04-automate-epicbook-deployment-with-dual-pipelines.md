@@ -172,15 +172,15 @@ Add your screenshot here.
 
 ## Frontend Application URL
 
-[Paste your final EpicBook application URL here.]
+[http://18.227.26.149/]
 
 ## Infrastructure Repository URL
 
-[Paste your Infrastructure Repository URL here.]
+[https://github.com/Tobilee10/epicbook-infra.git]
 
 ## Application Repository URL
 
-[Paste your Application Repository URL here.]
+[https://github.com/Tobilee10/epicbook-app.git]
 
 ---
 
@@ -188,7 +188,10 @@ Add your screenshot here.
 
 Write a short explanation of why separate Infrastructure and Application Repositories were used.
 
-[Write your explanation here.]
+[Separate Infrastructure and Application repositories were used to deploy the EpicBook application to maintain a clear separation between application code and infrastructure configuration. The Application Repository contains the source code, application dependencies, and build configuration, while the Infrastructure Repository contains the deployment infrastructure, environment configurations, and infrastructure-as-code definitions.
+
+Separate pipelines were also implemented to allow each repository to have an independent deployment process. The Application pipeline focuses on building, testing, and packaging the EpicBook application, while the Infrastructure pipeline manages the provisioning and updating of the underlying infrastructure. This separation improves security, maintainability, change control, and deployment flexibility, while reducing the risk of infrastructure changes unintentionally affecting the application.
+.]
 
 ---
 
@@ -201,7 +204,8 @@ Write a short explanation of how the following non-sensitive Terraform outputs w
 * `backend_private_ip`
 * `mysql_fqdn`
 
-[Write your explanation here.]
+[The Terraform outputs were exported from the Infrastructure Repository and securely passed to the Application Repository as pipeline variables
+]
 
 ---
 

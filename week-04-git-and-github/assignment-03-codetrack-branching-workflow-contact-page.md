@@ -150,7 +150,7 @@ Display the repository history as a graph and locate both feature commits.
 
 ---
 
-# Task 8 — Optional Cleanup (Delete the Feature Branch)
+# Task 8 — Cleanup (Delete the Feature Branch)
 
 ## Goal
 
@@ -158,7 +158,23 @@ Delete the merged `feature/contact-page` branch to keep your branch list clean.
 
 ### Evidence
 
-#### Screenshot 15 (Optional) — Output showing `feature/contact-page` deleted and no longer listed
+#### Screenshot 15 — Output showing `feature/contact-page` deleted and no longer listed
+
+Add your screenshot here.
+
+---
+
+# LinkedIn Post (Required)
+
+## Evidence
+
+#### LinkedIn Post URL
+
+Paste your LinkedIn post URL here:
+
+Add your URL here...
+
+#### Screenshot 16 — LinkedIn post published with the Git branching workflow summary
 
 ![screenshot](./screenshots/ass-3-tk8-screen-15.png)
 
@@ -166,7 +182,7 @@ Delete the merged `feature/contact-page` branch to keep your branch list clean.
 
 # Submission Instructions
 
-- Tasks 1–7 are required; Task 8 is optional
+- Tasks 1–8 is completed.
 - Add all required screenshots in your submission
 - Evidence must show `contact.html` and the homepage link were absent before merging, and working after merging
 - Do not expose passwords, access tokens, or private keys

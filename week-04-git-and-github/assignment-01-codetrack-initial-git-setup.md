@@ -66,6 +66,20 @@ Set a global Git username and email for this machine using `git config --global`
 
 ---
 
+# Task 4 — Share Your Git Setup Progress
+
+## Goal
+
+Share your Git setup progress on WhatsApp Status, including your generated DMI leaderboard progress link.
+
+### Evidence
+
+#### Screenshot 5 — Published WhatsApp Status showing your Git setup message and leaderboard progress link
+
+Add your screenshot here.
+
+---
+
 # Submission Instructions
 
 - Add all required screenshots in your submission

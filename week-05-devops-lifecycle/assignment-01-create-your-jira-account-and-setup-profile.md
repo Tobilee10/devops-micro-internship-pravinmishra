@@ -82,6 +82,20 @@ Locate the project list and open a project's Board or Backlog, and view Project 
 
 ---
 
+# Task 5 — Share Your Jira Setup Progress on WhatsApp Status
+
+## Goal
+
+Share your Jira setup progress on WhatsApp Status, including your generated DMI leaderboard progress link.
+
+### Evidence
+
+#### Screenshot 6 — Published WhatsApp Status showing your Jira setup message and generated DMI leaderboard progress link
+
+Add your screenshot here.
+
+---
+
 # Submission Instructions
 
 - Add all five required screenshots, unless separate email verification was not required
