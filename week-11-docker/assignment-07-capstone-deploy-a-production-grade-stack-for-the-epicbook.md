@@ -22,7 +22,7 @@ Review the EpicBook repository and design the intended application architecture.
 
 Add a terminal screenshot showing the EpicBook project structure after cloning the repository.
 
-Add your screenshot here.
+![screenshot](./screenshots/ass7-screen1.png)
 
 ---
 
@@ -41,7 +41,7 @@ Add a screenshot of your architecture diagram showing:
 
 Add your full name inside the diagram or as a clear caption below it.
 
-Add your screenshot here.
+![screenshot](./screenshots/ass7-screen2.png)
 
 ---
 
@@ -55,7 +55,7 @@ docs/02-env-and-ports.md
 
 It must document environment-variable names, internal ports, persistent-data details, and the health-check method. Do not expose real credentials or values.
 
-Add your screenshot here.
+![screenshot](./screenshots/ass7-screen3.png)
 
 ---
 
@@ -77,7 +77,7 @@ Add a screenshot showing `backend/Dockerfile`, including:
 - Internal backend port
 - Non-root user configuration
 
-Add your screenshot here.
+![screenshot](./screenshots/ass7-screen4.png)
 
 ---
 
@@ -88,7 +88,7 @@ Add a screenshot showing `frontend/Dockerfile`, including:
 - Nginx runtime image
 - Static frontend files copied to the Nginx web root
 
-Add your screenshot here.
+![screenshot](./screenshots/ass7-screen5.png)
 
 ---
 
@@ -101,7 +101,7 @@ backend/.dockerignore
 frontend/.dockerignore
 ```
 
-Add your screenshot here.
+![screenshot](./screenshots/ass7-screen6.png)
 
 ---
 
@@ -115,15 +115,14 @@ Add a terminal screenshot showing successful builds of:
 
 The screenshot must also show the baseline and optimized backend image-size comparison.
 
-Add your screenshot here.
-
+![screenshot](./screenshots/ass7-screen7.png)
 ---
 
 #### Screenshot 8 — Backend Running as Non-Root User
 
 Add a terminal screenshot showing the optimized backend container running as a non-root user.
 
-Add your screenshot here.
+![screenshot](./screenshots/ass7-screen8.png)
 
 ---
 
@@ -136,7 +135,11 @@ Write a short note covering:
 - One Docker layer-caching optimization used
 - The security benefit of running the backend as a non-root user
 
-Write your note here.
+The baseline backend image (epicbook-backend:single) was 1.68 GB, while the optimized image (epicbook-backend:1.0) was reduced to 238 MB, achieving a reduction of approximately 85.8% or 1.44 GB.
+
+One Docker layer-caching optimization used was to copy package.json and package-lock.json and install dependencies before copying the application source code. This allows Docker to reuse the dependency layer when only source code changes.
+
+The backend is also configured to run as a non-root user. This improves security by limiting the privileges available to a compromised application and reducing the potential impact of container-level attacks.
 
 ---
 
@@ -159,7 +162,7 @@ backend
 database
 ```
 
-Add your screenshot here.
+![screenshot](./screenshots/ass7-screen9.png)
 
 ---
 
@@ -171,7 +174,7 @@ Add a screenshot showing:
 - `back-tier` network
 - `db_data` named volume
 
-Add your screenshot here.
+![screenshot](./screenshots/ass7-screen10.png)
 
 ---
 
@@ -179,7 +182,7 @@ Add your screenshot here.
 
 Add a terminal screenshot showing successful Docker Compose validation without exposing environment-variable values or secrets.
 
-Add your screenshot here.
+![screenshot](./screenshots/ass7-screen11.png)
 
 ---
 
@@ -195,7 +198,7 @@ Configure health checks and ensure services start only after their dependencies 
 
 Add a screenshot showing the backend application configuration for the `/health` endpoint.
 
-Add your screenshot here.
+![screenshot](./screenshots/ass7-screen12.png)
 
 ---
 
@@ -203,7 +206,7 @@ Add your screenshot here.
 
 Add a screenshot showing `docker-compose.yml` with health checks for MySQL and the backend.
 
-Add your screenshot here.
+![screenshot](./screenshots/ass7-screen13.png)
 
 ---
 
@@ -215,7 +218,7 @@ Add a screenshot showing:
 - Reverse-proxy health check
 - `depends_on` conditions using `service_healthy`
 
-Add your screenshot here.
+![screenshot](./screenshots/ass7-screen14.png)
 
 ---
 
@@ -223,7 +226,7 @@ Add your screenshot here.
 
 Add a terminal screenshot showing Docker Compose service status. The database, backend, frontend, and reverse proxy must be running successfully.
 
-Add your screenshot here.
+![screenshot](./screenshots/ass7-screen15.png)
 
 ---
 
@@ -231,7 +234,7 @@ Add your screenshot here.
 
 Add a terminal screenshot showing a successful response from the public application health endpoint through the reverse proxy.
 
-Add your screenshot here.
+![screenshot](./screenshots/ass7-screen16.png)
 
 ---
 
@@ -245,7 +248,7 @@ docs/03-healthchecks-and-depends-on.md
 
 Explain the health-check method for each service and the startup dependency order.
 
-Add your screenshot here.
+![screenshot](./screenshots/ass7-screen17.png)
 
 ---
 
@@ -268,7 +271,7 @@ It must show routes for:
 - API requests
 - Health endpoint
 
-Add your screenshot here.
+![screenshot](./screenshots/ass7-screen18.png)
 
 ---
 
@@ -276,7 +279,7 @@ Add your screenshot here.
 
 Add a screenshot of `docker-compose.yml` showing that only the `reverse-proxy` service publishes port 80.
 
-Add your screenshot here.
+![screenshot](./screenshots/ass7-screen19.png)
 
 ---
 
@@ -289,7 +292,7 @@ Add a terminal screenshot showing successful requests through the selected rever
 - One static asset
 - Health endpoint
 
-Add your screenshot here.
+![screenshot](./screenshots/ass7-screen20.png)
 
 ---
 
@@ -299,7 +302,7 @@ Add a browser screenshot showing the EpicBook application loaded through the VM 
 
 Add your full name as a clear caption below the screenshot.
 
-Add your screenshot here.
+![screenshot](./screenshots/ass7-screen21.png)
 
 ---
 
@@ -313,7 +316,7 @@ docs/04-proxy-routing-and-cors.md
 
 Explain the proxy routes and state whether CORS was required and why.
 
-Add your screenshot here.
+![screenshot](./screenshots/ass7-screen22.png)
 
 ---
 
@@ -329,7 +332,7 @@ Verify MySQL persistence and perform a controlled backup and restore drill.
 
 Add a terminal screenshot showing the `db_data` named volume and its MySQL mount configuration.
 
-Add your screenshot here.
+![screenshot](./screenshots/ass7-screen23.png)
 
 ---
 
@@ -337,7 +340,7 @@ Add your screenshot here.
 
 Add a terminal screenshot showing the selected test data before the backup and restore drill.
 
-Add your screenshot here.
+![screenshot](./screenshots/ass7-screen24.png)
 
 ---
 
@@ -345,7 +348,7 @@ Add your screenshot here.
 
 Add a terminal screenshot showing successful backup creation and the backup file stored in the host backup directory.
 
-Add your screenshot here.
+![screenshot](./screenshots/ass7-screen25.png)
 
 ---
 
@@ -353,7 +356,7 @@ Add your screenshot here.
 
 Add a terminal screenshot showing that the selected test record was removed during the controlled data-loss test.
 
-Add your screenshot here.
+![screenshot](./screenshots/ass7-screen26.png)
 
 ---
 
@@ -361,7 +364,7 @@ Add your screenshot here.
 
 Add a terminal screenshot showing successful restore and verification that the deleted test record is available again.
 
-Add your screenshot here.
+![screenshot](./screenshots/ass7-screen27.png)
 
 ---
 
@@ -371,7 +374,7 @@ Add a terminal screenshot showing that database data remains available after a n
 
 Do not use `docker compose down -v`.
 
-Add your screenshot here.
+![screenshot](./screenshots/ass7-screen28.png)
 
 ---
 
@@ -385,7 +388,7 @@ docs/05-persistence-and-backup.md
 
 Include the backup plan and restore procedure.
 
-Add your screenshot here.
+![screenshot](./screenshots/ass7-screen29.png)
 
 ---
 
@@ -404,8 +407,8 @@ Add a screenshot showing:
 - Configuration for the selected reverse proxy
 - Proxy log format
 - Docker Compose host log-directory bind mount
-
-Add your screenshot here.
+ 
+![screenshot](./screenshots/ass7-screen30.png)
 
 ---
 
@@ -416,7 +419,7 @@ Add a terminal screenshot showing:
 - Selected reverse-proxy logs available from the host directory after a proxy restart
 - Backend logs displayed through Docker Compose
 
-Add your screenshot here.
+![screenshot](./screenshots/ass7-screen31.png)
 
 ---
 
@@ -450,7 +453,7 @@ Add a cloud-console screenshot showing:
 - SSH port 22 restricted to your IP address
 - HTTP port 80 allowed from Anywhere
 
-Add your screenshot here.
+![screenshot](./screenshots/ass7-screen32.png)
 
 ---
 
@@ -462,7 +465,7 @@ Add a VM terminal screenshot showing:
 - Successful public health or API response
 - No published database, frontend, or backend ports
 
-Add your screenshot here.
+![screenshot](./screenshots/ass7-screen33.png)
 
 ---
 
@@ -472,7 +475,7 @@ Add a browser screenshot showing the EpicBook application loaded through the VM 
 
 Add your full name as a clear caption below the screenshot.
 
-Add your screenshot here.
+![screenshot](./screenshots/ass7-screen34.png)
 
 ---
 
@@ -537,7 +540,7 @@ Add a terminal screenshot showing:
 - Backend restart
 - Successful health-check recovery
 
-Add your screenshot here.
+![screenshot](./screenshots/ass7-screen35.png)
 
 ---
 
@@ -550,7 +553,7 @@ Add a terminal screenshot showing:
 - Database restart
 - Successful application recovery
 
-Add your screenshot here.
+![screenshot](./screenshots/ass7-screen36.png)
 
 ---
 
@@ -608,28 +611,28 @@ Add a screenshot of the published LinkedIn post showing the text body and deploy
 
 # Submission Checklist
 
-- [ ] EpicBook repository reviewed and architecture diagram created
-- [ ] Environment variables, ports, persistence, and health-check details documented
-- [ ] Backend and frontend production Dockerfiles created
-- [ ] Backend runs as a non-root user
-- [ ] Docker image-size comparison completed
-- [ ] Docker Compose stack includes reverse proxy, frontend, backend, and database
-- [ ] `front-tier` and `back-tier` networks configured
-- [ ] `db_data` named volume configured
-- [ ] MySQL, backend, frontend, and reverse-proxy health checks configured
-- [ ] Startup dependencies use `service_healthy`
-- [ ] Nginx or Traefik selected as the only public reverse proxy
-- [ ] Only reverse-proxy port 80 is publicly published
-- [ ] Same-origin routing configured and CORS used only when required
-- [ ] Backup, restore, and persistence testing completed
-- [ ] Reverse-proxy and backend logs verified
-- [ ] Cloud VM deployment verified through the public IP
-- [ ] Backend and database reliability tests completed
-- [ ] Screenshots 1–36 included
-- [ ] Required notes completed
-- [ ] LinkedIn post URL and screenshot included
-- [ ] Full name visible in required screenshots or captions
-- [ ] No passwords, tokens, private keys, account IDs, or other sensitive information exposed
+- [x] EpicBook repository reviewed and architecture diagram created
+- [x] Environment variables, ports, persistence, and health-check details documented
+- [x] Backend and frontend production Dockerfiles created
+- [x] Backend runs as a non-root user
+- [x] Docker image-size comparison completed
+- [x] Docker Compose stack includes reverse proxy, frontend, backend, and database
+- [x] `front-tier` and `back-tier` networks configured
+- [x] `db_data` named volume configured
+- [x] MySQL, backend, frontend, and reverse-proxy health checks configured
+- [x] Startup dependencies use `service_healthy`
+- [x] Nginx or Traefik selected as the only public reverse proxy
+- [x] Only reverse-proxy port 80 is publicly published
+- [x] Same-origin routing configured and CORS used only when required
+- [x] Backup, restore, and persistence testing completed
+- [x] Reverse-proxy and backend logs verified
+- [x] Cloud VM deployment verified through the public IP
+- [x] Backend and database reliability tests completed
+- [x] Screenshots 1–36 included
+- [x] Required notes completed
+- [x] LinkedIn post URL and screenshot included
+- [x] Full name visible in required screenshots or captions
+- [x] No passwords, tokens, private keys, account IDs, or other sensitive information exposed
 
 ---
 

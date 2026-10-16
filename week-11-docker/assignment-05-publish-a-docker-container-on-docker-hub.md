@@ -26,7 +26,7 @@ Add a screenshot of Docker Hub showing your newly created public repository:
 my-react-app
 ```
 
-Add your screenshot here.
+![screenshot](./screenshots/ass5-screen1.png)
 
 ---
 
@@ -40,7 +40,7 @@ Login Succeeded
 
 Ensure that your full name is visible and that no password, Personal Access Token, or device code is exposed.
 
-Add your screenshot here.
+![screenshot](./screenshots/ass5-screen2.png)
 
 ---
 
@@ -54,7 +54,7 @@ docker image ls <YOUR_DOCKERHUB_USERNAME>/my-react-app
 
 The output must show the `latest` tag.
 
-Add your screenshot here.
+![screenshot](./screenshots/ass5-screen3.png)
 
 ---
 
@@ -68,7 +68,7 @@ docker push <YOUR_DOCKERHUB_USERNAME>/my-react-app:latest
 
 The output must include a pushed status or image digest.
 
-Add your screenshot here.
+![screenshot](./screenshots/ass5-screen4.png)
 
 ---
 
@@ -76,7 +76,7 @@ Add your screenshot here.
 
 Add a screenshot of your Docker Hub repository showing the uploaded `latest` image tag.
 
-Add your screenshot here.
+![screenshot](./screenshots/ass5-screen5.png)
 
 ---
 
@@ -88,7 +88,7 @@ Add a screenshot of the terminal showing:
 - Successful `docker pull` output
 - `docker image ls` showing the pulled image
 
-Add your screenshot here.
+![screenshot](./screenshots/ass5-screen6.png)
 
 ---
 
@@ -106,7 +106,7 @@ The output must show the running `react-container` with:
 0.0.0.0:80->80/tcp
 ```
 
-Add your screenshot here.
+![screenshot](./screenshots/ass5-screen7.png)
 
 ---
 
@@ -115,12 +115,12 @@ Add your screenshot here.
 Add a browser screenshot showing the React application at:
 
 ```text
-http://<YOUR-VM-PUBLIC-IP>
+http://3.15.202.63
 ```
 
 Ensure that the VM public IP is visible in the address bar. Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+![screenshot](./screenshots/ass5-screen8.png)
 
 ---
 
@@ -187,22 +187,22 @@ Add a screenshot of the published LinkedIn post here.
 
 # Completion Checklist
 
-- [ ] Public `my-react-app` repository created
-- [ ] Docker login completed successfully
-- [ ] `react-multistage:latest` tagged correctly
-- [ ] Image pushed to Docker Hub
-- [ ] `latest` tag verified in Docker Hub
-- [ ] Targeted local image tags removed
-- [ ] Image pulled again from Docker Hub
-- [ ] Pulled image runs successfully
-- [ ] React application is accessible through the VM public IP
-- [ ] Docker Hub repository URL included
-- [ ] Registry and image-tagging notes completed
-- [ ] LinkedIn post URL and screenshot included
-- [ ] All required screenshots included
-- [ ] Full name visible in terminal screenshots
-- [ ] Browser screenshot has a full-name caption
-- [ ] No passwords, tokens, or credentials exposed
+- [x] Public `my-react-app` repository created
+- [x] Docker login completed successfully
+- [x] `react-multistage:latest` tagged correctly
+- [x] Image pushed to Docker Hub
+- [x] `latest` tag verified in Docker Hub
+- [x] Targeted local image tags removed
+- [x] Image pulled again from Docker Hub
+- [x] Pulled image runs successfully
+- [x] React application is accessible through the VM public IP
+- [x] Docker Hub repository URL included
+- [x] Registry and image-tagging notes completed
+- [x] LinkedIn post URL and screenshot included
+- [x] All required screenshots included
+- [x] Full name visible in terminal screenshots
+- [x] Browser screenshot has a full-name caption
+- [x] No passwords, tokens, or credentials exposed
 ---
 
 ## 📌 About DMI & CloudAdvisory

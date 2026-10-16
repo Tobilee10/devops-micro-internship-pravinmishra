@@ -75,11 +75,11 @@ Add your screenshot here.
 
 # Completion Checklist
 
-- [ ] Task 1: Lab directory created (Screenshot 1)
-- [ ] Task 2: Pod created imperatively, verified, and deleted (Screenshot 2)
-- [ ] Task 3: Pod created declaratively and verified Running (Screenshot 3)
-- [ ] Task 4: Pod inspected via describe/logs/exec (Screenshot 4)
-- [ ] Understood the difference between imperative and declarative methods
+- [x] Task 1: Lab directory created (Screenshot 1)
+- [x] Task 2: Pod created imperatively, verified, and deleted (Screenshot 2)
+- [x] Task 3: Pod created declaratively and verified Running (Screenshot 3)
+- [x] Task 4: Pod inspected via describe/logs/exec (Screenshot 4)
+- [x] Understood the difference between imperative and declarative methods
 
 ---
 

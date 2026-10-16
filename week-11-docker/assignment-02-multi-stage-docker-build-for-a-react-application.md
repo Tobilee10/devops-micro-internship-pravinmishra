@@ -30,7 +30,7 @@ cat .dockerignore
 
 The file must exclude `node_modules`, `build`, and `.env`.
 
-Add your screenshot here.
+![screenshot](./screenshots/ass2-screen1.png)
 
 ---
 
@@ -46,7 +46,7 @@ Create a baseline single-stage Docker image and run the application on port 3000
 
 Add a screenshot showing the completed `Dockerfile.single`.
 
-Add your screenshot here.
+![screenshot](./screenshots/ass2-screen2.png)
 
 ---
 
@@ -60,7 +60,7 @@ http://localhost:3000
 
 Ensure that your full name is visible in the application.
 
-Add your screenshot here.
+![screenshot](./screenshots/ass2-screen3.png)
 
 ---
 
@@ -76,7 +76,7 @@ Create an optimized multi-stage Docker image with separate builder and Nginx run
 
 Add a screenshot showing the completed multi-stage `Dockerfile`.
 
-Add your screenshot here.
+![screenshot](./screenshots/ass2-screen4.png)
 
 ---
 
@@ -90,7 +90,7 @@ http://localhost
 
 Ensure that your full name is visible in the application.
 
-Add your screenshot here.
+![screenshot](./screenshots/ass2-screen5.png)
 
 ---
 
@@ -117,7 +117,7 @@ react-single:latest
 react-multistage:latest
 ```
 
-Add your screenshot here.
+![screenshot](./screenshots/ass2-screen6.png)
 
 ---
 
@@ -126,15 +126,15 @@ Add your screenshot here.
 Record the image sizes and calculate the reduction using the same unit for both images.
 
 ```text
-Single-stage image size: Add size here
+Single-stage image size: 152MB
 
-Multi-stage image size: Add size here
+Multi-stage image size: 26.6MB
 
 Percentage reduction =
-((Single-stage image size − Multi-stage image size)
-÷ Single-stage image size) × 100
+((152 − 26.6)
+÷ 152) × 100
 
-Percentage reduction: Add result here
+Percentage reduction: 82.5
 ```
 
 ---
@@ -156,7 +156,14 @@ Write a short analysis of 5–8 lines covering:
 - How smaller images improve image pull and deployment speed
 - One Docker build-caching optimization you used
 
-Write your analysis here.
+The single-stage Docker image is **152 MB**, while the multi-stage image is only **26.6 MB**.
+This represents an **82.5% reduction** in image size, significantly reducing unnecessary files and dependencies.
+The smaller runtime image improves security by excluding build tools and other components not required to run the application.
+It also reduces the attack surface because there are fewer packages and binaries that could contain vulnerabilities.
+Smaller images can be pulled from registries and deployed to servers or containers more quickly.
+This improves deployment speed and reduces network bandwidth and storage requirements.
+One Docker build-caching optimization used was **copying dependency files and installing dependencies before copying the rest of the source code**, allowing unchanged dependency layers to be reused.
+
 
 ---
 
@@ -175,7 +182,7 @@ You may choose to:
 - Experiment with a lighter runtime image
 - Compare the resulting image size with your original multi-stage image
 
-Screenshots are optional.
+![screenshot](./screenshots/ass2-screen7.png)
 
 ---
 
@@ -214,18 +221,18 @@ Add a screenshot of the published LinkedIn post here.
 
 # Completion Checklist
 
-- [ ] Assignment completed locally
-- [ ] `.dockerignore` created and verified (Screenshot 1)
-- [ ] `Dockerfile.single` created (Screenshot 2)
-- [ ] Single-stage container verified in the browser (Screenshot 3)
-- [ ] Multi-stage `Dockerfile` created (Screenshot 4)
-- [ ] Multi-stage container verified in the browser (Screenshot 5)
-- [ ] Both Docker image sizes captured (Screenshot 6)
-- [ ] Percentage reduction calculated
-- [ ] Optimization analysis completed
-- [ ] LinkedIn post URL and screenshot included
-- [ ] Full name visible in all required screenshots
-- [ ] No sensitive information exposed
+- [x] Assignment completed locally
+- [x] `.dockerignore` created and verified (Screenshot 1)
+- [x] `Dockerfile.single` created (Screenshot 2)
+- [x] Single-stage container verified in the browser (Screenshot 3)
+- [x] Multi-stage `Dockerfile` created (Screenshot 4)
+- [x] Multi-stage container verified in the browser (Screenshot 5)
+- [x] Both Docker image sizes captured (Screenshot 6)
+- [x] Percentage reduction calculated
+- [x] Optimization analysis completed
+- [x] LinkedIn post URL and screenshot included
+- [x] Full name visible in all required screenshots
+- [x] No sensitive information exposed
 
 ---
 
