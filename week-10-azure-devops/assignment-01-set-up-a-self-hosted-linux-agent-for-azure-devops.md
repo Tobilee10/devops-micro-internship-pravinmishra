@@ -196,7 +196,7 @@ steps:
 
 Write a short summary of what you configured.
 
-[Write your summary here.]
+[ Configured a self-hosted agent for Azure Pipelines to execute pipeline jobs on a personally managed machine. This provides greater control over the build environment, installed dependencies, and system resources while enabling the agent to run CI/CD tasks for building, testing, and deploying applications.]
 
 ---
 

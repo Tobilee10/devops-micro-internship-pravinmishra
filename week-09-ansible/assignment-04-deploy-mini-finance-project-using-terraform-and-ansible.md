@@ -28,7 +28,21 @@ Create separate directories and files for the Terraform infrastructure and Ansib
 
 ### Notes
 
-Add your task notes here.
+- Navigate to the existing ansible-onboarding directory.
+
+- Create the main mini-finance project directory.
+
+- Create separate terraform and ansible directories.
+
+- Create the required Terraform files.
+
+- Create the required Ansible files.
+
+- Create the project README.md.
+
+- Create a .gitignore file.
+
+- Verify the completed project structure.
 
 ---
 
@@ -54,7 +68,19 @@ Use Terraform to provision an Ubuntu Virtual Machine with the required Azure net
 
 ### Notes
 
-Add your task notes here.
+- Navigate to the terraform directory.
+
+- Configure the AzureRM provider.
+
+- Create the required Azure infrastructure using the fixed resource names.
+
+- Configure secure SSH and public HTTP access.
+
+- Configure SSH key authentication for the VM.
+
+- Create a Terraform output for the VM’s public IP address.
+
+- Save all Terraform files.
 
 ---
 
@@ -80,7 +106,19 @@ Format and validate the Terraform configuration, review the execution plan, and 
 
 ### Notes
 
-Add your task notes here.
+- Navigate to the terraform directory.
+
+- Format the Terraform configuration.
+
+- Initialize the Terraform working directory.
+
+- Validate the configuration.
+
+- Review the Terraform execution plan.
+
+- Apply the configuration.
+
+- Display the VM’s public IP address.
 
 ---
 
@@ -100,7 +138,15 @@ Confirm that the Ansible controller can connect to the Terraform-provisioned Azu
 
 ### Notes
 
-Add your task notes here.
+Review the Terraform plan before entering yes.
+
+Do not continue if the plan contains unexpected resource deletions or replacements.
+
+If the selected VM size is unavailable, update the VM size to another suitable option available under your Azure subscription or free-tier offer, then run the Terraform commands again.
+
+Keep the Azure VM running until all Ansible deployment and verification tasks are complete.
+
+Do not share Terraform state files in your submission or GitHub repository.
 
 ---
 
@@ -297,7 +343,13 @@ Validate the syntax of the multi-play Ansible playbook and run it to install Ngi
 
 ### Notes
 
-Add your task notes here.
+Run the commands from the ansible directory.
+
+Ensure the Azure VM is running before executing the playbook.
+
+Do not continue if the syntax check reports an error.
+
+If a task fails, read the error message, correct the relevant configuration, and run the playbook again.
 
 ---
 
