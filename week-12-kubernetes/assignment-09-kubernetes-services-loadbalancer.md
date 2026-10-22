@@ -20,7 +20,7 @@ Create a small AKS cluster for this lab, or connect to an existing approved AKS 
 
 #### Screenshot 1 — Output of `kubectl get nodes` showing ready AKS node(s)
 
-Add your screenshot here.
+![screenshot](./screenshots/ass9-screen1.png)
 
 ### Notes
 
@@ -48,7 +48,7 @@ Create and enter a dedicated directory for the LoadBalancer Service manifests.
 
 #### Screenshot 2 — Terminal showing the output of `pwd` confirming that you are working inside `~/k8s-labs/services/loadbalancer`
 
-Add your screenshot here.
+![screenshot](./screenshots/ass9-screen2.png)
 
 ### Notes
 
@@ -72,13 +72,13 @@ Create a healthy NGINX Deployment with readiness and liveness probes.
 
 #### Screenshot 3 — Completed `00-nginx-deploy.yaml` manifest
 
-Add your screenshot here.
+![screenshot](./screenshots/ass9-screen3.png)
 
 ---
 
 #### Screenshot 4 — Output showing successful rollout and two ready NGINX Pods
 
-Add your screenshot here.
+![screenshot](./screenshots/ass9-screen4.png)
 
 ### Notes
 
@@ -106,19 +106,19 @@ Create a public LoadBalancer Service and verify that the NGINX application is re
 
 #### Screenshot 5 — Completed `01-nginx-svc-loadbalancer.yaml` manifest
 
-Add your screenshot here.
+![screenshot](./screenshots/ass9-screen5.png)
 
 ---
 
 #### Screenshot 6 — Output showing the Service with an assigned EXTERNAL-IP
 
-Add your screenshot here.
+![screenshot](./screenshots/ass9-screen6.png)
 
 ---
 
 #### Screenshot 7 — Successful curl output from the public IP
 
-Add your screenshot here.
+![screenshot](./screenshots/ass9-screen7.png)
 
 ### Notes
 
@@ -150,25 +150,25 @@ Intentionally break readiness and observe how Kubernetes excludes unready Pods f
 
 #### Screenshot 8 — Completed `02-readiness-broken.yaml` patch file
 
-Add your screenshot here.
+![screenshot](./screenshots/ass9-screen8.png)
 
 ---
 
 #### Screenshot 9 — Output showing the expected incomplete rollout or readiness failure
 
-Add your screenshot here.
+![screenshot](./screenshots/ass9-screen9.png)
 
 ---
 
 #### Screenshot 10 — EndpointSlice output showing ready healthy backends and the effect of the readiness failure
 
-Add your screenshot here.
+![screenshot](./screenshots/ass9-screen10.png)
 
 ---
 
 #### Screenshot 11 — Successful public curl response after recovery
 
-Add your screenshot here.
+![screenshot](./screenshots/ass9-screen11.png)
 
 ### Notes
 
@@ -200,13 +200,13 @@ Scale the NGINX Deployment and confirm that more ready Pods become available beh
 
 #### Screenshot 12 — Two ready NGINX Pods verified initially; four ready Pods verified after scaling
 
-Add your screenshot here.
+![screenshot](./screenshots/ass9-screen12.png)
 
 ---
 
 #### Screenshot 13 — Successful public curl response after scaling
 
-Add your screenshot here.
+![screenshot](./screenshots/ass9-screen13.png)
 
 ### Notes
 
