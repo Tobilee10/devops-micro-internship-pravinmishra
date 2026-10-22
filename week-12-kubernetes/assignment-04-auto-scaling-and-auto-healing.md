@@ -34,7 +34,7 @@ Create and enter a dedicated directory for the auto-scaling lab.
 
 #### Screenshot 1 — Terminal showing that you are working inside `~/k8s-labs/autoscaling`
 
-Add your screenshot here.
+![screenshot](./screenshots/ass4-screen1.png)
 
 ---
 
@@ -42,13 +42,13 @@ Add your screenshot here.
 
 **1. What is the difference between auto-healing and auto-scaling?**
 
-Add your answer here.
+Auto-healing automatically detects and replaces or restarts unhealthy Pods to maintain application availability. Auto-scaling automatically increases or decreases the number of Pods based on workload demand. Auto-healing is triggered by failures or health checks, whereas auto-scaling is triggered by resource utilization or other metrics.
 
 ---
 
 **2. Which Kubernetes feature will you use for CPU-based auto-scaling?**
 
-Add your answer here.
+Kubernetes uses the Horizontal Pod Autoscaler (HPA) for CPU-based auto-scaling. HPA automatically increases or decreases the number of Pod replicas based on CPU utilization. When CPU utilization exceeds the configured target, HPA can increase the number of Pods to handle the workload. When CPU utilization decreases, HPA can reduce the number of Pods. HPA typically requires the Metrics Server and configured CPU resource requests to monitor CPU utilization.
 
 ---
 
@@ -62,25 +62,25 @@ Create a Deployment with two replicas, delete one Pod, and observe Kubernetes cr
 
 #### Screenshot 2 — Completed `autohealing-deployment.yaml` manifest
 
-Add your screenshot here.
+![screenshot](./screenshots/ass4-screen2.png)
 
 ---
 
 #### Screenshot 3 — Output of `kubectl get pods` showing two running Pods before deletion
 
-Add your screenshot here.
+![screenshot](./screenshots/ass4-screen3.png)
 
 ---
 
 #### Screenshot 4 — Output of the `kubectl delete pod` command
 
-Add your screenshot here.
+![screenshot](./screenshots/ass4-screen4.png)
 
 ---
 
 #### Screenshot 5 — Output of `kubectl get pods` showing the replacement Pod and two running Pods
 
-Add your screenshot here.
+![screenshot](./screenshots/ass4-screen4.png)
 
 ---
 
@@ -88,19 +88,19 @@ Add your screenshot here.
 
 **1. What happened after you deleted one Pod?**
 
-Add your answer here.
+After I deleted one Pod, Kubernetes automatically created a new Pod to maintain the desired number of replicas.
 
 ---
 
 **2. What Kubernetes resource maintains the desired replica count for this Deployment?**
 
-Add your answer here.
+The ReplicaSet maintains the desired replica count for the Deployment by ensuring that the required number of Pods are running.
 
 ---
 
 **3. What proves that auto-healing worked?**
 
-Add your answer here.
+Auto-healing worked because Kubernetes automatically created a replacement Pod after the original Pod was deleted, maintaining the desired replica count.
 
 ---
 
@@ -114,13 +114,13 @@ Create a Deployment with CPU resource requests and limits so that HPA can calcul
 
 #### Screenshot 6 — Completed `hpa-deployment.yaml` manifest showing CPU requests and limits
 
-Add your screenshot here.
+![screenshot](./screenshots/ass4-screen6.png)
 
 ---
 
 #### Screenshot 7 — Output showing `nginx-deployment` and its running Pods
 
-Add your screenshot here.
+![screenshot](./screenshots/ass4-screen7.png)
 
 ---
 
@@ -128,19 +128,18 @@ Add your screenshot here.
 
 **1. What does `cpu: "100m"` mean?**
 
-Add your answer here.
-
+100m means 100 millicores, which is equal to 0.1 CPU core. It represents one-tenth of a CPU core.
 ---
 
 **2. What is the difference between a CPU request and a CPU limit?**
 
-Add your answer here.
+A CPU request specifies the amount of CPU resources Kubernetes reserves for a container when scheduling it. A CPU limit specifies the maximum CPU resources the container can use.
 
 ---
 
 **3. Why does CPU-based HPA require CPU requests?**
 
-Add your answer here.
+CPU-based HPA uses CPU requests to calculate CPU utilization as a percentage. Without CPU requests defined for the relevant containers, HPA cannot properly calculate CPU utilization and make scaling decisions based on that metric.
 
 ---
 
@@ -154,7 +153,7 @@ Ensure the cluster can collect resource metrics for the HPA.
 
 #### Screenshot 8 — Output showing Metrics Server running, or `kubectl top pods` displaying Pod metrics
 
-Add your screenshot here.
+![screenshot](./screenshots/ass4-screen8.png)
 
 ---
 
@@ -162,19 +161,19 @@ Add your screenshot here.
 
 **1. Why does HPA need Metrics Server?**
 
-Add your answer here.
+HPA needs Metrics Server to collect CPU and memory usage metrics from Kubernetes Pods and make scaling decisions based on resource utilization.
 
 ---
 
 **2. What issue can occur if Metrics Server is not working?**
 
-Add your answer here.
+If Metrics Server is not working, HPA may fail to retrieve CPU and memory metrics, preventing it from scaling Pods correctly based on resource utilization.
 
 ---
 
 **3. What does `kubectl top pods` help you check?**
 
-Add your answer here.
+The kubectl top pods command displays the current CPU and memory usage of Pods in a Kubernetes cluster, helping you monitor resource consumption.
 
 ---
 
@@ -188,13 +187,13 @@ Create an HPA that keeps at least two Pods running and can scale up to five Pods
 
 #### Screenshot 9 — The imperative command output OR completed `hpa-nginx.yaml` manifest
 
-Add your screenshot here.
+![screenshot](./screenshots/ass4-screen9.png)
 
 ---
 
 #### Screenshot 10 — Output of `kubectl get hpa` and the relevant `kubectl describe hpa` command
 
-Add your screenshot here.
+![screenshot](./screenshots/ass4-screen10.png)
 
 ---
 
@@ -202,25 +201,25 @@ Add your screenshot here.
 
 **1. What does `minReplicas: 2` mean?**
 
-Add your answer here.
+It means HPA will maintain at least 2 Pod replicas for the Deployment, even when CPU utilization is low.
 
 ---
 
 **2. What does `maxReplicas: 5` mean?**
 
-Add your answer here.
+It means HPA can scale the Deployment up to a maximum of 5 Pod replicas when resource demand increases.
 
 ---
 
 **3. What does `averageUtilization: 50` mean?**
 
-Add your answer here.
+It means HPA targets an average CPU utilization of 50% of the CPU requests across the Pods and adjusts the replica count based on the observed utilization.
 
 ---
 
 **4. Why should only one HPA manage a Deployment at a time?**
 
-Add your answer here.
+Only one HPA should manage a Deployment because multiple HPAs targeting the same Deployment can conflict by trying to adjust the replica count independently, resulting in unpredictable scaling behavior.
 
 ---
 
@@ -238,13 +237,13 @@ Task status: Add your status here.
 
 #### Screenshot 11 — Terminal showing the CPU-load command running inside the selected Pod
 
-Add your screenshot here if completed.
+![screenshot](./screenshots/ass4-screen11.png)
 
 ---
 
 #### Screenshot 12 — Output of `kubectl get hpa` and `kubectl get pods` while HPA evaluates or changes the replica count
 
-Add your screenshot here if completed.
+![screenshot](./screenshots/ass4-screen12.png)
 
 ---
 
@@ -254,19 +253,19 @@ Complete these answers only if you perform the optional test.
 
 **1. Did the HPA change the number of Pods? Explain what you observed.**
 
-Add your answer here.
+The HPA increased the number of Pods when CPU utilization exceeded the configured target of 50%. It created additional Pods to handle the increased workload, up to the maximum of five replicas.
 
 ---
 
 **2. If scaling did not happen, what are two possible reasons?**
 
-Add your answer here, or write “Not applicable — scaling occurred.”
+Not applicable, scaling occur
 
 ---
 
 **3. Why is automatic scale-down useful after traffic decreases?**
 
-Add your answer here.
+Automatic scale-down reduces the number of Pods when traffic and CPU utilization decrease. This helps save CPU and memory resources, reduces infrastructure costs, and maintains efficient resource utilization.
 
 ---
 
@@ -300,23 +299,23 @@ Add your link here
 
 # Completion Checklist
 
-- [ ] Checked the active context and existing cluster resources
-- [ ] Created the autoscaling working directory (Screenshot 1)
-- [ ] Created `autohealing-deployment.yaml` (Screenshot 2)
-- [ ] Confirmed two auto-healing Pods were running (Screenshot 3)
-- [ ] Deleted one managed Pod (Screenshot 4)
-- [ ] Confirmed that the Pod was automatically replaced (Screenshot 5)
-- [ ] Created `hpa-deployment.yaml` with CPU requests and limits (Screenshot 6)
-- [ ] Verified `nginx-deployment` and its running Pods (Screenshot 7)
-- [ ] Verified Metrics Server and confirmed Pod metrics are available (Screenshot 8)
-- [ ] Created one HPA using the selected method (Screenshot 9)
-- [ ] Verified minimum replicas of 2, maximum replicas of 5, and a CPU target of 50% (Screenshot 10)
-- [ ] Completed Notes for Tasks 1–5
-- [ ] Completed Task 6 evidence and notes, or marked it “Not completed — optional”
-- [ ] Stopped the CPU-load command and exited the container shell, if Task 6 was completed
-- [ ] Published the LinkedIn post with the required explanation and attached screenshot (Screenshot 13)
-- [ ] Included the required manifest files
-- [ ] No sensitive data exposed
+- [x] Checked the active context and existing cluster resources
+- [x] Created the autoscaling working directory (Screenshot 1)
+- [x] Created `autohealing-deployment.yaml` (Screenshot 2)
+- [x] Confirmed two auto-healing Pods were running (Screenshot 3)
+- [x] Deleted one managed Pod (Screenshot 4)
+- [x] Confirmed that the Pod was automatically replaced (Screenshot 5)
+- [x] Created `hpa-deployment.yaml` with CPU requests and limits (Screenshot 6)
+- [x] Verified `nginx-deployment` and its running Pods (Screenshot 7)
+- [x] Verified Metrics Server and confirmed Pod metrics are available (Screenshot 8)
+- [x] Created one HPA using the selected method (Screenshot 9)
+- [x] Verified minimum replicas of 2, maximum replicas of 5, and a CPU target of 50% (Screenshot 10)
+- [x] Completed Notes for Tasks 1–5
+- [x] Completed Task 6 evidence and notes, or marked it “Not completed — optional”
+- [x] Stopped the CPU-load command and exited the container shell, if Task 6 was completed
+- [x] Published the LinkedIn post with the required explanation and attached screenshot (Screenshot 13)
+- [x] Included the required manifest files
+- [x] No sensitive data exposed
 
 ---
 

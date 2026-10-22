@@ -26,15 +26,15 @@ Add your screenshot here.
 
 **1. Why does this lab use a cloud-capable Kubernetes environment such as AKS for the LoadBalancer Service?**
 
-Add your answer here.
+This lab uses Azure Kubernetes Service (AKS) because it supports integration between Kubernetes and Azure cloud resources. When a LoadBalancer Service is created, AKS can automatically configure an Azure Load Balancer. It can also assign a public IP address to expose the application to external users. This allows users to access applications running inside the Kubernetes cluster from outside. A cloud-capable environment makes it easier to demonstrate how Kubernetes manages external access to applications.
 
 **2. What Azure resources can Kubernetes provision when a LoadBalancer Service is created?**
 
-Add your answer here.
+When a LoadBalancer Service is created in AKS, Kubernetes can trigger Azure to provision or configure several cloud resources. These include an Azure Load Balancer to distribute incoming traffic and a public IP address for external access. Azure can also configure load-balancing rules and health probes to manage traffic and check the availability of backend nodes. Network settings, such as backend pools, may also be updated. These resources allow applications running in Kubernetes to receive external traffic efficiently.
 
 **3. Why is it important to delete unused AKS resources after the lab?**
 
-Add your answer here.
+It is important to delete unused AKS resources after the lab because Azure resources may continue to incur charges even when they are no longer needed. Resources such as AKS clusters, load balancers, and public IP addresses can increase cloud expenses. Cleaning up unused resources helps prevent unexpected billing costs. It also frees up resources and keeps the Azure environment organized. Therefore, deleting the resources after completing the lab is a good cloud management practice.
 
 ---
 
@@ -54,11 +54,11 @@ Add your screenshot here.
 
 **1. Why is it useful to keep Kubernetes manifests organized in dedicated directories?**
 
-Add your answer here.
+Keeping Kubernetes manifests in dedicated directories makes project files easier to organize, find, and manage. It helps separate configuration files for Deployments, Services, and other Kubernetes resources. This improves readability and reduces confusion when working with multiple resources. It also makes updating, testing, and maintaining configurations easier. Overall, organized directories help keep Kubernetes projects clean and manageable.
 
 **2. What are the names of the main Deployment and LoadBalancer Service YAML files you will create in this assignment?**
 
-Add your answer here.
+The main YAML files are typically nginx-deploy.yaml and nginx-svc-loadbalance.yaml. 
 
 ---
 
@@ -84,15 +84,15 @@ Add your screenshot here.
 
 **1. Why must Pods be ready before they should receive public traffic?**
 
-Add your answer here.
+Pods must be ready before receiving public traffic to ensure that the application can handle incoming requests correctly. If traffic is sent to a Pod that is not fully initialized, users may experience errors or failed connections. Kubernetes uses readiness checks to determine whether a Pod is ready to serve requests.
 
 **2. What is the role of the readiness probe in this Deployment?**
 
-Add your answer here.
+The readiness probe checks whether a container is ready to accept incoming requests. It helps Kubernetes determine when an application has started successfully and can handle traffic. If the probe fails, Kubernetes marks the Pod as not ready and stops sending Service traffic to it. Once the probe succeeds again, the Pod can receive traffic. This helps prevent requests from reaching applications that are temporarily unavailable or still starting.
 
 **3. What is the role of the liveness probe in this Deployment?**
 
-Add your answer here.
+The liveness probe checks whether the application inside a container is still functioning properly. If the probe repeatedly fails, Kubernetes restarts the container to recover from the problem. This helps resolve issues such as a frozen application or an unresponsive process. Unlike the readiness probe, the liveness probe determines whether a container needs to be restarted. It improves application reliability by helping Kubernetes automatically recover from certain failures.
 
 ---
 
@@ -124,19 +124,19 @@ Add your screenshot here.
 
 **1. What does `type: LoadBalancer` instruct AKS to do?**
 
-Add your answer here.
+The type: LoadBalancer instructs AKS to expose the Kubernetes Service externally using an Azure Load Balancer. It allows applications running inside the cluster to receive traffic from outside. Azure automatically provisions or configures the necessary load-balancing resources and a public IP address. This makes the application accessible over the internet. It is commonly used to expose web applications and other services to external users.
 
 **2. What public IP was assigned to your Service?**
 
-Add your answer here.
+The public IP address assigned to the Service can be found by running the command kubectl get services. The output displays the Service name, type, cluster IP, and external IP address. The IP address listed under the EXTERNAL-IP column is the public IP assigned to the Service. The exact address depends on the Azure environment and the Service configuration. You should enter the actual IP address displayed in your terminal.
 
 **3. How does the public request eventually reach the NGINX Pods?**
 
-Add your answer here.
+When a user sends a request to the Service's public IP address, the Azure Load Balancer receives the incoming traffic. It forwards the request to an appropriate node in the AKS cluster. Kubernetes networking then routes the request to a healthy NGINX Pod through the Service. The NGINX container processes the request and returns the response. This process allows external users to access the application running inside the cluster.
 
 **4. Why should you wait for EXTERNAL-IP before testing the Service?**
 
-Add your answer here.
+You should wait for the EXTERNAL-IP to appear because Azure needs time to provision and configure the required networking resources. While the address is shown as pending, the Service may not yet be accessible externally. Testing too early can result in connection failures or timeouts. Once the public IP address is assigned, you can use it to access the application from a browser or another client. Waiting ensures that the Service is ready for external testing.
 
 ---
 
@@ -174,19 +174,19 @@ Add your screenshot here.
 
 **1. Why did the rollout not complete?**
 
-Add your answer here.
+The rollout did not complete because the newly created Pods failed their readiness probes. Kubernetes waits for new Pods to become ready before completing the rollout. Since the new Pods were not ready, the Deployment could not successfully replace the existing Pods. This prevented the rollout from completing successfully.
 
 **2. Why can the public endpoint still work while new Pods fail readiness?**
 
-Add your answer here.
+The public endpoint can still work because the existing healthy Pods continue to serve incoming requests. Kubernetes uses readiness probes to determine which Pods are ready to receive traffic. When new Pods fail readiness checks, they are excluded from the Service's available endpoints. The Azure Load Balancer and Kubernetes Service can continue routing requests to healthy Pods. Therefore, the application may remain accessible even when the latest Deployment rollout is unsuccessful.
 
 **3. What would happen if Kubernetes routed traffic to Pods before they were ready?**
 
-Add your answer here.
+If Kubernetes routed traffic to Pods before they were ready, users might experience failed requests, connection errors, or incomplete responses. The application might not have finished starting or could be unable to process incoming requests correctly. This would reduce the reliability and availability of the service. Readiness probes help prevent these problems by ensuring that only ready Pods receive traffic. As a result, users are more likely to receive successful responses.
 
 **4. How did you restore the Deployment successfully?**
 
-Add your answer here.
+The Deployment was restored by correcting the configuration that caused the readiness probes to fail. The updated configuration was applied using kubectl apply, allowing Kubernetes to recreate or update the affected Pods. The Deployment was then monitored using kubectl rollout status deployment/<deployment-name> to confirm that the rollout completed. The Pod status and readiness checks were also verified using kubectl get pods.
 
 ---
 
@@ -212,15 +212,15 @@ Add your screenshot here.
 
 **1. What changed after scaling the Deployment from two to four replicas?**
 
-Add your answer here.
+After scaling the Deployment from two to four replicas, Kubernetes created two additional Pods to run the application. This increased the number of available application instances and allowed the workload to be distributed across more Pods. The LoadBalancer Service continued directing incoming traffic to the ready Pods. Scaling improved the application's capacity to handle multiple requests simultaneously. It also increased availability by providing more application instances to serve traffic.
 
 **2. Did the public IP change after scaling? Explain why or why not.**
 
-Add your answer here.
+No, the public IP address did not change after scaling the Deployment. The public IP belongs to the LoadBalancer Service rather than to individual Pods. Scaling only changes the number of Pods running the application, while the Service remains the same. Kubernetes automatically updates the Service's endpoints to include the additional ready Pods. Therefore, the same public IP address continues to provide access to the application.
 
 **3. Why does scaling behind a LoadBalancer Service not require users to change the URL or IP they use?**
 
-Add your answer here.
+Scaling behind a LoadBalancer Service does not require users to change the URL or IP because the Service provides a stable network endpoint. The LoadBalancer continues receiving requests through the same public IP address or DNS name. Kubernetes automatically distributes traffic among the available, ready Pods behind the Service. When Pods are added or removed, the Service updates its endpoints accordingly. This allows the application to scale without affecting how users access it.
 
 ---
 
