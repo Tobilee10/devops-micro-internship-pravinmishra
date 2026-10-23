@@ -38,7 +38,7 @@ Prepare the cluster, application source, container images, and tooling needed fo
 
 #### Screenshot 1 — Active Kubernetes context and Ready nodes
 
-Add your screenshot here.
+![screenshot](./screenshots/ass10-screen1.png)
 
 ---
 
@@ -48,6 +48,7 @@ Required only if you choose Helm. Skip this screenshot if using YAML manifests.
 
 Add your screenshot here, or write “Not applicable — using YAML manifests.”
 
+NOT APPLICABLE- Using YAML manifest
 ---
 
 # Task 2 — Design the Three-Tier Kubernetes Architecture
@@ -60,7 +61,7 @@ Document the workloads, networking, configuration, storage, and permitted commun
 
 #### Screenshot 3 — Completed Kubernetes architecture diagram
 
-Add your screenshot here.
+![screenshot](./screenshots/ass10-screen3.png)
 
 ---
 
@@ -74,13 +75,13 @@ Provide application configuration and credentials without embedding sensitive va
 
 #### Screenshot 4 — ConfigMap configuration or describe output showing non-sensitive values
 
-Add your screenshot here.
+![screenshot](./screenshots/ass10-screen4.png)
 
 ---
 
 #### Screenshot 5 — Secret references or describe output showing names and keys without sensitive values
 
-Add your screenshot here.
+![screenshot](./screenshots/ass10-screen5.png)
 
 ---
 
@@ -94,13 +95,13 @@ Provide persistent MySQL storage and allow the backend to connect without exposi
 
 #### Screenshot 6 — Managed MySQL status or MySQL StatefulSet and PVC status
 
-Add your screenshot here.
+![screenshot](./screenshots/ass10-screen6.png)
 
 ---
 
 #### Screenshot 7 — Successful database connectivity or schema verification with credentials hidden
 
-Add your screenshot here.
+![screenshot](./screenshots/ass10-screen7.png)
 
 ---
 
@@ -114,7 +115,7 @@ Run one or two Node.js/Express backend replicas on port 3001 and expose them thr
 
 #### Screenshot 8 — Backend Deployment, ready Pods, and internal Service
 
-Add your screenshot here.
+![screenshot](./screenshots/ass10-screen8.png)
 
 ---
 
@@ -122,7 +123,7 @@ Add your screenshot here.
 
 If the application does not log successful database connections, provide a successful database-backed request alongside the startup logs.
 
-Add your screenshot here.
+![screenshot](./screenshots/ass10-screen9.png)
 
 ---
 
@@ -136,13 +137,13 @@ Run the Next.js frontend behind Nginx on port 80 and proxy API requests to the i
 
 #### Screenshot 10 — Frontend Deployment and Ready Pods
 
-Add your screenshot here.
+![screenshot](./screenshots/ass10-screen10.png)
 
 ---
 
 #### Screenshot 11 — Nginx reverse-proxy configuration showing the internal backend Service name and port 3001
 
-Add your screenshot here.
+![screenshot](./screenshots/ass10-screen11.png)
 
 ---
 
@@ -156,13 +157,13 @@ Expose the frontend and enforce the intended communication path between applicat
 
 #### Screenshot 12 — Frontend LoadBalancer or Ingress configuration and assigned endpoint, or documented local access method
 
-Add your screenshot here.
+![screenshot](./screenshots/ass10-screen12.png)
 
 ---
 
 #### Screenshot 13 — Internal backend Service and NetworkPolicy or equivalent restriction, with access-test evidence
 
-Add your screenshot here.
+![screenshot](./screenshots/ass10-screen13.png)
 
 ---
 
@@ -176,31 +177,33 @@ Prove that the frontend, backend, and MySQL database work together and collect o
 
 #### Screenshot 14 — `kubectl get all` output for the book-review namespace
 
-Add your screenshot here.
+![screenshot](./screenshots/ass10-screen14.png)
 
 ---
 
 #### Screenshot 15 — Functional Book Review App in the browser with the URL visible, including evidence of a successful user flow
 
-Add your screenshot here.
+![screenshot](./screenshots/ass10-screen15.png)
 
 ---
 
 #### Screenshot 16 — Frontend or Nginx container logs
 
-Add your screenshot here.
+![screenshot](./screenshots/ass10-screen16.png)
 
 ---
 
 #### Screenshot 17 — Backend logs and evidence of a successful database-backed operation
 
-Add your screenshot here.
+![screenshot](./screenshots/ass10-screen17.png)
 
 ---
 
 #### Screenshot 18 — Optional: Kubernetes dashboard
 
 Add your screenshot here, or write “Not attempted.”
+
+NOT ATTEMPTED
 
 Multiple images may be included under a screenshot number when needed to demonstrate the complete user flow.
 
@@ -217,6 +220,8 @@ Add selected improvements without breaking the required three-tier architecture.
 #### Screenshot 19 — Optional: Evidence of selected Helm, HPA, probe, or TLS improvements
 
 Add your screenshot here, or write “Not attempted.”
+
+![screenshot](./screenshots/ass10-screen19.png)
 
 ---
 
