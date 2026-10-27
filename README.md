@@ -140,10 +140,10 @@ Week 09 → Ansible
 | 07 | Azure Cloud | ✅ Completed | ✅ Completed | - | — |
 | 08 | Terraform | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/oluwatobiloba-adeje-2572b42a6_aws-terraform-devops-ugcPost-7501580589397860353-5k8J/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEm6D2MBiHlTtqXxAdNL2_2Taiskof8w_Lw | https://dev.to/rubi_cloud/engineering-a-secure-two-tier-aws-application-with-terraform-automated-ec2-provisioning-16ai |
 | 09 | Ansible | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/oluwatobiloba-adeje-2572b42a6_aws-terraform-ansible-ugcPost-7508122807386624000-7IUe/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEm6D2MBiHlTtqXxAdNL2_2Taiskof8w_Lw | — |
-| 10 | Azure DevOps (CI/CD) | ✅ Completed | ✅ Completed | — | — |
-| 11 | Docker | ⬜ Not Started | ⏳ Pending | — | — |
-| 12 | Kubernetes | ⬜ Not Started | ⏳ Pending | — | — |
-| 13 | Final Project | ⬜ Not Started | ⏳ Pending | — | — |
+| 10 | Azure DevOps (CI/CD) | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/oluwatobiloba-adeje-2572b42a6_aws-devops-terraform-ugcPost-7520836069190459392-voAb/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEm6D2MBiHlTtqXxAdNL2_2Taiskof8w_Lw | — |
+| 11 | Docker | ✅ Completed | ✅ Completed | — | — |
+| 12 | Kubernetes | ✅ Completed | ✅ Completed | — | — |
+| 13 | Final Project | ✅ Completed | ✅ Completed | — | — |
 
 **Status:** ⬜ Not Started &nbsp;|&nbsp; 🔄 In Progress &nbsp;|&nbsp; ✅ Completed<br>
 **Assignment:** ⏳ Pending &nbsp;|&nbsp; ✅ Solved
