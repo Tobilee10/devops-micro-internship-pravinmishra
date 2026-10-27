@@ -211,9 +211,9 @@ Add a screenshot of your LinkedIn post showing:
 * Three to five lines explaining your experience
 * A screenshot of the successful pipeline run with no secrets visible
 
-Add your screenshot here.
+![screenshot](./screenshots/ass1-post.png)
 
-**LinkedIn Post URL:** [Paste your LinkedIn post URL here]
+**LinkedIn Post URL:** [https://lnkd.in/p/dr4BPRtp]
 
 ---
 

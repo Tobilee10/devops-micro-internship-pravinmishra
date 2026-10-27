@@ -152,7 +152,7 @@ Replace the placeholder with your actual website URL:
 
 Write a short summary of the completed CI/CD workflow.
 
-[Write your summary here.]
+[Successfully built a CI/CD workflow that connects Azure Repos with AWS EC2 using an Azure DevOps YAML pipeline and a self-hosted agent. Code changes trigger the pipeline, which securely transfers website files to a separate EC2 instance via SSH, verifies the deployment, and serves the updated website through Nginx. This hands-on project strengthened my practical skills in cloud integration, deployment automation, and DevOps best practices.]
 
 ---
 
@@ -167,11 +167,11 @@ Add a screenshot of your LinkedIn post containing:
 * Three to five lines describing the CI/CD workflow
 * A screenshot of the successful pipeline or deployed website
 
-Add your screenshot here.
+![screenshot](./screenshots/ass2-post.png)
 
 ## LinkedIn Post URL
 
-[Paste your public LinkedIn post URL here]
+[https://www.linkedin.com/posts/oluwatobiloba-adeje-2572b42a6_devops-aws-azuredevops-ugcPost-7520802635453657088-3UTB/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEm6D2MBiHlTtqXxAdNL2_2Taiskof8w_Lw]
 
 > Do not expose AWS credentials, SSH private keys, passwords, PATs, or other sensitive information.
 

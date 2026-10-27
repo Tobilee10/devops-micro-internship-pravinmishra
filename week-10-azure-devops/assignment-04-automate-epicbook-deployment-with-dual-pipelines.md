@@ -220,11 +220,11 @@ Add a screenshot of your LinkedIn post showing:
 * Post text
 * At least one image or link
 
-Add your screenshot here.
+![screenshot](./screenshots/ass4-post.png)
 
 ## LinkedIn Post URL
 
-[Paste your public LinkedIn post URL here.]
+[https://lnkd.in/p/dThW7sAp]
 
 Your post must include:
 

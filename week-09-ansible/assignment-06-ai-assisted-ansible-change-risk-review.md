@@ -44,13 +44,13 @@ Answer the following in your own words:
 
 **1. What proves that Ansible can reach your EpicBook VM?**
 
-Add your answer here.
+Ansible can reach the EpicBook VM when the ping command returns a SUCCESS status with "ping": "pong". This confirms that Ansible can connect to the VM and execute commands on it.
 
 ---
 
 **2. Why should you confirm playbook syntax before building a risk-review script?**
 
-Add your answer here.
+Playbook syntax should be checked before building a risk-review script to identify YAML errors and structural issues early. Syntax validation helps prevent deployment failures, saves debugging time, and improves automation reliability.
 
 ---
 
@@ -74,19 +74,19 @@ Answer the following in your own words:
 
 **1. Why should Claude Code have project-specific safety rules?**
 
-Add your answer here.
+Claude Code should have project-specific safety rules to ensure it follows the project's requirements, protects sensitive information, and avoids unsafe changes to production systems.
 
 ---
 
 **2. Why should the human run the real Ansible playbook manually?**
 
-Add your answer here.
+The human should run the real Ansible playbook manually to review the changes, verify the target servers, and maintain control over production deployments.
 
 ---
 
 **3. Which rule prevents Claude Code from applying changes automatically?**
 
-Add your answer here.
+The rule that requires human approval before executing deployment commands or applying changes prevents Claude Code from making automatic changes to production systems.
 
 ---
 
@@ -110,19 +110,19 @@ Answer the following in your own words:
 
 **1. Which part of this task represents the Gather phase?**
 
-Add your answer here.
+The Gather phase involves running the Ansible playbook in dry-run mode using --check --diff to collect evidence about possible changes without applying them. The generated risk report serves as the main source of evidence.
 
 ---
 
 **2. Which part represents the Analyze phase?**
 
-Add your answer here.
+The Analyze phase involves reviewing the generated risk report to identify risky changes, classify their risk categories, and explain their potential impacts. Claude Code provides a recommendation while allowing the human to make the final decision.
 
 ---
 
 **3. How did you verify Claude Code did not create or edit files?**
 
-Add your answer here.
+verified that Claude Code did not create or edit files by checking the Git status and reviewing the project directory for unexpected changes. This follows the safety rules that prohibit editing playbooks, roles, inventory, Terraform, and secret files.
 
 ---
 
@@ -164,25 +164,25 @@ Answer the following in your own words:
 
 **1. What is stored in the `changed_tasks` array?**
 
-Add your answer here.
+The changed_tasks array stores the names of Ansible tasks that are expected to make changes to the system during the dry run. These tasks are extracted from the raw Ansible output for further risk analysis.
 
 ---
 
 **2. Which function finds changed tasks from the Ansible output?**
 
-Add your answer here.
+The extract_changed_tasks() function identifies changed tasks by examining the raw Ansible output for task names followed by a changed status. It stores the extracted task names in the changed_tasks array.
 
 ---
 
 **3. Why does the script use `--check --diff`?**
 
-Add your answer here.
+The script uses --check --diff to simulate playbook execution and display the changes that would occur without intentionally applying them. This allows the script to identify potential risks before the human approves the actual deployment.
 
 ---
 
 **4. Why does the script use different exit codes for healthy, warning, and failed results?**
 
-Add your answer here.
+The script uses exit code 0 for healthy results, 1 for warnings, and 2 for failures. These codes help distinguish the overall risk level, communicate whether changes require review, and allow other scripts or automation tools to respond appropriately.
 
 ---
 
@@ -212,25 +212,25 @@ Answer the following in your own words:
 
 **1. What was the overall status of your baseline run?**
 
-Add your answer here.
+The overall status was WARN – changes present, review recommended. The dry run completed successfully, but one task was detected as changed.
 
 ---
 
 **2. Did any tasks report `changed`?**
 
-Add your answer here.
+Yes, one task was detected: Update apt cache. Ansible reported changed=1, meaning the task would make a change if applied.
 
 ---
 
 **3. Were any changed tasks flagged as risky?**
 
-Add your answer here.
+No, none of the changed tasks were flagged as risky by the script. However, the Update apt cache task requires review before applying changes.
 
 ---
 
 **4. What does the script exit code mean?**
 
-Add your answer here.
+The script returned exit code 1, indicating that warnings were detected and changes require review. The dry run completed with no failed or unreachable hosts, but a human should review the report before deciding whether to apply the playbook.
 
 ---
 
