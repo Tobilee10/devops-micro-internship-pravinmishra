@@ -196,9 +196,7 @@ Create a LinkedIn post describing what you built, what a multi-stage Docker buil
 
 #### LinkedIn Post URL
 
-Paste your LinkedIn post URL here:
-
-`https://www.linkedin.com/posts/oluwatobiloba-adeje-2572b42a6_docker-react-devops-ugcPost-7520854183273758720-70tl/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEm6D2MBiHlTtqXxAdNL2_2Taiskof8w_Lw`
+https://www.linkedin.com/posts/oluwatobiloba-adeje-2572b42a6_docker-react-devops-ugcPost-7520854183273758720-70tl/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEm6D2MBiHlTtqXxAdNL2_2Taiskof8w_Lw
 
 ---
 

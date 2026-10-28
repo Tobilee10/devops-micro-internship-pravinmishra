@@ -332,7 +332,18 @@ Write a short note explaining:
 - Why the frontend could not access the database in Task 3
 - The difference between bridge mode and host network mode
 
-Write your note here.
+### 1. Default Bridge Networking
+Docker's default bridge network connects containers on the same host. Containers can communicate using IP addresses, but automatic container-name resolution is generally not available on the default bridge network. Port publishing is required for external access to container services.
+
+### 2. Container-Name Communication on a Custom Bridge Network
+A custom bridge network provides automatic DNS-based service discovery. Containers on the same custom network can communicate using container names or network aliases instead of relying on dynamic IP addresses. This makes communication more reliable and easier to manage.
+
+### 3. Why the Frontend Could Not Access the Database
+The frontend was connected only to `frontend-network`, while MongoDB was connected only to `backend-network`. The backend was attached to both networks, allowing it to communicate with the frontend and the database. Since the frontend and database did not share a network, the frontend could not directly communicate with MongoDB through Docker's network connectivity.
+
+### 4. Bridge Mode vs. Host Network Mode
+- **Bridge mode:** Containers use an isolated network namespace with their own IP addresses. Ports can be published to make container services accessible from the host or external systems.
+- **Host network mode:** On supported Linux configurations, the container shares the host's network namespace. It uses the host's network interfaces and ports directly, so Docker port publishing is unnecessary and generally ignored. This reduces network isolation and can introduce port conflicts.
 
 ---
 
@@ -348,13 +359,13 @@ Create a LinkedIn post about the Docker networking modes explored, one key lesso
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+`https://www.linkedin.com/posts/oluwatobiloba-adeje-2572b42a6_devops-docker-dockernetworking-ugcPost-7521132113673420800-ckmB/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEm6D2MBiHlTtqXxAdNL2_2Taiskof8w_Lw`
 
 ---
 
 #### LinkedIn Post Screenshot
 
-Add a screenshot of the published LinkedIn post here.
+![screenshot](./screenshots/ass3-post.png)
 
 ---
 
