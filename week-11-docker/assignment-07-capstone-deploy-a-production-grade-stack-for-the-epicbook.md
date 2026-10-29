@@ -601,12 +601,12 @@ Your post must include:
 
 ### Evidence
 
-**LinkedIn Post URL:** `Add your LinkedIn post URL here`
+**LinkedIn Post URL:** `https://www.linkedin.com/posts/oluwatobiloba-adeje-2572b42a6_devopsengineer-docker-dockercompose-ugcPost-7521583460801703937-mECc/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEm6D2MBiHlTtqXxAdNL2_2Taiskof8w_Lw`
 
 #### LinkedIn Post Screenshot
 
 Add a screenshot of the published LinkedIn post showing the text body and deployment verification image.
-
+!;[screnshot](./screenshots/ass7-post.png)
 ---
 
 # Submission Checklist
