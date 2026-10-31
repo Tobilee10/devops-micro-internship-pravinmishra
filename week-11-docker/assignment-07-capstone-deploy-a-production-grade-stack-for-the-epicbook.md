@@ -568,13 +568,136 @@ Write a short operations runbook covering:
 - What to check when the application returns an error
 - Results of backend and database reliability tests
 
-Write your note here.
+# EpicBook – Operations Runbook
+
+## 1. Safe Restart Procedure
+
+Before restarting any service, notify users if necessary and confirm that a recent database backup is available.
+
+Use the following order for a full application restart:
+
+1. **Database:** Check database health and restart only if required.
+   ```bash
+   docker compose restart db
+   ```
+2. **Backend:** Confirm the database is healthy before restarting the backend.
+   ```bash
+   docker compose restart backend
+   ```
+3. **Frontend:** Restart the frontend service.
+   ```bash
+   docker compose restart frontend
+   ```
+4. **Reverse Proxy:** Restart Nginx after confirming the application services are running.
+   ```bash
+   docker compose restart proxy
+   ```
+
+Verify service status:
+```bash
+docker compose ps
+```
+
+Check logs:
+```bash
+docker compose logs --tail=100
+```
+
+*Note: Replace service names with the actual names defined in the Docker Compose file.*
+
+## 2. Database Backup and Restore
+
+**Backup procedure:**
+
+Create a database backup using MySQL dump:
+```bash
+docker compose exec -T db mysqldump -u root -p DATABASE_NAME > backup.sql
+```
+
+Store backups securely, restrict access, and keep copies outside the application container and server.
+
+**Restore procedure:**
+
+1. Confirm the backup file is valid.
+2. Stop services that write to the database.
+3. Restore the backup:
+   ```bash
+   docker compose exec -T db mysql -u root -p DATABASE_NAME < backup.sql
+   ```
+4. Restart the backend and verify database connectivity.
+5. Confirm that application data is accessible.
+
+## 3. Secret-Rotation Approach
+
+- Keep database credentials and application secrets out of source control.
+- Store secrets in environment files with restricted permissions or a dedicated secrets manager.
+- Generate new credentials and update the relevant configuration.
+- Update the database and application configuration in a coordinated manner.
+- Restart affected services and verify connectivity.
+- Revoke old credentials after confirming the new credentials work.
+- Never expose secrets in logs, screenshots, or public repositories.
+
+## 4. Database Recovery Procedure
+
+If the database becomes unavailable:
+
+1. Inspect database logs:
+   ```bash
+   docker compose logs db
+   ```
+2. Check container status and available disk space.
+3. Confirm that the database volume is mounted correctly.
+4. Attempt a controlled database restart.
+5. If the database cannot recover, preserve the existing data volume and investigate before making changes.
+6. If necessary, restore the latest verified backup.
+7. Confirm database connectivity and application functionality before returning the service to users.
+
+**Important:** Never delete the database volume as a troubleshooting shortcut. This may permanently destroy persistent data.
+
+## 5. Application Error Troubleshooting
+
+When EpicBook returns an error:
+
+- **Reverse proxy:** Check Nginx configuration, routing, and proxy logs.
+- **Frontend:** Confirm the frontend container is running and its assets are accessible.
+- **Backend:** Inspect application logs, API responses, and environment configuration.
+- **Database:** Check database health, credentials, connectivity, and available storage.
+- **Networking:** Verify Docker network connectivity between services.
+- **Health checks:** Inspect container health status and service dependencies.
+
+Useful commands:
+```bash
+docker compose ps
+docker compose logs --tail=100 proxy
+docker compose logs --tail=100 frontend
+docker compose logs --tail=100 backend
+docker compose logs --tail=100 db
+```
+
+After resolving the issue, verify that users can access the application and that backend-to-database communication works.
+
+## 6. Backend and Database Reliability Tests
+
+Reliability testing should confirm that:
+
+- The backend starts successfully and responds to API requests.
+- The backend can connect to the MySQL database.
+- The database retains data after container restarts.
+- Services recover correctly after controlled restarts.
+- The application handles database unavailability without exposing sensitive information.
+- Database backups can be restored successfully.
+
+**Test results:** Actual backend and database reliability test results have not been provided in this project note. Record each test's date, scenario, expected result, actual result, and pass/fail status after execution. Do not report tests as successful until they have been performed and verified.
+
+---
+
+**Operational principle:** Prioritise data protection, controlled changes, service health, and verification. A successful restart is not enough; always confirm that the application is functioning correctly afterwards.
 
 ---
 
 # Final Public Application URL
 
-**EpicBook URL:** `http://<VM_PUBLIC_IP>`
+**EpicBook URL:** `http://18.227.26.149/`
 
 Replace the placeholder with your working public URL.
 
@@ -582,7 +705,7 @@ Replace the placeholder with your working public URL.
 
 # GitHub Repository URL
 
-**Your Fork or Repository URL:** `Add your GitHub repository URL here`
+**Your Fork or Repository URL:** `https://github.com/Tobilee10/theepicbook.git
 
 ---
 
