@@ -205,13 +205,13 @@ Do not share sensitive information, cluster credentials, tokens, or kubeconfig d
 
 #### Screenshot 10 — Published LinkedIn post showing your name, the required explanation, and the attached Pod screenshot
 
-Add your screenshot here.
+![screenshot](./screenshots/ass2-post.png)
 
 ---
 
 ### Post Link
 
-Add the URL of your published LinkedIn post here.
+https://www.linkedin.com/posts/oluwatobiloba-adeje-2572b42a6_kubernetes-devops-docker-ugcPost-7522252320567357440-jDLU/?highlightedUpdateUrn=urn%3Ali%3Aactivity%3A7522252322249486337&highlightedUpdateType=SOCIAL_SHARE&origin=SOCIAL_SHARE&utm_source=share&utm_medium=member_desktop&rcm=ACoAAEm6D2MBiHlTtqXxAdNL2_2Taiskof8w_Lw
 
 ---
 

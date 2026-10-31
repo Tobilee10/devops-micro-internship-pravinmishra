@@ -273,11 +273,11 @@ Share what you learned about Kubernetes readiness probes and how they protect ro
 
 #### Screenshot 18 — Published LinkedIn post
 
-Add your screenshot here.
+![screenshot](./screenshots/ass5-post.png)
 
 #### Linkedin post link
 
-Add your post link here
+https://www.linkedin.com/posts/oluwatobiloba-adeje-2572b42a6_kubernetes-devops-platformengineering-ugcPost-7522267864385601537-Wfd2/?highlightedUpdateUrn=urn%3Ali%3Aactivity%3A7522267867682283521&highlightedUpdateType=SOCIAL_SHARE&origin=SOCIAL_SHARE&utm_source=share&utm_medium=member_desktop&rcm=ACoAAEm6D2MBiHlTtqXxAdNL2_2Taiskof8w_Lw
 
 ---
 

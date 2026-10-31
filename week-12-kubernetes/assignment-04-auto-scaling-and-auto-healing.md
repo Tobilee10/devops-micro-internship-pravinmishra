@@ -275,11 +275,11 @@ Automatic scale-down reduces the number of Pods when traffic and CPU utilization
 
 #### Screenshot 13 — Published LinkedIn post showing your name, the required explanation, and the attached Kubernetes screenshot
 
-Add your screenshot here.
+![screenshot](./screenshots/ass4-post.png)
 
 #### Linkedin Post Link
 
-Add your link here
+https://www.linkedin.com/posts/oluwatobiloba-adeje-2572b42a6_kubernetes-devops-devopsengineering-ugcPost-7522261203331571712-oVH1/?highlightedUpdateUrn=urn%3Ali%3Aactivity%3A7522261206460526592&highlightedUpdateType=SOCIAL_SHARE&origin=SOCIAL_SHARE&utm_source=share&utm_medium=member_desktop&rcm=ACoAAEm6D2MBiHlTtqXxAdNL2_2Taiskof8w_Lw
 
 ---
 

@@ -275,11 +275,11 @@ Share what you learned about ClusterIP Services, Kubernetes DNS, selectors, and 
 
 #### Screenshot 18 — Published LinkedIn post
 
-Add your screenshot here.
+![screenshot](./screenshots/ass7-post.png)
 
 #### Linkedin post link
 
-Paste your link here
+https://www.linkedin.com/posts/oluwatobiloba-adeje-2572b42a6_kubernetes-devops-cloudengineering-ugcPost-7522282249451671552-YCIa/?highlightedUpdateUrn=urn%3Ali%3Aactivity%3A7522282252727390208&highlightedUpdateType=SOCIAL_SHARE&origin=SOCIAL_SHARE&utm_source=share&utm_medium=member_desktop&rcm=ACoAAEm6D2MBiHlTtqXxAdNL2_2Taiskof8w_Lw
 
 ---
 

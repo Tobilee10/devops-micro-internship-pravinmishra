@@ -247,11 +247,11 @@ Share what you learned about Kubernetes liveness probes, container restarts, and
 
 #### Screenshot 12 — Published LinkedIn post
 
-Add your screenshot here.
+![screenshot](./screenshots/ass6-post.png)
 
 #### Linkedin post URL
 
-Add URl here
+https://www.linkedin.com/posts/oluwatobiloba-adeje-2572b42a6_kubernetes-devops-healthprobes-ugcPost-7522273745713909760-Y9oD/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEm6D2MBiHlTtqXxAdNL2_2Taiskof8w_Lw
 
 ---
 
@@ -270,25 +270,25 @@ Add URl here
 
 # Completion Checklist
 
-- [ ] Learning cluster confirmed and previous assignment resources removed where applicable
-- [ ] Liveness-probe lab directory created (Screenshot 1)
-- [ ] Baseline Deployment manifest completed (Screenshot 2)
-- [ ] Successful rollout and two baseline Pods verified (Screenshot 3)
-- [ ] Baseline Deployment details reviewed (Screenshot 4)
-- [ ] Liveness probe added successfully (Screenshot 5)
-- [ ] Successful liveness-probe rollout verified (Screenshot 6)
-- [ ] Liveness-probe details inspected (Screenshot 7)
-- [ ] Broken liveness configuration created (Screenshot 8)
-- [ ] Increased container restart count observed (Screenshot 9)
-- [ ] Liveness-probe failure events or restart details captured (Screenshot 10)
-- [ ] Working liveness configuration restored and stable Pods verified (Screenshot 11)
-- [ ] Optional Task 5 evidence and Notes completed, if attempted
-- [ ] Working configuration restored after Task 5, if attempted
-- [ ] LinkedIn post published (Screenshot 12)
-- [ ] Notes for Tasks 1–4 completed
-- [ ] Required manifests included
-- [ ] All required screenshots are clear and readable
-- [ ] No sensitive data exposed
+- [x] Learning cluster confirmed and previous assignment resources removed where applicable
+- [x] Liveness-probe lab directory created (Screenshot 1)
+- [x] Baseline Deployment manifest completed (Screenshot 2)
+- [x] Successful rollout and two baseline Pods verified (Screenshot 3)
+- [x] Baseline Deployment details reviewed (Screenshot 4)
+- [x] Liveness probe added successfully (Screenshot 5)
+- [x] Successful liveness-probe rollout verified (Screenshot 6)
+- [x] Liveness-probe details inspected (Screenshot 7)
+- [x] Broken liveness configuration created (Screenshot 8)
+- [x] Increased container restart count observed (Screenshot 9)
+- [x] Liveness-probe failure events or restart details captured (Screenshot 10)
+- [x] Working liveness configuration restored and stable Pods verified (Screenshot 11)
+- [x] Optional Task 5 evidence and Notes completed, if attempted
+- [x] Working configuration restored after Task 5, if attempted
+- [x] LinkedIn post published (Screenshot 12)
+- [x] Notes for Tasks 1–4 completed
+- [x] Required manifests included
+- [x] All required screenshots are clear and readable
+- [x] No sensitive data exposed
 
 ---
 

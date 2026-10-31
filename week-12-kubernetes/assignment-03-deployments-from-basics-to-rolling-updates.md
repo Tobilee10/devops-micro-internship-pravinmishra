@@ -154,7 +154,7 @@ Today, I deployed NGINX, configured rolling updates, updated the container image
 
 I also scaled my Deployment from two Pods to five and back to two!
 
-[PASTE YOUR GENERATED LEADERBOARD MESSAGE AND LINK HERE]
+[I just completed 7/14 weeks of the DevOps Micro Internship — Cohort 3 · Live! 🚀 https://dmi.pravinmishra.com/s/Tobilee10.html?utm_source=dmi&utm_medium=share&utm_campaign=badge-share-hero-whatsapp]
 
 #DMIByPravinMishra #DevOps #Kubernetes
 

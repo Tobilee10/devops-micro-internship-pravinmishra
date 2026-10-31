@@ -142,7 +142,7 @@ Week 09 → Ansible
 | 09 | Ansible | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/oluwatobiloba-adeje-2572b42a6_aws-terraform-ansible-ugcPost-7508122807386624000-7IUe/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEm6D2MBiHlTtqXxAdNL2_2Taiskof8w_Lw | — |
 | 10 | Azure DevOps (CI/CD) | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/oluwatobiloba-adeje-2572b42a6_aws-devops-terraform-ugcPost-7520836069190459392-voAb/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEm6D2MBiHlTtqXxAdNL2_2Taiskof8w_Lw | — |
 | 11 | Docker | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/oluwatobiloba-adeje-2572b42a6_devopsengineer-docker-dockercompose-ugcPost-7521583460801703937-mECc/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEm6D2MBiHlTtqXxAdNL2_2Taiskof8w_Lw | — |
-| 12 | Kubernetes | ✅ Completed | ✅ Completed | — | — |
+| 12 | Kubernetes | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/oluwatobiloba-adeje-2572b42a6_aws-amazoneks-kubernetes-ugcPost-7522305042452987904-EDfx/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEm6D2MBiHlTtqXxAdNL2_2Taiskof8w_Lw | — |
 | 13 | Final Project | ✅ Completed | ✅ Completed | — | — |
 
 **Status:** ⬜ Not Started &nbsp;|&nbsp; 🔄 In Progress &nbsp;|&nbsp; ✅ Completed<br>
