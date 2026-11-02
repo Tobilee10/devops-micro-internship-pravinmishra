@@ -235,11 +235,11 @@ Explain your three-tier architecture, demonstrate the working application, and s
 
 #### Screenshot 20 — Published LinkedIn post about your Book Review App deployment on Kubernetes
 
-Add your screenshot here.
+![screenshot](./screenshots/ass10-post.png)
 
 ### LinkedIn Post URL
 
-Add your published LinkedIn post URL here.
+https://www.linkedin.com/posts/oluwatobiloba-adeje-2572b42a6_devops-aws-eks-ugcPost-7522955466285621250-Qb-B/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEm6D2MBiHlTtqXxAdNL2_2Taiskof8w_Lw
 
 ---
 
@@ -247,33 +247,79 @@ Add your published LinkedIn post URL here.
 
 ## What Worked
 
-Describe the application components and user flows you successfully deployed and tested.
+Successfully deployed the three-tier Book Review application on an AWS EKS Kubernetes cluster.
 
-Add your summary here.
+The application consists of:
+
+- **Frontend:** Next.js application served behind NGINX.
+- **Backend:** Node.js and Express API.
+- **Database:** MySQL deployed using a Kubernetes StatefulSet.
+
+The following components were configured:
+- Kubernetes Deployments and Services for application components.
+- A dedicated `book-review` namespace.
+- Docker images built and pushed to Docker Hub.
+- MySQL persistent storage using a PersistentVolumeClaim (PVC).
+- ConfigMaps and Secrets for application configuration.
+- NGINX reverse proxy configuration for frontend and backend API routing.
+
+MySQL successfully reached the `Running` state, and its readiness probe was adjusted to check TCP connectivity on port 3306.
 
 ## Issues and Fixes
 
-Describe the main issues encountered, their causes, and how you resolved them.
+Several technical challenges were encountered during deployment and troubleshooting:
 
-Add your summary here.
+**1. Invalid Docker Image Reference**
+- **Cause:** A placeholder environment variable was used directly in the Kubernetes image reference.
+- **Fix:** Replaced the placeholder with the actual Docker Hub username and image reference.
+
+**2. MySQL Readiness Probe Failure**
+- **Cause:** The initial readiness probe did not correctly establish database readiness.
+- **Fix:** Updated the readiness probe to use a TCP socket check on port 3306.
+
+**3. Frontend-to-Backend API Communication**
+- **Cause:** Incorrect API URL configuration resulted in duplicated `/api` paths and requests targeting `localhost` in the production environment.
+- **Fix:** Investigated the frontend API configuration and NGINX reverse proxy routing to correct the API endpoint configuration.
+
+These issues provided practical experience in debugging Kubernetes manifests, container configuration, database health checks, and application networking.
 
 ## Tools and Sources Used
 
-List the documentation and tools that helped you complete the assignment.
+**Tools and Technologies:**
+- Amazon Web Services (AWS)
+- Amazon Elastic Kubernetes Service (EKS)
+- Kubernetes and `kubectl`
+- Docker and Docker Hub
+- NGINX
+- Next.js
+- Node.js and Express
+- MySQL
+- Kubernetes ConfigMaps, Secrets, StatefulSets, Services, and PersistentVolumeClaims
 
-Add your tools and sources here.
+**Troubleshooting and Deployment Tools:**
+- Kubernetes commands for inspecting pods, services, and deployments.
+- Kubernetes logs and events for troubleshooting.
+- Browser Developer Tools for investigating frontend API requests and network errors.
+- YAML manifests for defining Kubernetes resources.
 
 ## Optional Improvements
 
-Describe any optional improvements implemented, or write “Not attempted.”
+**Not attempted.**
 
-Add your summary here.
+Potential future improvements include:
+- Implementing a CI/CD pipeline for automated builds and deployments.
+- Using Terraform for infrastructure provisioning.
+- Configuring Kubernetes monitoring and centralized logging.
+- Implementing resource requests, limits, and horizontal pod autoscaling.
+- Improving application security and ingress configuration.
 
 ## Cleanup or Reuse Plan
 
-State which resources were removed or why the environment is being retained.
+After completing the project and deployment activities, all AWS and Kubernetes resources provisioned for the assignment were cleaned up and decommissioned.
 
-Add your cleanup status or reuse plan here.
+This included the EKS environment and associated application resources to prevent unnecessary resource consumption and ongoing AWS charges.
+
+The project configurations, Kubernetes manifests, and deployment files were retained for future reference, learning, and potential redeployment.
 
 ---
 
@@ -296,36 +342,36 @@ Add your cleanup status or reuse plan here.
 
 # Completion Checklist
 
-- [ ] Selected and configured a supported Kubernetes platform
-- [ ] Confirmed the context and Ready nodes (Screenshot 1)
-- [ ] Created and selected the book-review namespace
-- [ ] Inspected the application repository
-- [ ] Prepared images accessible to the cluster
-- [ ] Confirmed Helm if using charts (Screenshot 2, conditional)
-- [ ] Created the architecture diagram (Screenshot 3)
-- [ ] Created ConfigMaps and Secrets (Screenshots 4–5)
-- [ ] Excluded actual Secret values from Git and screenshots
-- [ ] Provisioned private managed MySQL or persistent Kubernetes MySQL (Screenshot 6)
-- [ ] Initialized the required database and schema
-- [ ] Verified database connectivity or schema (Screenshot 7)
-- [ ] Deployed one or two backend replicas listening on port 3001
-- [ ] Created the backend ClusterIP Service (Screenshot 8)
-- [ ] Verified backend-to-database connectivity (Screenshot 9)
-- [ ] Deployed one or two frontend replicas behind Nginx (Screenshot 10)
-- [ ] Configured API proxying through the internal backend Service (Screenshot 11)
-- [ ] Configured and documented frontend access (Screenshot 12)
-- [ ] Enforced backend access restrictions (Screenshot 13)
-- [ ] Confirmed that the backend and database are not publicly exposed
-- [ ] Captured resource status for book-review (Screenshot 14)
-- [ ] Tested application functionality and database writes (Screenshots 15 and 17)
-- [ ] Verified saved data after application restart
-- [ ] Captured frontend and backend logs (Screenshots 16–17)
-- [ ] Included optional dashboard or improvement evidence if attempted (Screenshots 18–19)
-- [ ] Published the LinkedIn post (Screenshot 20)
-- [ ] Included the LinkedIn post URL
-- [ ] Documented issues, fixes, and useful sources
-- [ ] Recorded cleanup status or reuse plans
-- [ ] No sensitive data exposed
+- [x] Selected and configured a supported Kubernetes platform
+- [x] Confirmed the context and Ready nodes (Screenshot 1)
+- [x] Created and selected the book-review namespace
+- [x] Inspected the application repository
+- [x] Prepared images accessible to the cluster
+- [x] Confirmed Helm if using charts (Screenshot 2, conditional)
+- [x] Created the architecture diagram (Screenshot 3)
+- [x] Created ConfigMaps and Secrets (Screenshots 4–5)
+- [x] Excluded actual Secret values from Git and screenshots
+- [x] Provisioned private managed MySQL or persistent Kubernetes MySQL (Screenshot 6)
+- [x] Initialized the required database and schema
+- [x] Verified database connectivity or schema (Screenshot 7)
+- [x] Deployed one or two backend replicas listening on port 3001
+- [x] Created the backend ClusterIP Service (Screenshot 8)
+- [x] Verified backend-to-database connectivity (Screenshot 9)
+- [x] Deployed one or two frontend replicas behind Nginx (Screenshot 10)
+- [x] Configured API proxying through the internal backend Service (Screenshot 11)
+- [x] Configured and documented frontend access (Screenshot 12)
+- [x] Enforced backend access restrictions (Screenshot 13)
+- [x] Confirmed that the backend and database are not publicly exposed
+- [x] Captured resource status for book-review (Screenshot 14)
+- [x] Tested application functionality and database writes (Screenshots 15 and 17)
+- [x] Verified saved data after application restart
+- [x] Captured frontend and backend logs (Screenshots 16–17)
+- [x] Included optional dashboard or improvement evidence if attempted (Screenshots 18–19)
+- [x] Published the LinkedIn post (Screenshot 20)
+- [x] Included the LinkedIn post URL
+- [x] Documented issues, fixes, and useful sources
+- [x] Recorded cleanup status or reuse plans
+- [x] No sensitive data exposed
 
 ---
 
