@@ -505,7 +505,7 @@ Optionally automate image build, image push, and deployment through GitHub Actio
 
 Add a screenshot showing a successful pipeline run with build, image push, deployment, and verification stages.
 
-Add your screenshot here.
+
 
 ---
 
@@ -728,8 +728,7 @@ Your post must include:
 
 #### LinkedIn Post Screenshot
 
-Add a screenshot of the published LinkedIn post showing the text body and deployment verification image.
-!;[screnshot](./screenshots/ass7-post.png)
+![screnshot](./screenshots/ass7-post.png)
 ---
 
 # Submission Checklist
