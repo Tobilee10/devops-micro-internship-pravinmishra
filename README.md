@@ -100,11 +100,11 @@ Week 09 → Ansible
  Week 10 → Azure DevOps CI/CD 
 [![Week 10 – CI/CD](./badges/week-10.svg)](./week-10-azure-devops/) 
 
-<!-- Week 11 → Docker -->
-<!-- [![Week 11 – Docker](./badges/week-11.svg)](./week-11-docker/) -->
+Week 11 → Docker 
+[![Week 11 – Docker](./badges/week-11.svg)](./week-11-docker/) 
 
-<!-- Week 12 → Kubernetes -->
-<!-- [![Week 12 – K8s](./badges/week-12.svg)](./week-12-kubernetes/) -->
+Week 12 → Kubernetes 
+[![Week 12 – K8s](./badges/week-12.svg)](./week-12-kubernetes/) 
 
 <!-- Week 13 → Final Project / Capstone -->
 <!-- [![Week 13 – Capstone](./badges/week-13.svg)](./week-13-final-project/) -->
@@ -142,7 +142,7 @@ Week 09 → Ansible
 | 09 | Ansible | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/oluwatobiloba-adeje-2572b42a6_aws-terraform-ansible-ugcPost-7508122807386624000-7IUe/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEm6D2MBiHlTtqXxAdNL2_2Taiskof8w_Lw | — |
 | 10 | Azure DevOps (CI/CD) | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/oluwatobiloba-adeje-2572b42a6_aws-devops-terraform-ugcPost-7520836069190459392-voAb/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEm6D2MBiHlTtqXxAdNL2_2Taiskof8w_Lw | — |
 | 11 | Docker | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/oluwatobiloba-adeje-2572b42a6_devopsengineer-docker-dockercompose-ugcPost-7521583460801703937-mECc/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEm6D2MBiHlTtqXxAdNL2_2Taiskof8w_Lw | — |
-| 12 | Kubernetes | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/oluwatobiloba-adeje-2572b42a6_aws-amazoneks-kubernetes-ugcPost-7522305042452987904-EDfx/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEm6D2MBiHlTtqXxAdNL2_2Taiskof8w_Lw | — |
+| 12 | Kubernetes | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/oluwatobiloba-adeje-2572b42a6_aws-amazoneks-kubernetes-ugcPost-7522305042452987904-EDfx/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEm6D2MBiHlTtqXxAdNL2_2Taiskof8w_Lw | https://dev.to/rubi_cloud/deploying-and-exposing-an-nginx-application-on-amazon-eks-using-kubernetes-loadbalancer-services-191e-temp-slug-7411401?preview=12a7fb91b156f301c84e7774bf3afc04a361d575353dc2c443f6bd7c20e14c4d6e1d300dc53266435b2a2c8dc9bbb50529cbc309744d80e81394558c |
 | 13 | Final Project | ✅ Completed | ✅ Completed | — | — |
 
 **Status:** ⬜ Not Started &nbsp;|&nbsp; 🔄 In Progress &nbsp;|&nbsp; ✅ Completed<br>
