@@ -434,13 +434,13 @@ An AI agent could delete important files, change firewall rules, interrupt servi
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+`https://www.linkedin.com/posts/oluwatobiloba-adeje-2572b42a6_devops-ansible-claudecode-ugcPost-7523374786887139328-OJqn/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEm6D2MBiHlTtqXxAdNL2_2Taiskof8w_Lw'
 
 ---
 
 #### Screenshot — Published LinkedIn post
 
-Add your screenshot here.
+![screenshot](./screenshots/ass6-post.png)
 
 ---
 
@@ -448,12 +448,12 @@ Add your screenshot here.
 
 Confirm that the following files are included in your GitHub repository or assignment folder:
 
-- [ ] `CLAUDE.md`
-- [ ] `ansible-check-review.sh`
-- [ ] `.claude/skills/ansible-risk-review/SKILL.md`
-- [ ] `reports/risky-change-report.txt`
-- [ ] `reports/post-apply-report.txt`
-- [ ] `change-summary.md`
+- [x] `CLAUDE.md`
+- [x] `ansible-check-review.sh`
+- [x] `.claude/skills/ansible-risk-review/SKILL.md`
+- [x] `reports/risky-change-report.txt`
+- [x] `reports/post-apply-report.txt`
+- [x] `change-summary.md`
 
 ---
 
@@ -469,22 +469,22 @@ Confirm that the following files are included in your GitHub repository or assig
 
 # Completion Checklist
 
-- [ ] Task 1: EpicBook connectivity confirmed and workspace created
-- [ ] Task 2: `CLAUDE.md` created with safety rules
-- [ ] Task 3: Claude Code produced a read-only risk-review plan
-- [ ] Task 4: `ansible-check-review.sh` created and syntax checked
-- [ ] Task 5: Baseline dry-run review completed
-- [ ] Task 6: Claude Code `/ansible-risk-review` skill created and tested
-- [ ] Task 7: Controlled risky change introduced and detected
-- [ ] Task 8: Human applied the change and verified the result
-- [ ] Risky-change report saved
-- [ ] Post-apply report saved
-- [ ] Change summary completed
-- [ ] All screenshots added
-- [ ] All notes answered
-- [ ] LinkedIn post published
-- [ ] LinkedIn post URL added
-- [ ] No sensitive information exposed
+- [x] Task 1: EpicBook connectivity confirmed and workspace created
+- [x] Task 2: `CLAUDE.md` created with safety rules
+- [x] Task 3: Claude Code produced a read-only risk-review plan
+- [x] Task 4: `ansible-check-review.sh` created and syntax checked
+- [x] Task 5: Baseline dry-run review completed
+- [x] Task 6: Claude Code `/ansible-risk-review` skill created and tested
+- [x] Task 7: Controlled risky change introduced and detected
+- [x] Task 8: Human applied the change and verified the result
+- [x] Risky-change report saved
+- [x] Post-apply report saved
+- [x] Change summary completed
+- [x] All screenshots added
+- [x] All notes answered
+- [x] LinkedIn post published
+- [x] LinkedIn post URL added
+- [x] No sensitive information exposed
 
 ---
 
