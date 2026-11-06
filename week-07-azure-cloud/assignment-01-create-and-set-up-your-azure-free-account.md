@@ -44,7 +44,7 @@ Confirm successful Azure Portal access and Locate the required services and subs
 
 Write a three-to-four-line paragraph explaining which Azure services you plan to explore first and why.
 
-Write your answer here.
+I plan to explore Azure DevOps, Azure Virtual Machines, and Azure Networking first because they are directly relevant to my DevOps project. Azure DevOps will help me understand CI/CD pipeline automation, while Virtual Machines and Networking will strengthen my knowledge of infrastructure provisioning and configuration using Terraform and Ansible. These services will provide a solid foundation for building, deploying, and managing reliable cloud applications.
 
 ---
 

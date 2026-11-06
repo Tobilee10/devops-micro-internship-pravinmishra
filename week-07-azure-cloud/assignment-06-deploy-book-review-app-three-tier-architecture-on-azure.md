@@ -26,7 +26,7 @@ Create an architecture diagram and implementation plan identifying the presentat
 
 #### Screenshot 2 — Written architecture assumptions and selected Azure services
 
-Add your screenshot here.
+![screenshot](./screenshots/ass6-screen2.png)
 
 ---
 
